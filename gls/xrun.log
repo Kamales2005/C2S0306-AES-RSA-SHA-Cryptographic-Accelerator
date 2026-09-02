@@ -1,0 +1,3031 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Jul 24, 2026 at 11:52:51 IST
+xrun
+	-f zero_delay_simulation.f
+		-gui
+		/home/scl_shuttle_8_3/tapeout/Crypto_Accelerator_Pad_Synthesis/outputs/C2S0306_incremental.v
+		/home/scl_shuttle_8_3/tapeout/Crypto_Accelerator_Pad_Synthesis/tb/top/tb_crypto_synth_top.v
+		/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v
+		/opt/sclpdkv3/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v
+		/opt/sclpdkv3/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v
+		/opt/sclpdkv3/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o05.v
+		-relax
+		-timescale 1ns/10ps
+		-mess
+		+delay_mode_zero
+		-access +rwc
+file: /home/scl_shuttle_8_3/tapeout/Crypto_Accelerator_Pad_Synthesis/outputs/C2S0306_incremental.v
+	module worklib.piso32:v
+		errors: 0, warnings: 0
+	module worklib.sipo32:v
+		errors: 0, warnings: 0
+	module worklib.aes_inv_sbox:v
+		errors: 0, warnings: 0
+	module worklib.aes_decipher_block:v
+		errors: 0, warnings: 0
+	module worklib.aes_encipher_block:v
+		errors: 0, warnings: 0
+	module worklib.aes_key_mem:v
+		errors: 0, warnings: 0
+	module worklib.aes_sbox:v
+		errors: 0, warnings: 0
+	module worklib.aes_core:v
+		errors: 0, warnings: 0
+	module worklib.aes:v
+		errors: 0, warnings: 0
+	module worklib.apb_slave:v
+		errors: 0, warnings: 0
+	module worklib.crypto_decoder:v
+		errors: 0, warnings: 0
+	module worklib.blockmem2r1wptr:v
+		errors: 0, warnings: 0
+	module worklib.blockmem2r1wptr_1746:v
+		errors: 0, warnings: 0
+	module worklib.blockmem2r1wptr_1747:v
+		errors: 0, warnings: 0
+	module worklib.adder32:v
+		errors: 0, warnings: 0
+	module worklib.adder32_1744:v
+		errors: 0, warnings: 0
+	module worklib.blockmem1r1w:v
+		errors: 0, warnings: 0
+	module worklib.montprod:v
+		errors: 0, warnings: 0
+	module worklib.blockmem2r1w_1745:v
+		errors: 0, warnings: 0
+	module worklib.adder32_1743:v
+		errors: 0, warnings: 0
+	module worklib.residue:v
+		errors: 0, warnings: 0
+	module worklib.blockmem2r1w:v
+		errors: 0, warnings: 0
+	module worklib.blockmem2rptr1w:v
+		errors: 0, warnings: 0
+	module worklib.modexp_core:v
+		errors: 0, warnings: 0
+	module worklib.modexp:v
+		errors: 0, warnings: 0
+	module worklib.apb_to_secworks_rsa:v
+		errors: 0, warnings: 0
+	module worklib.sha256_k_constants:v
+		errors: 0, warnings: 0
+	module worklib.sha256_w_mem:v
+		errors: 0, warnings: 0
+	module worklib.sha256_core:v
+		errors: 0, warnings: 0
+	module worklib.sha256:v
+		errors: 0, warnings: 0
+	module worklib.apb_to_secworks_sha256:v
+		errors: 0, warnings: 0
+	module worklib.crypto_accelerator_top:v
+		errors: 0, warnings: 0
+	module worklib.crypto_synth_top:v
+		errors: 0, warnings: 0
+	module worklib.C2S0306:v
+		errors: 0, warnings: 0
+file: /home/scl_shuttle_8_3/tapeout/Crypto_Accelerator_Pad_Synthesis/tb/top/tb_crypto_synth_top.v
+	module worklib.tb_crypto_synth_top:v
+		errors: 0, warnings: 0
+file: /opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v
+	module worklib.ad01d0:v
+		errors: 0, warnings: 0
+	module worklib.ad01d1:v
+		errors: 0, warnings: 0
+	module worklib.ad01d2:v
+		errors: 0, warnings: 0
+	module worklib.ad01d4:v
+		errors: 0, warnings: 0
+	module worklib.adiode:v
+		errors: 0, warnings: 0
+	module worklib.adp1d0:v
+		errors: 0, warnings: 0
+	module worklib.adp1d1:v
+		errors: 0, warnings: 0
+	module worklib.adp1d2:v
+		errors: 0, warnings: 0
+	module worklib.adp1d4:v
+		errors: 0, warnings: 0
+	module worklib.ah01d0:v
+		errors: 0, warnings: 0
+	module worklib.ah01d1:v
+		errors: 0, warnings: 0
+	module worklib.ah01d2:v
+		errors: 0, warnings: 0
+	module worklib.ah01d4:v
+		errors: 0, warnings: 0
+	module worklib.an02d0:v
+		errors: 0, warnings: 0
+	module worklib.an02d1:v
+		errors: 0, warnings: 0
+	module worklib.an02d2:v
+		errors: 0, warnings: 0
+	module worklib.an02d4:v
+		errors: 0, warnings: 0
+	module worklib.an02d7:v
+		errors: 0, warnings: 0
+	module worklib.an02da:v
+		errors: 0, warnings: 0
+	module worklib.an03d0:v
+		errors: 0, warnings: 0
+	module worklib.an03d1:v
+		errors: 0, warnings: 0
+	module worklib.an03d2:v
+		errors: 0, warnings: 0
+	module worklib.an03d4:v
+		errors: 0, warnings: 0
+	module worklib.an03d7:v
+		errors: 0, warnings: 0
+	module worklib.an03da:v
+		errors: 0, warnings: 0
+	module worklib.an04d0:v
+		errors: 0, warnings: 0
+	module worklib.an04d1:v
+		errors: 0, warnings: 0
+	module worklib.an04d2:v
+		errors: 0, warnings: 0
+	module worklib.an04d4:v
+		errors: 0, warnings: 0
+	module worklib.an04d7:v
+		errors: 0, warnings: 0
+	module worklib.an04da:v
+		errors: 0, warnings: 0
+	module worklib.an12d1:v
+		errors: 0, warnings: 0
+	module worklib.an12d2:v
+		errors: 0, warnings: 0
+	module worklib.an12d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi211d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi211d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi211d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi21d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi21d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi21d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi221d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi221d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi221d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi2222d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi2222d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi2222d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi222d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi222d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi222d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi22d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi22d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi22d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi311d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi311d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi311d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi31d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi31d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi31d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi321d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi321d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi321d4:v
+		errors: 0, warnings: 0
+	module worklib.aoi322d1:v
+		errors: 0, warnings: 0
+	module worklib.aoi322d2:v
+		errors: 0, warnings: 0
+	module worklib.aoi322d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim211d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim211d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim211d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim21d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim21d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim21d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim22d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim22d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim22d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim2m11d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim2m11d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim2m11d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim311d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim311d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim311d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim31d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim31d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim31d4:v
+		errors: 0, warnings: 0
+	module worklib.aoim3m11d1:v
+		errors: 0, warnings: 0
+	module worklib.aoim3m11d2:v
+		errors: 0, warnings: 0
+	module worklib.aoim3m11d4:v
+		errors: 0, warnings: 0
+	module worklib.aon211d1:v
+		errors: 0, warnings: 0
+	module worklib.aon211d2:v
+		errors: 0, warnings: 0
+	module worklib.aon211d4:v
+		errors: 0, warnings: 0
+	module worklib.aor211d1:v
+		errors: 0, warnings: 0
+	module worklib.aor211d2:v
+		errors: 0, warnings: 0
+	module worklib.aor211d4:v
+		errors: 0, warnings: 0
+	module worklib.aor21d1:v
+		errors: 0, warnings: 0
+	module worklib.aor21d2:v
+		errors: 0, warnings: 0
+	module worklib.aor21d4:v
+		errors: 0, warnings: 0
+	module worklib.aor221d1:v
+		errors: 0, warnings: 0
+	module worklib.aor221d2:v
+		errors: 0, warnings: 0
+	module worklib.aor221d4:v
+		errors: 0, warnings: 0
+	module worklib.aor222d1:v
+		errors: 0, warnings: 0
+	module worklib.aor222d2:v
+		errors: 0, warnings: 0
+	module worklib.aor222d4:v
+		errors: 0, warnings: 0
+	module worklib.aor22d1:v
+		errors: 0, warnings: 0
+	module worklib.aor22d2:v
+		errors: 0, warnings: 0
+	module worklib.aor22d4:v
+		errors: 0, warnings: 0
+	module worklib.aor311d1:v
+		errors: 0, warnings: 0
+	module worklib.aor311d2:v
+		errors: 0, warnings: 0
+	module worklib.aor311d4:v
+		errors: 0, warnings: 0
+	module worklib.aor31d1:v
+		errors: 0, warnings: 0
+	module worklib.aor31d2:v
+		errors: 0, warnings: 0
+	module worklib.aor31d4:v
+		errors: 0, warnings: 0
+	module worklib.bh01d1:v
+		errors: 0, warnings: 0
+	module worklib.bufbd1:v
+		errors: 0, warnings: 0
+	module worklib.bufbd2:v
+		errors: 0, warnings: 0
+	module worklib.bufbd3:v
+		errors: 0, warnings: 0
+	module worklib.bufbd4:v
+		errors: 0, warnings: 0
+	module worklib.bufbd7:v
+		errors: 0, warnings: 0
+	module worklib.bufbda:v
+		errors: 0, warnings: 0
+	module worklib.bufbdf:v
+		errors: 0, warnings: 0
+	module worklib.bufbdk:v
+		errors: 0, warnings: 0
+	module worklib.buffd1:v
+		errors: 0, warnings: 0
+	module worklib.buffd2:v
+		errors: 0, warnings: 0
+	module worklib.buffd3:v
+		errors: 0, warnings: 0
+	module worklib.buffd4:v
+		errors: 0, warnings: 0
+	module worklib.buffd7:v
+		errors: 0, warnings: 0
+	module worklib.buffda:v
+		errors: 0, warnings: 0
+	module worklib.buftd1:v
+		errors: 0, warnings: 0
+	module worklib.buftd2:v
+		errors: 0, warnings: 0
+	module worklib.buftd4:v
+		errors: 0, warnings: 0
+	module worklib.buftd7:v
+		errors: 0, warnings: 0
+	module worklib.buftda:v
+		errors: 0, warnings: 0
+	module worklib.cg01d0:v
+		errors: 0, warnings: 0
+	module worklib.cg01d1:v
+		errors: 0, warnings: 0
+	module worklib.cg01d2:v
+		errors: 0, warnings: 0
+	module worklib.cg01d4:v
+		errors: 0, warnings: 0
+	module worklib.clk2d2:v
+		errors: 0, warnings: 0
+	module worklib.cload1:v
+		errors: 0, warnings: 0
+	module worklib.decfq1:v
+		errors: 0, warnings: 0
+	module worklib.decfq2:v
+		errors: 0, warnings: 0
+	module worklib.decfq4:v
+		errors: 0, warnings: 0
+	module worklib.decrq1:v
+		errors: 0, warnings: 0
+	module worklib.decrq2:v
+		errors: 0, warnings: 0
+	module worklib.decrq4:v
+		errors: 0, warnings: 0
+	module worklib.denrq1:v
+		errors: 0, warnings: 0
+	module worklib.denrq2:v
+		errors: 0, warnings: 0
+	module worklib.denrq4:v
+		errors: 0, warnings: 0
+	module worklib.depfq1:v
+		errors: 0, warnings: 0
+	module worklib.depfq2:v
+		errors: 0, warnings: 0
+	module worklib.depfq4:v
+		errors: 0, warnings: 0
+	module worklib.deprq1:v
+		errors: 0, warnings: 0
+	module worklib.deprq2:v
+		errors: 0, warnings: 0
+	module worklib.deprq4:v
+		errors: 0, warnings: 0
+	module worklib.dfbfb1:v
+		errors: 0, warnings: 0
+	module worklib.dfbfb2:v
+		errors: 0, warnings: 0
+	module worklib.dfbfb4:v
+		errors: 0, warnings: 0
+	module worklib.dfbrb1:v
+		errors: 0, warnings: 0
+	module worklib.dfbrb2:v
+		errors: 0, warnings: 0
+	module worklib.dfbrb4:v
+		errors: 0, warnings: 0
+	module worklib.dfcfb1:v
+		errors: 0, warnings: 0
+	module worklib.dfcfb2:v
+		errors: 0, warnings: 0
+	module worklib.dfcfb4:v
+		errors: 0, warnings: 0
+	module worklib.dfcfq1:v
+		errors: 0, warnings: 0
+	module worklib.dfcfq2:v
+		errors: 0, warnings: 0
+	module worklib.dfcfq4:v
+		errors: 0, warnings: 0
+	module worklib.dfcrb1:v
+		errors: 0, warnings: 0
+	module worklib.dfcrb2:v
+		errors: 0, warnings: 0
+	module worklib.dfcrb4:v
+		errors: 0, warnings: 0
+	module worklib.dfcrn1:v
+		errors: 0, warnings: 0
+	module worklib.dfcrn2:v
+		errors: 0, warnings: 0
+	module worklib.dfcrn4:v
+		errors: 0, warnings: 0
+	module worklib.dfcrq1:v
+		errors: 0, warnings: 0
+	module worklib.dfcrq2:v
+		errors: 0, warnings: 0
+	module worklib.dfcrq4:v
+		errors: 0, warnings: 0
+	module worklib.dfnfb1:v
+		errors: 0, warnings: 0
+	module worklib.dfnfb2:v
+		errors: 0, warnings: 0
+	module worklib.dfnfb4:v
+		errors: 0, warnings: 0
+	module worklib.dfnrb1:v
+		errors: 0, warnings: 0
+	module worklib.dfnrb2:v
+		errors: 0, warnings: 0
+	module worklib.dfnrb4:v
+		errors: 0, warnings: 0
+	module worklib.dfnrn1:v
+		errors: 0, warnings: 0
+	module worklib.dfnrn2:v
+		errors: 0, warnings: 0
+	module worklib.dfnrn4:v
+		errors: 0, warnings: 0
+	module worklib.dfnrq1:v
+		errors: 0, warnings: 0
+	module worklib.dfnrq2:v
+		errors: 0, warnings: 0
+	module worklib.dfnrq4:v
+		errors: 0, warnings: 0
+	module worklib.dfpfb1:v
+		errors: 0, warnings: 0
+	module worklib.dfpfb2:v
+		errors: 0, warnings: 0
+	module worklib.dfpfb4:v
+		errors: 0, warnings: 0
+	module worklib.dfprb1:v
+		errors: 0, warnings: 0
+	module worklib.dfprb2:v
+		errors: 0, warnings: 0
+	module worklib.dfprb4:v
+		errors: 0, warnings: 0
+	module worklib.dl01d1:v
+		errors: 0, warnings: 0
+	module worklib.dl01d2:v
+		errors: 0, warnings: 0
+	module worklib.dl01d4:v
+		errors: 0, warnings: 0
+	module worklib.dl02d1:v
+		errors: 0, warnings: 0
+	module worklib.dl02d2:v
+		errors: 0, warnings: 0
+	module worklib.dl02d4:v
+		errors: 0, warnings: 0
+	module worklib.dl03d1:v
+		errors: 0, warnings: 0
+	module worklib.dl03d2:v
+		errors: 0, warnings: 0
+	module worklib.dl03d4:v
+		errors: 0, warnings: 0
+	module worklib.dl04d1:v
+		errors: 0, warnings: 0
+	module worklib.dl04d2:v
+		errors: 0, warnings: 0
+	module worklib.dl04d4:v
+		errors: 0, warnings: 0
+	module worklib.gclfsn1:v
+		errors: 0, warnings: 0
+	module worklib.gclfsn2:v
+		errors: 0, warnings: 0
+	module worklib.gclfsn4:v
+		errors: 0, warnings: 0
+	module worklib.gclfsn7:v
+		errors: 0, warnings: 0
+	module worklib.gclfsna:v
+		errors: 0, warnings: 0
+	module worklib.gclrsn1:v
+		errors: 0, warnings: 0
+	module worklib.gclrsn2:v
+		errors: 0, warnings: 0
+	module worklib.gclrsn4:v
+		errors: 0, warnings: 0
+	module worklib.gclrsn7:v
+		errors: 0, warnings: 0
+	module worklib.gclrsna:v
+		errors: 0, warnings: 0
+	module worklib.gcnfnn1:v
+		errors: 0, warnings: 0
+	module worklib.gcnfnn2:v
+		errors: 0, warnings: 0
+	module worklib.gcnfnn4:v
+		errors: 0, warnings: 0
+	module worklib.gcnfnn7:v
+		errors: 0, warnings: 0
+	module worklib.gcnfnna:v
+		errors: 0, warnings: 0
+	module worklib.gcnrnn1:v
+		errors: 0, warnings: 0
+	module worklib.gcnrnn2:v
+		errors: 0, warnings: 0
+	module worklib.gcnrnn4:v
+		errors: 0, warnings: 0
+	module worklib.gcnrnn7:v
+		errors: 0, warnings: 0
+	module worklib.gcnrnna:v
+		errors: 0, warnings: 0
+	module worklib.inv0d0:v
+		errors: 0, warnings: 0
+	module worklib.inv0d1:v
+		errors: 0, warnings: 0
+	module worklib.inv0d2:v
+		errors: 0, warnings: 0
+	module worklib.inv0d4:v
+		errors: 0, warnings: 0
+	module worklib.inv0d7:v
+		errors: 0, warnings: 0
+	module worklib.inv0da:v
+		errors: 0, warnings: 0
+	module worklib.invbd2:v
+		errors: 0, warnings: 0
+	module worklib.invbd4:v
+		errors: 0, warnings: 0
+	module worklib.invbd7:v
+		errors: 0, warnings: 0
+	module worklib.invbda:v
+		errors: 0, warnings: 0
+	module worklib.invbdf:v
+		errors: 0, warnings: 0
+	module worklib.invbdk:v
+		errors: 0, warnings: 0
+	module worklib.invtd1:v
+		errors: 0, warnings: 0
+	module worklib.invtd2:v
+		errors: 0, warnings: 0
+	module worklib.invtd4:v
+		errors: 0, warnings: 0
+	module worklib.invtd7:v
+		errors: 0, warnings: 0
+	module worklib.invtda:v
+		errors: 0, warnings: 0
+	module worklib.jkbrb1:v
+		errors: 0, warnings: 0
+	module worklib.jkbrb2:v
+		errors: 0, warnings: 0
+	module worklib.jkbrb4:v
+		errors: 0, warnings: 0
+	module worklib.labhb1:v
+		errors: 0, warnings: 0
+	module worklib.labhb2:v
+		errors: 0, warnings: 0
+	module worklib.labhb4:v
+		errors: 0, warnings: 0
+	module worklib.lachq1:v
+		errors: 0, warnings: 0
+	module worklib.lachq2:v
+		errors: 0, warnings: 0
+	module worklib.lachq4:v
+		errors: 0, warnings: 0
+	module worklib.laclq1:v
+		errors: 0, warnings: 0
+	module worklib.laclq2:v
+		errors: 0, warnings: 0
+	module worklib.laclq4:v
+		errors: 0, warnings: 0
+	module worklib.lanhb1:v
+		errors: 0, warnings: 0
+	module worklib.lanhb2:v
+		errors: 0, warnings: 0
+	module worklib.lanhb4:v
+		errors: 0, warnings: 0
+	module worklib.lanhn1:v
+		errors: 0, warnings: 0
+	module worklib.lanhn2:v
+		errors: 0, warnings: 0
+	module worklib.lanhn4:v
+		errors: 0, warnings: 0
+	module worklib.lanhq1:v
+		errors: 0, warnings: 0
+	module worklib.lanhq2:v
+		errors: 0, warnings: 0
+	module worklib.lanhq4:v
+		errors: 0, warnings: 0
+	module worklib.lanht1:v
+		errors: 0, warnings: 0
+	module worklib.lanht2:v
+		errors: 0, warnings: 0
+	module worklib.lanht4:v
+		errors: 0, warnings: 0
+	module worklib.lanlb1:v
+		errors: 0, warnings: 0
+	module worklib.lanlb2:v
+		errors: 0, warnings: 0
+	module worklib.lanlb4:v
+		errors: 0, warnings: 0
+	module worklib.lanln1:v
+		errors: 0, warnings: 0
+	module worklib.lanln2:v
+		errors: 0, warnings: 0
+	module worklib.lanln4:v
+		errors: 0, warnings: 0
+	module worklib.lanlq1:v
+		errors: 0, warnings: 0
+	module worklib.lanlq2:v
+		errors: 0, warnings: 0
+	module worklib.lanlq4:v
+		errors: 0, warnings: 0
+	module worklib.mffnrb1:v
+		errors: 0, warnings: 0
+	module worklib.mffnrb2:v
+		errors: 0, warnings: 0
+	module worklib.mffnrb4:v
+		errors: 0, warnings: 0
+	module worklib.mi02d0:v
+		errors: 0, warnings: 0
+	module worklib.mi02d1:v
+		errors: 0, warnings: 0
+	module worklib.mi02d2:v
+		errors: 0, warnings: 0
+	module worklib.mi02d4:v
+		errors: 0, warnings: 0
+	primitive worklib.U_AO3:v
+		errors: 0, warnings: 0
+	primitive worklib.U_ADDR2_C:v
+		errors: 0, warnings: 0
+	primitive worklib.U_ADDR2_S:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_P:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_P_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_N_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_N_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_P_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_N_SB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_N_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_P_SB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_EN_P_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_RB_SB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_R_S_NO_QN:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_RB_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_RB_SB_QN:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_N_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_RB_SB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_RB_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_SB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_SC_EN_P:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_SC_EN_P_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_SC_EN_P_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_SC_EN_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_SC_EN_P_SB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_SC_EN_P_SB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_N:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_N_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P:v
+		errors: 0, warnings: 0
+	primitive worklib.U_FD_P_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_N_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_SB_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_SB_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_SB_RB_QN:v
+		errors: 0, warnings: 0
+	primitive worklib.U_LD_P_SB_RB_QN_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_MUX_2_1:v
+		errors: 0, warnings: 0
+	primitive worklib.U_MUX_4_2:v
+		errors: 0, warnings: 0
+	primitive worklib.U_L_SB_RB_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_L_SB_RB_QN_NO:v
+		errors: 0, warnings: 0
+	primitive worklib.U_L_SB_RB:v
+		errors: 0, warnings: 0
+	primitive worklib.U_L_SB_RB_QN:v
+		errors: 0, warnings: 0
+	primitive worklib.U_MUX_2_1_INV:v
+		errors: 0, warnings: 0
+	primitive worklib.U_SUB2_C:v
+		errors: 0, warnings: 0
+	primitive worklib.U_SUB2_D:v
+		errors: 0, warnings: 0
+	module worklib.mx02d0:v
+		errors: 0, warnings: 0
+	module worklib.mx02d1:v
+		errors: 0, warnings: 0
+	module worklib.mx02d2:v
+		errors: 0, warnings: 0
+	module worklib.mx02d4:v
+		errors: 0, warnings: 0
+	module worklib.mx04d0:v
+		errors: 0, warnings: 0
+	module worklib.mx04d1:v
+		errors: 0, warnings: 0
+	module worklib.mx04d2:v
+		errors: 0, warnings: 0
+	module worklib.mx04d4:v
+		errors: 0, warnings: 0
+	module worklib.mx08d1:v
+		errors: 0, warnings: 0
+	module worklib.s_mx08d1:v
+		errors: 0, warnings: 0
+	module worklib.mx08d2:v
+		errors: 0, warnings: 0
+	module worklib.s_mx08d2:v
+		errors: 0, warnings: 0
+	module worklib.mx08d4:v
+		errors: 0, warnings: 0
+	module worklib.s_mx08d4:v
+		errors: 0, warnings: 0
+	module worklib.nd02d0:v
+		errors: 0, warnings: 0
+	module worklib.nd02d1:v
+		errors: 0, warnings: 0
+	module worklib.nd02d2:v
+		errors: 0, warnings: 0
+	module worklib.nd02d4:v
+		errors: 0, warnings: 0
+	module worklib.nd02d7:v
+		errors: 0, warnings: 0
+	module worklib.nd02da:v
+		errors: 0, warnings: 0
+	module worklib.nd03d0:v
+		errors: 0, warnings: 0
+	module worklib.nd03d1:v
+		errors: 0, warnings: 0
+	module worklib.nd03d2:v
+		errors: 0, warnings: 0
+	module worklib.nd03d4:v
+		errors: 0, warnings: 0
+	module worklib.nd03d7:v
+		errors: 0, warnings: 0
+	module worklib.nd03da:v
+		errors: 0, warnings: 0
+	module worklib.nd04d0:v
+		errors: 0, warnings: 0
+	module worklib.nd04d1:v
+		errors: 0, warnings: 0
+	module worklib.nd04d2:v
+		errors: 0, warnings: 0
+	module worklib.nd04d4:v
+		errors: 0, warnings: 0
+	module worklib.nd04d7:v
+		errors: 0, warnings: 0
+	module worklib.nd04da:v
+		errors: 0, warnings: 0
+	module worklib.nd12d0:v
+		errors: 0, warnings: 0
+	module worklib.nd12d1:v
+		errors: 0, warnings: 0
+	module worklib.nd12d2:v
+		errors: 0, warnings: 0
+	module worklib.nd12d4:v
+		errors: 0, warnings: 0
+	module worklib.nd13d1:v
+		errors: 0, warnings: 0
+	module worklib.nd13d2:v
+		errors: 0, warnings: 0
+	module worklib.nd13d4:v
+		errors: 0, warnings: 0
+	module worklib.nd23d1:v
+		errors: 0, warnings: 0
+	module worklib.nd23d2:v
+		errors: 0, warnings: 0
+	module worklib.nd23d4:v
+		errors: 0, warnings: 0
+	module worklib.nr02d0:v
+		errors: 0, warnings: 0
+	module worklib.nr02d1:v
+		errors: 0, warnings: 0
+	module worklib.nr02d2:v
+		errors: 0, warnings: 0
+	module worklib.nr02d4:v
+		errors: 0, warnings: 0
+	module worklib.nr02d7:v
+		errors: 0, warnings: 0
+	module worklib.nr02da:v
+		errors: 0, warnings: 0
+	module worklib.nr03d0:v
+		errors: 0, warnings: 0
+	module worklib.nr03d1:v
+		errors: 0, warnings: 0
+	module worklib.nr03d2:v
+		errors: 0, warnings: 0
+	module worklib.nr03d4:v
+		errors: 0, warnings: 0
+	module worklib.nr03d7:v
+		errors: 0, warnings: 0
+	module worklib.nr03da:v
+		errors: 0, warnings: 0
+	module worklib.nr04d0:v
+		errors: 0, warnings: 0
+	module worklib.nr04d1:v
+		errors: 0, warnings: 0
+	module worklib.nr04d2:v
+		errors: 0, warnings: 0
+	module worklib.nr04d4:v
+		errors: 0, warnings: 0
+	module worklib.nr04d7:v
+		errors: 0, warnings: 0
+	module worklib.nr04da:v
+		errors: 0, warnings: 0
+	module worklib.nr13d1:v
+		errors: 0, warnings: 0
+	module worklib.nr13d2:v
+		errors: 0, warnings: 0
+	module worklib.nr13d4:v
+		errors: 0, warnings: 0
+	module worklib.nr23d1:v
+		errors: 0, warnings: 0
+	module worklib.nr23d2:v
+		errors: 0, warnings: 0
+	module worklib.nr23d4:v
+		errors: 0, warnings: 0
+	module worklib.oai211d1:v
+		errors: 0, warnings: 0
+	module worklib.oai211d2:v
+		errors: 0, warnings: 0
+	module worklib.oai211d4:v
+		errors: 0, warnings: 0
+	module worklib.oai21d1:v
+		errors: 0, warnings: 0
+	module worklib.oai21d2:v
+		errors: 0, warnings: 0
+	module worklib.oai21d4:v
+		errors: 0, warnings: 0
+	module worklib.oai221d1:v
+		errors: 0, warnings: 0
+	module worklib.oai221d2:v
+		errors: 0, warnings: 0
+	module worklib.oai221d4:v
+		errors: 0, warnings: 0
+	module worklib.oai2222d1:v
+		errors: 0, warnings: 0
+	module worklib.oai2222d2:v
+		errors: 0, warnings: 0
+	module worklib.oai2222d4:v
+		errors: 0, warnings: 0
+	module worklib.oai222d1:v
+		errors: 0, warnings: 0
+	module worklib.oai222d2:v
+		errors: 0, warnings: 0
+	module worklib.oai222d4:v
+		errors: 0, warnings: 0
+	module worklib.oai22d1:v
+		errors: 0, warnings: 0
+	module worklib.oai22d2:v
+		errors: 0, warnings: 0
+	module worklib.oai22d4:v
+		errors: 0, warnings: 0
+	module worklib.oai311d1:v
+		errors: 0, warnings: 0
+	module worklib.oai311d2:v
+		errors: 0, warnings: 0
+	module worklib.oai311d4:v
+		errors: 0, warnings: 0
+	module worklib.oai31d1:v
+		errors: 0, warnings: 0
+	module worklib.oai31d2:v
+		errors: 0, warnings: 0
+	module worklib.oai31d4:v
+		errors: 0, warnings: 0
+	module worklib.oai321d1:v
+		errors: 0, warnings: 0
+	module worklib.oai321d2:v
+		errors: 0, warnings: 0
+	module worklib.oai321d4:v
+		errors: 0, warnings: 0
+	module worklib.oai322d1:v
+		errors: 0, warnings: 0
+	module worklib.oai322d2:v
+		errors: 0, warnings: 0
+	module worklib.oai322d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim211d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim211d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim211d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim21d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim21d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim21d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim22d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim22d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim22d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim2m11d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim2m11d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim2m11d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim311d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim311d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim311d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim31d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim31d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim31d4:v
+		errors: 0, warnings: 0
+	module worklib.oaim3m11d1:v
+		errors: 0, warnings: 0
+	module worklib.oaim3m11d2:v
+		errors: 0, warnings: 0
+	module worklib.oaim3m11d4:v
+		errors: 0, warnings: 0
+	module worklib.oan211d1:v
+		errors: 0, warnings: 0
+	module worklib.oan211d2:v
+		errors: 0, warnings: 0
+	module worklib.oan211d4:v
+		errors: 0, warnings: 0
+	module worklib.or02d0:v
+		errors: 0, warnings: 0
+	module worklib.or02d1:v
+		errors: 0, warnings: 0
+	module worklib.or02d2:v
+		errors: 0, warnings: 0
+	module worklib.or02d4:v
+		errors: 0, warnings: 0
+	module worklib.or02d7:v
+		errors: 0, warnings: 0
+	module worklib.or02da:v
+		errors: 0, warnings: 0
+	module worklib.or03d0:v
+		errors: 0, warnings: 0
+	module worklib.or03d1:v
+		errors: 0, warnings: 0
+	module worklib.or03d2:v
+		errors: 0, warnings: 0
+	module worklib.or03d4:v
+		errors: 0, warnings: 0
+	module worklib.or03d7:v
+		errors: 0, warnings: 0
+	module worklib.or03da:v
+		errors: 0, warnings: 0
+	module worklib.or04d0:v
+		errors: 0, warnings: 0
+	module worklib.or04d1:v
+		errors: 0, warnings: 0
+	module worklib.or04d2:v
+		errors: 0, warnings: 0
+	module worklib.or04d4:v
+		errors: 0, warnings: 0
+	module worklib.or04d7:v
+		errors: 0, warnings: 0
+	module worklib.or04da:v
+		errors: 0, warnings: 0
+	module worklib.ora211d1:v
+		errors: 0, warnings: 0
+	module worklib.ora211d2:v
+		errors: 0, warnings: 0
+	module worklib.ora211d4:v
+		errors: 0, warnings: 0
+	module worklib.ora21d1:v
+		errors: 0, warnings: 0
+	module worklib.ora21d2:v
+		errors: 0, warnings: 0
+	module worklib.ora21d4:v
+		errors: 0, warnings: 0
+	module worklib.ora311d1:v
+		errors: 0, warnings: 0
+	module worklib.ora311d2:v
+		errors: 0, warnings: 0
+	module worklib.ora311d4:v
+		errors: 0, warnings: 0
+	module worklib.ora31d1:v
+		errors: 0, warnings: 0
+	module worklib.ora31d2:v
+		errors: 0, warnings: 0
+	module worklib.ora31d4:v
+		errors: 0, warnings: 0
+	module worklib.sdbfb1:v
+		errors: 0, warnings: 0
+	module worklib.sdbfb2:v
+		errors: 0, warnings: 0
+	module worklib.sdbfb4:v
+		errors: 0, warnings: 0
+	module worklib.sdbrb1:v
+		errors: 0, warnings: 0
+	module worklib.sdbrb2:v
+		errors: 0, warnings: 0
+	module worklib.sdbrb4:v
+		errors: 0, warnings: 0
+	module worklib.sdcfb1:v
+		errors: 0, warnings: 0
+	module worklib.sdcfb2:v
+		errors: 0, warnings: 0
+	module worklib.sdcfb4:v
+		errors: 0, warnings: 0
+	module worklib.sdcfq1:v
+		errors: 0, warnings: 0
+	module worklib.sdcfq2:v
+		errors: 0, warnings: 0
+	module worklib.sdcfq4:v
+		errors: 0, warnings: 0
+	module worklib.sdcrb1:v
+		errors: 0, warnings: 0
+	module worklib.sdcrb2:v
+		errors: 0, warnings: 0
+	module worklib.sdcrb4:v
+		errors: 0, warnings: 0
+	module worklib.sdcrn1:v
+		errors: 0, warnings: 0
+	module worklib.sdcrn2:v
+		errors: 0, warnings: 0
+	module worklib.sdcrn4:v
+		errors: 0, warnings: 0
+	module worklib.sdcrq1:v
+		errors: 0, warnings: 0
+	module worklib.sdcrq2:v
+		errors: 0, warnings: 0
+	module worklib.sdcrq4:v
+		errors: 0, warnings: 0
+	module worklib.sdnfb1:v
+		errors: 0, warnings: 0
+	module worklib.sdnfb2:v
+		errors: 0, warnings: 0
+	module worklib.sdnfb4:v
+		errors: 0, warnings: 0
+	module worklib.sdnrb1:v
+		errors: 0, warnings: 0
+	module worklib.sdnrb2:v
+		errors: 0, warnings: 0
+	module worklib.sdnrb4:v
+		errors: 0, warnings: 0
+	module worklib.sdnrn1:v
+		errors: 0, warnings: 0
+	module worklib.sdnrn2:v
+		errors: 0, warnings: 0
+	module worklib.sdnrn4:v
+		errors: 0, warnings: 0
+	module worklib.sdnrq1:v
+		errors: 0, warnings: 0
+	module worklib.sdnrq2:v
+		errors: 0, warnings: 0
+	module worklib.sdnrq4:v
+		errors: 0, warnings: 0
+	module worklib.sdpfb1:v
+		errors: 0, warnings: 0
+	module worklib.sdpfb2:v
+		errors: 0, warnings: 0
+	module worklib.sdpfb4:v
+		errors: 0, warnings: 0
+	module worklib.sdprb1:v
+		errors: 0, warnings: 0
+	module worklib.sdprb2:v
+		errors: 0, warnings: 0
+	module worklib.sdprb4:v
+		errors: 0, warnings: 0
+	module worklib.secfq1:v
+		errors: 0, warnings: 0
+	module worklib.secfq2:v
+		errors: 0, warnings: 0
+	module worklib.secfq4:v
+		errors: 0, warnings: 0
+	module worklib.secrq1:v
+		errors: 0, warnings: 0
+	module worklib.secrq2:v
+		errors: 0, warnings: 0
+	module worklib.secrq4:v
+		errors: 0, warnings: 0
+	module worklib.senrb1:v
+		errors: 0, warnings: 0
+	module worklib.senrb2:v
+		errors: 0, warnings: 0
+	module worklib.senrb4:v
+		errors: 0, warnings: 0
+	module worklib.senrq1:v
+		errors: 0, warnings: 0
+	module worklib.senrq2:v
+		errors: 0, warnings: 0
+	module worklib.senrq4:v
+		errors: 0, warnings: 0
+	module worklib.sepfq1:v
+		errors: 0, warnings: 0
+	module worklib.sepfq2:v
+		errors: 0, warnings: 0
+	module worklib.sepfq4:v
+		errors: 0, warnings: 0
+	module worklib.seprq1:v
+		errors: 0, warnings: 0
+	module worklib.seprq2:v
+		errors: 0, warnings: 0
+	module worklib.seprq4:v
+		errors: 0, warnings: 0
+	module worklib.skbrb1:v
+		errors: 0, warnings: 0
+	module worklib.skbrb2:v
+		errors: 0, warnings: 0
+	module worklib.skbrb4:v
+		errors: 0, warnings: 0
+	module worklib.slbhb1:v
+		errors: 0, warnings: 0
+	module worklib.slbhb2:v
+		errors: 0, warnings: 0
+	module worklib.slbhb4:v
+		errors: 0, warnings: 0
+	module worklib.slchq1:v
+		errors: 0, warnings: 0
+	module worklib.slchq2:v
+		errors: 0, warnings: 0
+	module worklib.slchq4:v
+		errors: 0, warnings: 0
+	module worklib.slclq1:v
+		errors: 0, warnings: 0
+	module worklib.slclq2:v
+		errors: 0, warnings: 0
+	module worklib.slclq4:v
+		errors: 0, warnings: 0
+	module worklib.slnhb1:v
+		errors: 0, warnings: 0
+	module worklib.slnhb2:v
+		errors: 0, warnings: 0
+	module worklib.slnhb4:v
+		errors: 0, warnings: 0
+	module worklib.slnhn1:v
+		errors: 0, warnings: 0
+	module worklib.slnhn2:v
+		errors: 0, warnings: 0
+	module worklib.slnhn4:v
+		errors: 0, warnings: 0
+	module worklib.slnhq1:v
+		errors: 0, warnings: 0
+	module worklib.slnhq2:v
+		errors: 0, warnings: 0
+	module worklib.slnhq4:v
+		errors: 0, warnings: 0
+	module worklib.slnht1:v
+		errors: 0, warnings: 0
+	module worklib.slnht2:v
+		errors: 0, warnings: 0
+	module worklib.slnht4:v
+		errors: 0, warnings: 0
+	module worklib.slnlb1:v
+		errors: 0, warnings: 0
+	module worklib.slnlb2:v
+		errors: 0, warnings: 0
+	module worklib.slnlb4:v
+		errors: 0, warnings: 0
+	module worklib.slnln1:v
+		errors: 0, warnings: 0
+	module worklib.slnln2:v
+		errors: 0, warnings: 0
+	module worklib.slnln4:v
+		errors: 0, warnings: 0
+	module worklib.slnlq1:v
+		errors: 0, warnings: 0
+	module worklib.slnlq2:v
+		errors: 0, warnings: 0
+	module worklib.slnlq4:v
+		errors: 0, warnings: 0
+	module worklib.srlab1:v
+		errors: 0, warnings: 0
+	module worklib.srlab2:v
+		errors: 0, warnings: 0
+	module worklib.srlab4:v
+		errors: 0, warnings: 0
+	module worklib.su01d0:v
+		errors: 0, warnings: 0
+	module worklib.su01d1:v
+		errors: 0, warnings: 0
+	module worklib.su01d2:v
+		errors: 0, warnings: 0
+	module worklib.su01d4:v
+		errors: 0, warnings: 0
+	module worklib.xn02d1:v
+		errors: 0, warnings: 0
+	module worklib.xn02d2:v
+		errors: 0, warnings: 0
+	module worklib.xn02d4:v
+		errors: 0, warnings: 0
+	module worklib.xn02d7:v
+		errors: 0, warnings: 0
+	module worklib.xn02da:v
+		errors: 0, warnings: 0
+	module worklib.xr02d1:v
+		errors: 0, warnings: 0
+	module worklib.xr02d2:v
+		errors: 0, warnings: 0
+	module worklib.xr02d4:v
+		errors: 0, warnings: 0
+	module worklib.xr02d7:v
+		errors: 0, warnings: 0
+	module worklib.xr02da:v
+		errors: 0, warnings: 0
+	module worklib.xr03d1:v
+		errors: 0, warnings: 0
+	module worklib.xr03d2:v
+		errors: 0, warnings: 0
+	module worklib.xr03d4:v
+		errors: 0, warnings: 0
+	module worklib.xr03d7:v
+		errors: 0, warnings: 0
+	module worklib.xr03da:v
+		errors: 0, warnings: 0
+file: /opt/sclpdkv3/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v
+	module worklib.pc3c01:v
+		errors: 0, warnings: 0
+file: /opt/sclpdkv3/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v
+	module worklib.pc3d01:v
+		errors: 0, warnings: 0
+file: /opt/sclpdkv3/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o05.v
+	module worklib.pc3o05:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_crypto_synth_top
+		ad01d4
+		adiode
+		adp1d0
+		adp1d1
+		adp1d2
+		adp1d4
+		ah01d0
+		ah01d2
+		ah01d4
+		an02d0
+		an03d0
+		an03d2
+		an03d7
+		an03da
+		an04d0
+		an04d2
+		an04d4
+		an04da
+		aoi211d2
+		aoi211d4
+		aoi21d2
+		aoi21d4
+		aoi221d2
+		aoi221d4
+		aoi2222d1
+		aoi2222d2
+		aoi2222d4
+		aoi222d2
+		aoi222d4
+		aoi22d2
+		aoi22d4
+		aoi311d2
+		aoi311d4
+		aoi31d2
+		aoi31d4
+		aoi321d1
+		aoi321d2
+		aoi321d4
+		aoi322d2
+		aoi322d4
+		aoim211d2
+		aoim211d4
+		aoim21d2
+		aoim21d4
+		aoim22d2
+		aoim22d4
+		aoim2m11d2
+		aoim2m11d4
+		aoim311d1
+		aoim311d2
+		aoim311d4
+		aoim31d2
+		aoim31d4
+		aoim3m11d1
+		aoim3m11d2
+		aoim3m11d4
+		aon211d2
+		aon211d4
+		aor211d2
+		aor211d4
+		aor21d2
+		aor21d4
+		aor221d4
+		aor222d2
+		aor22d2
+		aor311d2
+		aor311d4
+		aor31d2
+		aor31d4
+		bh01d1
+		bufbd1
+		bufbd2
+		bufbd3
+		bufbd4
+		bufbd7
+		bufbdf
+		bufbdk
+		buffd1
+		buffd2
+		buffd4
+		buftd1
+		buftd2
+		buftd4
+		buftd7
+		buftda
+		cg01d0
+		cg01d2
+		cg01d4
+		clk2d2
+		cload1
+		decfq1
+		decfq2
+		decfq4
+		decrq4
+		denrq1
+		denrq2
+		denrq4
+		depfq1
+		depfq2
+		depfq4
+		deprq2
+		deprq4
+		dfbfb1
+		dfbfb2
+		dfbfb4
+		dfbrb1
+		dfbrb2
+		dfbrb4
+		dfcfb1
+		dfcfb2
+		dfcfb4
+		dfcfq1
+		dfcfq2
+		dfcfq4
+		dfcrn2
+		dfcrn4
+		dfnfb1
+		dfnfb2
+		dfnfb4
+		dfnrb2
+		dfnrb4
+		dfnrn2
+		dfnrn4
+		dfnrq2
+		dfnrq4
+		dfpfb1
+		dfpfb2
+		dfpfb4
+		dfprb2
+		dfprb4
+		dl01d1
+		dl01d2
+		dl01d4
+		dl02d1
+		dl02d2
+		dl02d4
+		dl03d1
+		dl03d2
+		dl03d4
+		dl04d1
+		dl04d2
+		dl04d4
+		gclfsn1
+		gclfsn2
+		gclfsn4
+		gclfsn7
+		gclfsna
+		gclrsn1
+		gclrsn2
+		gclrsn4
+		gclrsn7
+		gclrsna
+		gcnfnn1
+		gcnfnn2
+		gcnfnn4
+		gcnfnn7
+		gcnfnna
+		gcnrnn1
+		gcnrnn2
+		gcnrnn4
+		gcnrnn7
+		gcnrnna
+		invtd1
+		invtd2
+		invtd4
+		invtd7
+		invtda
+		jkbrb1
+		jkbrb2
+		jkbrb4
+		labhb1
+		labhb2
+		labhb4
+		lachq1
+		lachq2
+		lachq4
+		laclq1
+		laclq2
+		laclq4
+		lanhb1
+		lanhb2
+		lanhb4
+		lanhn1
+		lanhn2
+		lanhn4
+		lanhq1
+		lanhq2
+		lanhq4
+		lanht1
+		lanht2
+		lanht4
+		lanlb1
+		lanlb2
+		lanlb4
+		lanln1
+		lanln2
+		lanln4
+		lanlq1
+		lanlq2
+		lanlq4
+		mffnrb1
+		mffnrb2
+		mffnrb4
+		mi02d0
+		mi02d1
+		mi02d2
+		mi02d4
+		mx02d0
+		mx04d0
+		mx04d2
+		mx04d4
+		mx08d1
+		mx08d2
+		mx08d4
+		nd02d0
+		nd02d7
+		nd03d0
+		nd03d2
+		nd03d4
+		nd03d7
+		nd04d0
+		nd04d2
+		nd04d4
+		nd04d7
+		nd04da
+		nd12d0
+		nd13d2
+		nd13d4
+		nd23d2
+		nd23d4
+		nr03d2
+		nr03d4
+		nr03d7
+		nr03da
+		nr04d0
+		nr04d2
+		nr04d4
+		nr04da
+		nr13d4
+		nr23d2
+		oai211d2
+		oai211d4
+		oai21d2
+		oai221d2
+		oai221d4
+		oai2222d1
+		oai2222d2
+		oai2222d4
+		oai222d2
+		oai22d2
+		oai22d4
+		oai311d2
+		oai311d4
+		oai31d2
+		oai31d4
+		oai321d2
+		oai321d4
+		oai322d2
+		oai322d4
+		oaim211d2
+		oaim211d4
+		oaim21d2
+		oaim21d4
+		oaim22d2
+		oaim22d4
+		oaim2m11d1
+		oaim2m11d2
+		oaim2m11d4
+		oaim311d1
+		oaim311d2
+		oaim311d4
+		oaim31d2
+		oaim31d4
+		oaim3m11d1
+		oaim3m11d2
+		oaim3m11d4
+		oan211d2
+		or03d2
+		or03d4
+		or03d7
+		or03da
+		or04d2
+		or04d4
+		or04d7
+		or04da
+		ora211d2
+		ora211d4
+		ora21d2
+		ora21d4
+		ora311d1
+		ora311d2
+		ora311d4
+		ora31d2
+		ora31d4
+		sdbfb1
+		sdbfb2
+		sdbfb4
+		sdbrb1
+		sdbrb2
+		sdbrb4
+		sdcfb1
+		sdcfb2
+		sdcfb4
+		sdcfq1
+		sdcfq2
+		sdcfq4
+		sdcrb1
+		sdcrb2
+		sdcrb4
+		sdcrn1
+		sdcrn2
+		sdcrn4
+		sdcrq1
+		sdcrq2
+		sdnfb1
+		sdnfb2
+		sdnfb4
+		sdnrb1
+		sdnrb2
+		sdnrb4
+		sdnrn1
+		sdnrn2
+		sdnrn4
+		sdnrq1
+		sdnrq2
+		sdnrq4
+		sdpfb1
+		sdpfb2
+		sdpfb4
+		sdprb1
+		sdprb2
+		sdprb4
+		secfq1
+		secfq2
+		secfq4
+		secrq1
+		secrq2
+		secrq4
+		senrb1
+		senrb2
+		senrb4
+		senrq1
+		senrq2
+		senrq4
+		sepfq1
+		sepfq2
+		sepfq4
+		seprq1
+		seprq2
+		seprq4
+		skbrb1
+		skbrb2
+		skbrb4
+		slbhb1
+		slbhb2
+		slbhb4
+		slchq1
+		slchq2
+		slchq4
+		slclq1
+		slclq2
+		slclq4
+		slnhb1
+		slnhb2
+		slnhb4
+		slnhn1
+		slnhn2
+		slnhn4
+		slnhq1
+		slnhq2
+		slnhq4
+		slnht1
+		slnht2
+		slnht4
+		slnlb1
+		slnlb2
+		slnlb4
+		slnln1
+		slnln2
+		slnln4
+		slnlq1
+		slnlq2
+		slnlq4
+		srlab1
+		srlab2
+		srlab4
+		su01d0
+		su01d1
+		su01d2
+		su01d4
+		xn02d4
+		xn02d7
+		xn02da
+		xr02d2
+		xr02d4
+		xr02da
+		xr03d4
+		xr03d7
+		xr03da
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.xr03da:v <0x44c73268>
+			streams:   0, words:     0
+		worklib.xr03d7:v <0x42dd42f6>
+			streams:   0, words:     0
+		worklib.xr03d4:v <0x1d78ef76>
+			streams:   0, words:     0
+		worklib.xr02da:v <0x50b9f6af>
+			streams:   0, words:     0
+		worklib.xr02d4:v <0x2037d550>
+			streams:   0, words:     0
+		worklib.xr02d2:v <0x585a6c5f>
+			streams:   0, words:     0
+		worklib.xn02da:v <0x0053c1ef>
+			streams:   0, words:     0
+		worklib.xn02d7:v <0x6153bdb7>
+			streams:   0, words:     0
+		worklib.xn02d4:v <0x70dde210>
+			streams:   0, words:     0
+		worklib.su01d4:v <0x4e4c558b>
+			streams:   0, words:     0
+		worklib.su01d2:v <0x0b668a39>
+			streams:   0, words:     0
+		worklib.su01d1:v <0x29f3e5e0>
+			streams:   0, words:     0
+		worklib.su01d0:v <0x01503d68>
+			streams:   0, words:     0
+		worklib.srlab4:v <0x6c1508fe>
+			streams:   0, words:     0
+		worklib.srlab2:v <0x61c338f0>
+			streams:   0, words:     0
+		worklib.srlab1:v <0x0e3dc82c>
+			streams:   0, words:     0
+		worklib.slnlq4:v <0x7df161f8>
+			streams:   0, words:     0
+		worklib.slnlq2:v <0x36a6b464>
+			streams:   0, words:     0
+		worklib.slnlq1:v <0x0bfe06e3>
+			streams:   0, words:     0
+		worklib.slnln4:v <0x56a35dd3>
+			streams:   0, words:     0
+		worklib.slnln2:v <0x13898261>
+			streams:   0, words:     0
+		worklib.slnln1:v <0x311cedb8>
+			streams:   0, words:     0
+		worklib.slnlb4:v <0x5e33b16e>
+			streams:   0, words:     0
+		worklib.slnlb2:v <0x546ec84f>
+			streams:   0, words:     0
+		worklib.slnlb1:v <0x0d1e476d>
+			streams:   0, words:     0
+		worklib.slnht4:v <0x19e571c3>
+			streams:   0, words:     0
+		worklib.slnht2:v <0x4c399c10>
+			streams:   0, words:     0
+		worklib.slnht1:v <0x139c3190>
+			streams:   0, words:     0
+		worklib.slnhq4:v <0x3f9c1d48>
+			streams:   0, words:     0
+		worklib.slnhq2:v <0x74cbc8d4>
+			streams:   0, words:     0
+		worklib.slnhq1:v <0x49937a53>
+			streams:   0, words:     0
+		worklib.slnhn4:v <0x6099db8a>
+			streams:   0, words:     0
+		worklib.slnhn2:v <0x25b30438>
+			streams:   0, words:     0
+		worklib.slnhn1:v <0x07266be1>
+			streams:   0, words:     0
+		worklib.slnhb4:v <0x1f7e9807>
+			streams:   0, words:     0
+		worklib.slnhb2:v <0x1523e126>
+			streams:   0, words:     0
+		worklib.slnhb1:v <0x4c536e04>
+			streams:   0, words:     0
+		worklib.slclq4:v <0x7447848d>
+			streams:   0, words:     0
+		worklib.slclq2:v <0x35db7d3f>
+			streams:   0, words:     0
+		worklib.slclq1:v <0x601b994e>
+			streams:   0, words:     0
+		worklib.slchq4:v <0x45ffc5d8>
+			streams:   0, words:     0
+		worklib.slchq2:v <0x77ded4de>
+			streams:   0, words:     0
+		worklib.slchq1:v <0x1f28eccf>
+			streams:   0, words:     0
+		worklib.slbhb4:v <0x333b17af>
+			streams:   0, words:     0
+		worklib.slbhb2:v <0x3f2d2e64>
+			streams:   0, words:     0
+		worklib.slbhb1:v <0x6c1ea845>
+			streams:   0, words:     0
+		worklib.skbrb4:v <0x7ad7a9ae>
+			streams:   0, words:     0
+		worklib.skbrb2:v <0x4154644a>
+			streams:   0, words:     0
+		worklib.skbrb1:v <0x1c9582b8>
+			streams:   0, words:     0
+		worklib.seprq4:v <0x3dbf139d>
+			streams:   0, words:     0
+		worklib.seprq2:v <0x5366df88>
+			streams:   0, words:     0
+		worklib.seprq1:v <0x60a75279>
+			streams:   0, words:     0
+		worklib.sepfq4:v <0x298d3d85>
+			streams:   0, words:     0
+		worklib.sepfq2:v <0x0914dccf>
+			streams:   0, words:     0
+		worklib.sepfq1:v <0x41ab7423>
+			streams:   0, words:     0
+		worklib.senrq4:v <0x3ea27b12>
+			streams:   0, words:     0
+		worklib.senrq2:v <0x28d72924>
+			streams:   0, words:     0
+		worklib.senrq1:v <0x4af868e4>
+			streams:   0, words:     0
+		worklib.senrb4:v <0x1e2a9681>
+			streams:   0, words:     0
+		worklib.senrb2:v <0x78983f64>
+			streams:   0, words:     0
+		worklib.senrb1:v <0x179f5824>
+			streams:   0, words:     0
+		worklib.secrq4:v <0x29f9b385>
+			streams:   0, words:     0
+		worklib.secrq2:v <0x47207f90>
+			streams:   0, words:     0
+		worklib.secrq1:v <0x74e1f261>
+			streams:   0, words:     0
+		worklib.secfq4:v <0x14012a5c>
+			streams:   0, words:     0
+		worklib.secfq2:v <0x3498cb16>
+			streams:   0, words:     0
+		worklib.secfq1:v <0x7c2763fa>
+			streams:   0, words:     0
+		worklib.sdprb4:v <0x70e67db6>
+			streams:   0, words:     0
+		worklib.sdprb2:v <0x22d737eb>
+			streams:   0, words:     0
+		worklib.sdprb1:v <0x7e8449ac>
+			streams:   0, words:     0
+		worklib.sdpfb4:v <0x273f66dc>
+			streams:   0, words:     0
+		worklib.sdpfb2:v <0x750e2c81>
+			streams:   0, words:     0
+		worklib.sdpfb1:v <0x295d52c6>
+			streams:   0, words:     0
+		worklib.sdnrq4:v <0x631167b3>
+			streams:   0, words:     0
+		worklib.sdnrq2:v <0x53f58392>
+			streams:   0, words:     0
+		worklib.sdnrq1:v <0x0f2a9a79>
+			streams:   0, words:     0
+		worklib.sdnrn4:v <0x74273045>
+			streams:   0, words:     0
+		worklib.sdnrn2:v <0x79f1004b>
+			streams:   0, words:     0
+		worklib.sdnrn1:v <0x160ff097>
+			streams:   0, words:     0
+		worklib.sdnrb4:v <0x2375e673>
+			streams:   0, words:     0
+		worklib.sdnrb2:v <0x6675231d>
+			streams:   0, words:     0
+		worklib.sdnrb1:v <0x04f541aa>
+			streams:   0, words:     0
+		worklib.sdnfb4:v <0x73b0e895>
+			streams:   0, words:     0
+		worklib.sdnfb2:v <0x36b02dfb>
+			streams:   0, words:     0
+		worklib.sdnfb1:v <0x54304f4c>
+			streams:   0, words:     0
+		worklib.sdcrq2:v <0x563b6662>
+			streams:   0, words:     0
+		worklib.sdcrq1:v <0x74ae09bb>
+			streams:   0, words:     0
+		worklib.sdcrn4:v <0x2e36d3e6>
+			streams:   0, words:     0
+		worklib.sdcrn2:v <0x1ef2b9ef>
+			streams:   0, words:     0
+		worklib.sdcrn1:v <0x423de710>
+			streams:   0, words:     0
+		worklib.sdcrb4:v <0x0b27e037>
+			streams:   0, words:     0
+		worklib.sdcrb2:v <0x5916aa6a>
+			streams:   0, words:     0
+		worklib.sdcrb1:v <0x0545d42d>
+			streams:   0, words:     0
+		worklib.sdcfq4:v <0x4c27967f>
+			streams:   0, words:     0
+		worklib.sdcfq2:v <0x090d49cd>
+			streams:   0, words:     0
+		worklib.sdcfq1:v <0x2b982614>
+			streams:   0, words:     0
+		worklib.sdcfb4:v <0x5cfefb5d>
+			streams:   0, words:     0
+		worklib.sdcfb2:v <0x0ecfb100>
+			streams:   0, words:     0
+		worklib.sdcfb1:v <0x529ccf47>
+			streams:   0, words:     0
+		worklib.sdbrb4:v <0x2c72eedc>
+			streams:   0, words:     0
+		worklib.sdbrb2:v <0x30189e66>
+			streams:   0, words:     0
+		worklib.sdbrb1:v <0x0fcb16a9>
+			streams:   0, words:     0
+		worklib.sdbfb4:v <0x186aea28>
+			streams:   0, words:     0
+		worklib.sdbfb2:v <0x6174b421>
+			streams:   0, words:     0
+		worklib.sdbfb1:v <0x5956f0de>
+			streams:   0, words:     0
+		worklib.oaim3m11d4:v <0x483651b0>
+			streams:   0, words:     0
+		worklib.oaim3m11d2:v <0x4eb3f061>
+			streams:   0, words:     0
+		worklib.oaim3m11d1:v <0x78bafbe0>
+			streams:   0, words:     0
+		worklib.oaim31d4:v <0x2c666b4a>
+			streams:   0, words:     0
+		worklib.oaim31d2:v <0x55b6abb2>
+			streams:   0, words:     0
+		worklib.oaim311d4:v <0x40af8023>
+			streams:   0, words:     0
+		worklib.oaim311d2:v <0x26a3760d>
+			streams:   0, words:     0
+		worklib.oaim311d1:v <0x6443bd88>
+			streams:   0, words:     0
+		worklib.oaim2m11d4:v <0x31c1cca5>
+			streams:   0, words:     0
+		worklib.oaim2m11d2:v <0x1076eb4e>
+			streams:   0, words:     0
+		worklib.oaim2m11d1:v <0x75e6a3d2>
+			streams:   0, words:     0
+		worklib.oaim22d4:v <0x4c9cfb41>
+			streams:   0, words:     0
+		worklib.oaim22d2:v <0x354c3bb9>
+			streams:   0, words:     0
+		worklib.oaim21d4:v <0x29d86e40>
+			streams:   0, words:     0
+		worklib.oaim21d2:v <0x0c9255c5>
+			streams:   0, words:     0
+		worklib.oaim211d4:v <0x12f8c02b>
+			streams:   0, words:     0
+		worklib.oaim211d2:v <0x1c0b0746>
+			streams:   0, words:     0
+		worklib.s_mx08d4:v <0x20323482>
+			streams:   1, words:  3486
+		worklib.s_mx08d2:v <0x09911afe>
+			streams:   1, words:  3486
+		worklib.s_mx08d1:v <0x45b3d589>
+			streams:   1, words:  3486
+		worklib.mx04d4:v <0x5bc784de>
+			streams:   0, words:     0
+		worklib.mx04d2:v <0x5e8b3abb>
+			streams:   0, words:     0
+		worklib.mx04d0:v <0x5a86e235>
+			streams:   0, words:     0
+		worklib.mx02d0:v <0x1a0e9058>
+			streams:   0, words:     0
+		worklib.mi02d4:v <0x4c825c17>
+			streams:   0, words:     0
+		worklib.mi02d2:v <0x6d301b2b>
+			streams:   0, words:     0
+		worklib.mi02d1:v <0x7de938b5>
+			streams:   0, words:     0
+		worklib.mi02d0:v <0x725e263f>
+			streams:   0, words:     0
+		worklib.mffnrb4:v <0x036a7004>
+			streams:   0, words:     0
+		worklib.mffnrb2:v <0x383fc420>
+			streams:   0, words:     0
+		worklib.mffnrb1:v <0x65951e32>
+			streams:   0, words:     0
+		worklib.lanlq4:v <0x10395124>
+			streams:   0, words:     0
+		worklib.lanlq2:v <0x318b1618>
+			streams:   0, words:     0
+		worklib.lanlq1:v <0x21523586>
+			streams:   0, words:     0
+		worklib.lanln4:v <0x020b27b1>
+			streams:   0, words:     0
+		worklib.lanln2:v <0x130e88e4>
+			streams:   0, words:     0
+		worklib.lanln1:v <0x1f2134b5>
+			streams:   0, words:     0
+		worklib.lanlb4:v <0x23b666d3>
+			streams:   0, words:     0
+		worklib.lanlb2:v <0x2e6056dd>
+			streams:   0, words:     0
+		worklib.lanlb1:v <0x419ea601>
+			streams:   0, words:     0
+		worklib.lanht4:v <0x2d6beeb1>
+			streams:   0, words:     0
+		worklib.lanht2:v <0x663c3b2d>
+			streams:   0, words:     0
+		worklib.lanht1:v <0x5b6489aa>
+			streams:   0, words:     0
+		worklib.lanhq4:v <0x7db45970>
+			streams:   0, words:     0
+		worklib.lanhq2:v <0x5c061e4c>
+			streams:   0, words:     0
+		worklib.lanhq1:v <0x4cdf3dd2>
+			streams:   0, words:     0
+		worklib.lanhn4:v <0x3d30dfc9>
+			streams:   0, words:     0
+		worklib.lanhn2:v <0x2c35709c>
+			streams:   0, words:     0
+		worklib.lanhn1:v <0x201acccd>
+			streams:   0, words:     0
+		worklib.lanhb4:v <0x3511c8e8>
+			streams:   0, words:     0
+		worklib.lanhb2:v <0x38c7f8e6>
+			streams:   0, words:     0
+		worklib.lanhb1:v <0x5739083a>
+			streams:   0, words:     0
+		worklib.laclq4:v <0x328cba94>
+			streams:   0, words:     0
+		worklib.laclq2:v <0x4dc72ecf>
+			streams:   0, words:     0
+		worklib.laclq1:v <0x6e3cd750>
+			streams:   0, words:     0
+		worklib.lachq4:v <0x4f1b3dbc>
+			streams:   0, words:     0
+		worklib.lachq2:v <0x5e1e92e9>
+			streams:   0, words:     0
+		worklib.lachq1:v <0x52312eb8>
+			streams:   0, words:     0
+		worklib.labhb4:v <0x33853768>
+			streams:   0, words:     0
+		worklib.labhb2:v <0x3889270f>
+			streams:   0, words:     0
+		worklib.labhb1:v <0x79a244c7>
+			streams:   0, words:     0
+		worklib.jkbrb4:v <0x24aeac76>
+			streams:   0, words:     0
+		worklib.jkbrb2:v <0x38c4dccc>
+			streams:   0, words:     0
+		worklib.jkbrb1:v <0x07175403>
+			streams:   0, words:     0
+		worklib.gcnrnna:v <0x24fa0a68>
+			streams:   1, words:   508
+		worklib.gcnrnn7:v <0x66c49e2c>
+			streams:   1, words:   508
+		worklib.gcnrnn4:v <0x30974c63>
+			streams:   1, words:   508
+		worklib.gcnrnn2:v <0x4e1b394b>
+			streams:   1, words:   508
+		worklib.gcnrnn1:v <0x1848eb04>
+			streams:   1, words:   508
+		worklib.gcnfnna:v <0x23a1e133>
+			streams:   1, words:   484
+		worklib.gcnfnn7:v <0x619f7577>
+			streams:   1, words:   484
+		worklib.gcnfnn4:v <0x37cca738>
+			streams:   1, words:   484
+		worklib.gcnfnn2:v <0x4940d210>
+			streams:   1, words:   484
+		worklib.gcnfnn1:v <0x1f13005f>
+			streams:   1, words:   484
+		worklib.gclrsna:v <0x501b2f4d>
+			streams:   0, words:     0
+		worklib.gclrsn7:v <0x5e620604>
+			streams:   0, words:     0
+		worklib.gclrsn4:v <0x04df470f>
+			streams:   0, words:     0
+		worklib.gclrsn2:v <0x38ff12ee>
+			streams:   0, words:     0
+		worklib.gclrsn1:v <0x624253e5>
+			streams:   0, words:     0
+		worklib.gclfsna:v <0x35c9e7d9>
+			streams:   0, words:     0
+		worklib.gclfsn7:v <0x1fda1415>
+			streams:   0, words:     0
+		worklib.gclfsn4:v <0x7ffe038f>
+			streams:   0, words:     0
+		worklib.gclfsn2:v <0x55219a68>
+			streams:   0, words:     0
+		worklib.gclfsn1:v <0x35058df2>
+			streams:   0, words:     0
+		worklib.dfprb4:v <0x5ba34a53>
+			streams:   0, words:     0
+		worklib.dfprb2:v <0x4b315335>
+			streams:   0, words:     0
+		worklib.dfpfb4:v <0x470ab704>
+			streams:   0, words:     0
+		worklib.dfpfb2:v <0x5798ae62>
+			streams:   0, words:     0
+		worklib.dfpfb1:v <0x4722fa98>
+			streams:   0, words:     0
+		worklib.dfnrq4:v <0x36969384>
+			streams:   0, words:     0
+		worklib.dfnrq2:v <0x53b626be>
+			streams:   0, words:     0
+		worklib.dfnrn4:v <0x732236a2>
+			streams:   0, words:     0
+		worklib.dfnrn2:v <0x0b4f8fad>
+			streams:   0, words:     0
+		worklib.dfnrb4:v <0x77704c61>
+			streams:   0, words:     0
+		worklib.dfnrb2:v <0x4794a840>
+			streams:   0, words:     0
+		worklib.dfnfb4:v <0x09f7359b>
+			streams:   0, words:     0
+		worklib.dfnfb2:v <0x3913d1ba>
+			streams:   0, words:     0
+		worklib.dfnfb1:v <0x65ccc851>
+			streams:   0, words:     0
+		worklib.dfcrn4:v <0x0806ba95>
+			streams:   0, words:     0
+		worklib.dfcrn2:v <0x38e25eb4>
+			streams:   0, words:     0
+		worklib.dfcfq4:v <0x6b94cef0>
+			streams:   0, words:     0
+		worklib.dfcfq2:v <0x13f977ff>
+			streams:   0, words:     0
+		worklib.dfcfq1:v <0x02772858>
+			streams:   0, words:     0
+		worklib.dfcfb4:v <0x3b0949ad>
+			streams:   0, words:     0
+		worklib.dfcfb2:v <0x2b9b50cb>
+			streams:   0, words:     0
+		worklib.dfcfb1:v <0x3b210431>
+			streams:   0, words:     0
+		worklib.dfbrb4:v <0x19d458d5>
+			streams:   0, words:     0
+		worklib.dfbrb2:v <0x770d94c0>
+			streams:   0, words:     0
+		worklib.dfbrb1:v <0x44cc1931>
+			streams:   0, words:     0
+		worklib.dfbfb4:v <0x4e423082>
+			streams:   0, words:     0
+		worklib.dfbfb2:v <0x454e20e5>
+			streams:   0, words:     0
+		worklib.dfbfb1:v <0x0465432d>
+			streams:   0, words:     0
+		worklib.deprq4:v <0x12861fee>
+			streams:   0, words:     0
+		worklib.deprq2:v <0x7ce0a0ac>
+			streams:   0, words:     0
+		worklib.depfq4:v <0x71007f64>
+			streams:   0, words:     0
+		worklib.depfq2:v <0x1f66c026>
+			streams:   0, words:     0
+		worklib.depfq1:v <0x19b32f15>
+			streams:   0, words:     0
+		worklib.denrq4:v <0x1b9f4dff>
+			streams:   0, words:     0
+		worklib.denrq2:v <0x4308064c>
+			streams:   0, words:     0
+		worklib.denrq1:v <0x42fb20b5>
+			streams:   0, words:     0
+		worklib.decrq4:v <0x2b72d30e>
+			streams:   0, words:     0
+		worklib.decfq4:v <0x48f4b384>
+			streams:   0, words:     0
+		worklib.decfq2:v <0x26920cc6>
+			streams:   0, words:     0
+		worklib.decfq1:v <0x2047e3f5>
+			streams:   0, words:     0
+		worklib.aoim3m11d4:v <0x326128bf>
+			streams:   0, words:     0
+		worklib.aoim3m11d2:v <0x34e4896e>
+			streams:   0, words:     0
+		worklib.aoim3m11d1:v <0x02ed82ef>
+			streams:   0, words:     0
+		worklib.aoim31d4:v <0x7a54343c>
+			streams:   0, words:     0
+		worklib.aoim31d2:v <0x0384f4c4>
+			streams:   0, words:     0
+		worklib.aoim311d4:v <0x65b44d3b>
+			streams:   0, words:     0
+		worklib.aoim311d2:v <0x03b8bb15>
+			streams:   0, words:     0
+		worklib.aoim311d1:v <0x41587090>
+			streams:   0, words:     0
+		worklib.aoim2m11d4:v <0x2886e4b7>
+			streams:   0, words:     0
+		worklib.aoim2m11d2:v <0x0931c35c>
+			streams:   0, words:     0
+		worklib.aoim22d4:v <0x1aaea437>
+			streams:   0, words:     0
+		worklib.aoim22d2:v <0x637e64cf>
+			streams:   0, words:     0
+		worklib.aoim21d4:v <0x77095014>
+			streams:   0, words:     0
+		worklib.aoim21d2:v <0x52436b91>
+			streams:   0, words:     0
+		worklib.aoim211d4:v <0x723b8458>
+			streams:   0, words:     0
+		worklib.aoim211d2:v <0x7cc84335>
+			streams:   0, words:     0
+		worklib.ah01d4:v <0x58996c65>
+			streams:   0, words:     0
+		worklib.ah01d2:v <0x687d8844>
+			streams:   0, words:     0
+		worklib.ah01d0:v <0x59650b47>
+			streams:   0, words:     0
+		worklib.adp1d4:v <0x30815e53>
+			streams:   1, words:   385
+		worklib.adp1d2:v <0x7889c7d1>
+			streams:   1, words:   385
+		worklib.adp1d1:v <0x5c8d8b10>
+			streams:   1, words:   385
+		worklib.adp1d0:v <0x47b80202>
+			streams:   1, words:   385
+		worklib.ad01d4:v <0x2dbb0d4f>
+			streams:   0, words:     0
+		worklib.xn02d2:v <0x08b05b1f>
+			streams:   0, words:     0
+		worklib.sha256:v <0x0ff1705f>
+			streams:   0, words:     0
+		worklib.sdcrq4:v <0x1311b9d0>
+			streams:   0, words:     0
+		worklib.xr02d7:v <0x31b98af7>
+			streams:   0, words:     0
+		worklib.ad01d2:v <0x6891d2fd>
+			streams:   0, words:     0
+		worklib.xr03d2:v <0x27a115dd>
+			streams:   0, words:     0
+		worklib.dfcrq2:v <0x7084372f>
+			streams:   0, words:     0
+		worklib.residue:v <0x437abc74>
+			streams:   0, words:     0
+		worklib.aoim211d1:v <0x0ddd313d>
+			streams:   0, words:     0
+		worklib.mx04d1:v <0x3195e6a9>
+			streams:   0, words:     0
+		worklib.decrq2:v <0x45146c4c>
+			streams:   0, words:     0
+		worklib.mx02d2:v <0x393b416e>
+			streams:   0, words:     0
+		worklib.mx02d4:v <0x24d2ea70>
+			streams:   0, words:     0
+		worklib.dfnrn1:v <0x76864174>
+			streams:   0, words:     0
+		worklib.ad01d1:v <0x25d4d0b3>
+			streams:   0, words:     0
+		worklib.ad01d0:v <0x62a765ac>
+			streams:   0, words:     0
+		worklib.montprod:v <0x25ff3b77>
+			streams:   0, words:     0
+		worklib.dfnrb1:v <0x553fe332>
+			streams:   0, words:     0
+		worklib.dfcrb4:v <0x0d6e9f06>
+			streams:   0, words:     0
+		worklib.dfcrq4:v <0x64ae1f5e>
+			streams:   0, words:     0
+		worklib.dfnrq1:v <0x294021ef>
+			streams:   0, words:     0
+		worklib.modexp_core:v <0x4d045d82>
+			streams:   0, words:     0
+		worklib.modexp:v <0x7a97e505>
+			streams:   0, words:     0
+		worklib.oaim31d1:v <0x1b9f318b>
+			streams:   0, words:     0
+		worklib.dfprb1:v <0x71452c33>
+			streams:   0, words:     0
+		worklib.dfcrb2:v <0x1dfc8660>
+			streams:   0, words:     0
+		worklib.dfcrn1:v <0x2a4915c6>
+			streams:   0, words:     0
+		worklib.xr03d1:v <0x7804b85d>
+			streams:   0, words:     0
+		worklib.xn02d1:v <0x757995c6>
+			streams:   0, words:     0
+		worklib.xr02d1:v <0x2593a286>
+			streams:   0, words:     0
+		worklib.oaim211d1:v <0x6d1e754e>
+			streams:   0, words:     0
+		worklib.deprq1:v <0x6c5616d5>
+			streams:   0, words:     0
+		worklib.aoim21d1:v <0x3910df42>
+			streams:   0, words:     0
+		worklib.aoim2m11d1:v <0x6ca18bc0>
+			streams:   0, words:     0
+		worklib.oaim22d1:v <0x7b65a180>
+			streams:   0, words:     0
+		worklib.aoim31d1:v <0x4dad6efd>
+			streams:   0, words:     0
+		worklib.aes:v <0x4c2ebd81>
+			streams:   0, words:     0
+		worklib.crypto_accelerator_top:v <0x204177f8>
+			streams:   0, words:     0
+		worklib.decrq1:v <0x55a2da35>
+			streams:   0, words:     0
+		worklib.dfcrb1:v <0x0d46d29a>
+			streams:   0, words:     0
+		worklib.mx02d1:v <0x29e262f0>
+			streams:   0, words:     0
+		worklib.ah01d1:v <0x7ad6c336>
+			streams:   0, words:     0
+		worklib.aoim22d1:v <0x2d57fef6>
+			streams:   0, words:     0
+		worklib.oaim21d1:v <0x67c1e116>
+			streams:   0, words:     0
+		worklib.dfcrq1:v <0x668674e9>
+			streams:   0, words:     0
+		worklib.dfcrq1:v <0x610a6888>
+			streams:   0, words:     0
+		worklib.crypto_synth_top:v <0x261191bf>
+			streams:   0, words:     0
+		worklib.tb_crypto_synth_top:v <0x09eaf5e6>
+			streams:  19, words: 50905
+		worklib.C2S0306:v <0x03d60152>
+			streams:   2, words:   306
+	Building instance specific data structures.
+        0   (0x)    x         ?          :   0   :   0;  
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21517|8): UDP table entry is redundant.
+        1   (0x)    x         ?          :   1   :   1;  
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21727|8): UDP table entry is redundant.
+        1   (1x)    0   x         ?          :   0   :   0;  
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21254|8): UDP table entry is redundant.
+        0   (1x)    x   0         ?          :   1   :   1;  
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21255|8): UDP table entry is redundant.
+        1   (1x)    1   x      ?        :   1   :   1;  // reducing pessimism
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21310|8): UDP table entry is redundant.
+        0   (1x)    x   1      ?        :   0   :   0;                          
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21311|8): UDP table entry is redundant.
+        1   (?x)    1   x         ?          :   1   :   1;  // ignore falling clock
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21636|8): UDP table entry is redundant.
+        0   (?x)    x   1         ?          :   0   :   0;  // ignore falling clock
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21637|8): UDP table entry is redundant.
+        0   (1x)    x         ?          :   0   :   0;                          
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21125|8): UDP table entry is redundant.
+        1   (1x)    x         ?          :   1   :   1;  // reducing pessimism
+        |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,21418|8): UDP table entry is redundant.
+         0      (1x)    ?             :  0  :    0   ;   // Reducing pessimism.
+         |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,22171|9): UDP table entry is redundant.
+         1      (1x)    ?             :  1  :    1   ;
+         |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,22172|9): UDP table entry is redundant.
+         0       x      *     1     ?             :  0  :    0   ;   // Reducing pessimism.//AB
+         |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,22480|9): UDP table entry is redundant.
+         1       x      1     *     ?             :  1  :    1   ;   // Reducing pessimism.//AB
+         |
+xmelab: *W,UDPRDT (/opt/sclpdkv3/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v,22487|9): UDP table entry is redundant.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                78302     578
+		UDPs:                   37282      55
+		Primitives:            122678      11
+		Registers:              20128     298
+		Scalar wires:           50536       -
+		Expanded wires:             8       1
+		Vectored wires:             2       -
+		Always blocks:             14      14
+		Initial blocks:             6       6
+		Cont. assignments:          4     252
+		Pseudo assignments:        10      10
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.tb_crypto_synth_top:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/cadence/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_crypto_synth_top.dut.u_crypto_synth_top.PSEL tb_crypto_synth_top.dut.u_crypto_synth_top.PENABLE tb_crypto_synth_top.dut.u_crypto_synth_top.PWRITE tb_crypto_synth_top.dut.u_crypto_synth_top.PADDR tb_crypto_synth_top.dut.u_crypto_synth_top.PREADY tb_crypto_synth_top.dut.u_crypto_synth_top.PWDATA_INT tb_crypto_synth_top.dut.u_crypto_synth_top.word_ready tb_crypto_synth_top.dut.u_crypto_synth_top.bit_count tb_crypto_synth_top.dut.u_crypto_synth_top.load_piso tb_crypto_synth_top.dut.u_crypto_synth_top.SHIFT_OUT_EN tb_crypto_synth_top.dut.u_crypto_synth_top.PRDATA tb_crypto_synth_top.dut.u_crypto_synth_top.SER_OUT tb_crypto_synth_top.dut.u_crypto_synth_top.u_sipo.shift_reg tb_crypto_synth_top.dut.u_crypto_synth_top.u_sipo.bit_count tb_crypto_synth_top.dut.u_crypto_synth_top.u_sipo.word_ready tb_crypto_synth_top.dut.u_crypto_synth_top.u_sipo.parallel_out tb_crypto_synth_top.dut.u_crypto_synth_top.u_piso.shift_reg tb_crypto_synth_top.dut.u_crypto_synth_top.u_piso.bit_count tb_crypto_synth_top.dut.u_crypto_synth_top.u_piso.busy tb_crypto_synth_top.dut.u_crypto_synth_top.u_piso.done tb_crypto_synth_top.dut.u_crypto_synth_top.u_piso.parallel_in tb_crypto_synth_top.dut.u_crypto_synth_top.u_piso.serial_out
+Created probe 1
+xcelium> run
+
+============= INTERNAL SIGNALS =============
+Watching internal APB/SIPO/PISO signals...
+[0] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=00 PRDATA=zzzzzzzz PREADY=1
+========================================
+      AES ENCRYPTION TEST
+========================================
+[95000] Shifting 00000000
+[105000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=00 PRDATA=zzzzzzzz PREADY=1
+[425000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=00 PRDATA=zzzzzzzz PREADY=1
+[455000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[465000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[475000] Shifting 00010203
+[475000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[485000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[635000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[645000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[705000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[715000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[785000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[805000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=0a PRDATA=zzzzzzzz PREADY=1
+[835000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[845000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[855000] Shifting 04050607
+[855000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[865000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[915000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[925000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[995000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1005000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1015000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1025000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1075000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1095000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1155000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1185000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=10 PRDATA=zzzzzzzz PREADY=1
+[1215000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1225000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1235000] Shifting 08090a0b
+[1235000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1245000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1285000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1295000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1365000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1375000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1395000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1405000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1445000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1455000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1465000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1475000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1525000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1535000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1545000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1565000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=11 PRDATA=zzzzzzzz PREADY=1
+[1595000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1605000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1615000] Shifting 0c0d0e0f
+[1615000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1625000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1665000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1685000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1745000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1765000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1775000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1785000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1825000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1855000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1905000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1945000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=12 PRDATA=zzzzzzzz PREADY=1
+[1975000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=13 PRDATA=zzzzzzzz PREADY=1
+[1985000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=13 PRDATA=zzzzzzzz PREADY=1
+[1995000] Shifting 00000000
+[1995000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=13 PRDATA=zzzzzzzz PREADY=1
+[2005000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=13 PRDATA=zzzzzzzz PREADY=1
+[2325000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=13 PRDATA=zzzzzzzz PREADY=1
+[2355000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=14 PRDATA=zzzzzzzz PREADY=1
+[2365000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=14 PRDATA=zzzzzzzz PREADY=1
+[2375000] Shifting 00000000
+[2375000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=14 PRDATA=zzzzzzzz PREADY=1
+[2385000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=14 PRDATA=zzzzzzzz PREADY=1
+[2705000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=14 PRDATA=zzzzzzzz PREADY=1
+[2735000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=15 PRDATA=zzzzzzzz PREADY=1
+[2745000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=15 PRDATA=zzzzzzzz PREADY=1
+[2755000] Shifting 00000000
+[2755000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=15 PRDATA=zzzzzzzz PREADY=1
+[2765000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=15 PRDATA=zzzzzzzz PREADY=1
+[3085000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=15 PRDATA=zzzzzzzz PREADY=1
+[3115000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=16 PRDATA=zzzzzzzz PREADY=1
+[3125000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=16 PRDATA=zzzzzzzz PREADY=1
+[3135000] Shifting 00000000
+[3135000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=16 PRDATA=zzzzzzzz PREADY=1
+[3145000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=16 PRDATA=zzzzzzzz PREADY=1
+[3465000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=16 PRDATA=zzzzzzzz PREADY=1
+[3495000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=17 PRDATA=zzzzzzzz PREADY=1
+[3505000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=17 PRDATA=zzzzzzzz PREADY=1
+[3515000] Shifting 00000001
+[3515000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=17 PRDATA=zzzzzzzz PREADY=1
+[3525000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=17 PRDATA=zzzzzzzz PREADY=1
+[3835000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=17 PRDATA=zzzzzzzz PREADY=1
+[3845000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=17 PRDATA=zzzzzzzz PREADY=1
+[3875000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[3885000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[3895000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4095000] Shifting 00112233
+[4105000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4215000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4225000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4255000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4265000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4285000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4295000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4325000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4335000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4365000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4385000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4405000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4425000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[4455000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4465000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4475000] Shifting 44556677
+[4475000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4485000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4495000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4505000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4535000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4545000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4575000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4585000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4595000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4605000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4615000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4625000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4635000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4645000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4655000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4675000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4695000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4715000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4735000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4765000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4775000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4805000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=20 PRDATA=zzzzzzzz PREADY=1
+[4835000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4845000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4855000] Shifting 8899aabb
+[4855000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4865000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4875000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4905000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4915000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4945000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4955000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4975000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[4995000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5015000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5035000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5045000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5055000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5065000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5075000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5085000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5095000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5105000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5115000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5125000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5155000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5165000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5185000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=21 PRDATA=zzzzzzzz PREADY=1
+[5215000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5225000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5235000] Shifting ccddeeff
+[5235000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5245000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5265000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5285000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5305000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5325000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5345000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5355000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5385000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5395000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5435000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5445000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5475000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5485000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5565000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=22 PRDATA=zzzzzzzz PREADY=1
+[5595000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5605000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5615000] Shifting 00000002
+[5615000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5625000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5925000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5935000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5945000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=23 PRDATA=zzzzzzzz PREADY=1
+[5975000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[5985000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[5995000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=08 PRDATA=zzzzzzzz PREADY=1
+[7005000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=30 PRDATA=zzzzzzzz PREADY=1
+[7015000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=30 PRDATA=zzzzzzzz PREADY=1
+[7025000] APB READ  ADDR=30 DATA=zzzzzzzz
+[7025000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=30 PRDATA=zzzzzzzz PREADY=1
+[7035000] SER_OUT = 0
+[7045000] SER_OUT = 0
+[7045000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=31 PRDATA=zzzzzzzz PREADY=1
+[7055000] SER_OUT = 0
+[7055000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=31 PRDATA=zzzzzzzz PREADY=1
+[7065000] SER_OUT = 0
+[7065000] APB READ  ADDR=31 DATA=zzzzzzzz
+[7065000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=31 PRDATA=zzzzzzzz PREADY=1
+[7075000] SER_OUT = 0
+[7085000] SER_OUT = 0
+[7085000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=32 PRDATA=zzzzzzzz PREADY=1
+[7095000] SER_OUT = 0
+[7095000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=32 PRDATA=zzzzzzzz PREADY=1
+[7105000] SER_OUT = 0
+[7105000] APB READ  ADDR=32 DATA=zzzzzzzz
+[7105000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=32 PRDATA=zzzzzzzz PREADY=1
+[7115000] SER_OUT = 1
+[7125000] SER_OUT = 1
+[7125000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7135000] SER_OUT = 1
+[7135000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=1 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7145000] SER_OUT = 1
+[7145000] APB READ  ADDR=33 DATA=zzzzzzzz
+[7145000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7155000] SER_OUT = 0
+
+AES Ciphertext
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+
+========================================
+         SHA256 TEST
+========================================
+SHA BLOCK0
+[7155000] Shifting 61626380
+[7165000] SER_OUT = 0
+[7165000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7175000] SER_OUT = 0
+[7175000] SHIFT_EN=1 SER_DATA=1 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7185000] SER_OUT = 1
+[7185000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7195000] SER_OUT = 0
+[7195000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7205000] SER_OUT = 0
+[7215000] SER_OUT = 0
+[7215000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7225000] SER_OUT = 1
+[7235000] SER_OUT = 1
+[7235000] SHIFT_EN=1 SER_DATA=1 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7245000] SER_OUT = 1
+[7245000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7255000] SER_OUT = 1
+[7255000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7265000] SER_OUT = 0
+[7275000] SER_OUT = 0
+[7275000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7285000] SER_OUT = 1
+[7285000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7295000] SER_OUT = 0
+[7305000] SER_OUT = 0
+[7305000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7315000] SER_OUT = 0
+[7315000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7325000] SER_OUT = 0
+[7325000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7335000] SER_OUT = 1
+[7335000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7345000] SER_OUT = 0
+[7345000] SHIFT_EN=1 SER_DATA=1 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7355000] SER_OUT = 1
+[7355000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7365000] SER_OUT = 0
+[7365000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7375000] SER_OUT = 1
+[7375000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7385000] SER_OUT = 0
+[7385000] SHIFT_EN=1 SER_DATA=1 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7395000] SER_OUT = 1
+[7395000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7405000] SER_OUT = 0
+[7405000] SHIFT_EN=1 SER_DATA=1 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7415000] SER_OUT = 1
+[7415000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7425000] SER_OUT = 1
+[7425000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7435000] SER_OUT = 0
+[7435000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7445000] SER_OUT = 1
+[7455000] SER_OUT = 1
+[7455000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7465000] SER_OUT = 0
+[7475000] SER_OUT = 0
+[7485000] SER_OUT = 0
+[7485000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=33 PRDATA=zzzzzzzz PREADY=1
+[7515000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=50 PRDATA=zzzzzzzz PREADY=1
+[7525000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=50 PRDATA=zzzzzzzz PREADY=1
+[7535000] Shifting 00000000
+[7535000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=50 PRDATA=zzzzzzzz PREADY=1
+[7545000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=50 PRDATA=zzzzzzzz PREADY=1
+[7865000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=50 PRDATA=zzzzzzzz PREADY=1
+[7895000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=51 PRDATA=zzzzzzzz PREADY=1
+[7905000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=51 PRDATA=zzzzzzzz PREADY=1
+[7915000] Shifting 00000000
+[7915000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=51 PRDATA=zzzzzzzz PREADY=1
+[7925000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=51 PRDATA=zzzzzzzz PREADY=1
+[8245000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=51 PRDATA=zzzzzzzz PREADY=1
+[8275000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=52 PRDATA=zzzzzzzz PREADY=1
+[8285000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=52 PRDATA=zzzzzzzz PREADY=1
+[8295000] Shifting 00000000
+[8295000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=52 PRDATA=zzzzzzzz PREADY=1
+[8305000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=52 PRDATA=zzzzzzzz PREADY=1
+[8625000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=52 PRDATA=zzzzzzzz PREADY=1
+[8655000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=53 PRDATA=zzzzzzzz PREADY=1
+[8665000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=53 PRDATA=zzzzzzzz PREADY=1
+[8675000] Shifting 00000000
+[8675000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=53 PRDATA=zzzzzzzz PREADY=1
+[8685000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=53 PRDATA=zzzzzzzz PREADY=1
+[9005000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=53 PRDATA=zzzzzzzz PREADY=1
+[9035000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=54 PRDATA=zzzzzzzz PREADY=1
+[9045000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=54 PRDATA=zzzzzzzz PREADY=1
+[9055000] Shifting 00000000
+[9055000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=54 PRDATA=zzzzzzzz PREADY=1
+[9065000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=54 PRDATA=zzzzzzzz PREADY=1
+[9385000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=54 PRDATA=zzzzzzzz PREADY=1
+[9415000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=55 PRDATA=zzzzzzzz PREADY=1
+[9425000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=55 PRDATA=zzzzzzzz PREADY=1
+[9435000] Shifting 00000000
+[9435000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=55 PRDATA=zzzzzzzz PREADY=1
+[9445000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=55 PRDATA=zzzzzzzz PREADY=1
+[9765000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=55 PRDATA=zzzzzzzz PREADY=1
+[9795000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=56 PRDATA=zzzzzzzz PREADY=1
+[9805000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=56 PRDATA=zzzzzzzz PREADY=1
+[9815000] Shifting 00000000
+[9815000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=56 PRDATA=zzzzzzzz PREADY=1
+[9825000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=56 PRDATA=zzzzzzzz PREADY=1
+[10145000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=56 PRDATA=zzzzzzzz PREADY=1
+[10175000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=57 PRDATA=zzzzzzzz PREADY=1
+[10185000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=57 PRDATA=zzzzzzzz PREADY=1
+[10195000] Shifting 00000000
+[10195000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=57 PRDATA=zzzzzzzz PREADY=1
+[10205000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=57 PRDATA=zzzzzzzz PREADY=1
+[10525000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=57 PRDATA=zzzzzzzz PREADY=1
+[10555000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=58 PRDATA=zzzzzzzz PREADY=1
+[10565000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=58 PRDATA=zzzzzzzz PREADY=1
+[10575000] Shifting 00000000
+[10575000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=58 PRDATA=zzzzzzzz PREADY=1
+[10585000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=58 PRDATA=zzzzzzzz PREADY=1
+[10905000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=58 PRDATA=zzzzzzzz PREADY=1
+[10935000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=59 PRDATA=zzzzzzzz PREADY=1
+[10945000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=59 PRDATA=zzzzzzzz PREADY=1
+[10955000] Shifting 00000000
+[10955000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=59 PRDATA=zzzzzzzz PREADY=1
+[10965000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=59 PRDATA=zzzzzzzz PREADY=1
+[11285000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=59 PRDATA=zzzzzzzz PREADY=1
+[11315000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=5a PRDATA=zzzzzzzz PREADY=1
+[11325000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=5a PRDATA=zzzzzzzz PREADY=1
+[11335000] Shifting 00000000
+[11335000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5a PRDATA=zzzzzzzz PREADY=1
+[11345000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5a PRDATA=zzzzzzzz PREADY=1
+[11665000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5a PRDATA=zzzzzzzz PREADY=1
+[11695000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=5b PRDATA=zzzzzzzz PREADY=1
+[11705000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=5b PRDATA=zzzzzzzz PREADY=1
+[11715000] Shifting 00000000
+[11715000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5b PRDATA=zzzzzzzz PREADY=1
+[11725000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5b PRDATA=zzzzzzzz PREADY=1
+[12045000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5b PRDATA=zzzzzzzz PREADY=1
+[12075000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=5c PRDATA=zzzzzzzz PREADY=1
+[12085000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=5c PRDATA=zzzzzzzz PREADY=1
+[12095000] Shifting 00000000
+[12095000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5c PRDATA=zzzzzzzz PREADY=1
+[12105000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5c PRDATA=zzzzzzzz PREADY=1
+[12425000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5c PRDATA=zzzzzzzz PREADY=1
+[12455000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=5d PRDATA=zzzzzzzz PREADY=1
+[12465000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=5d PRDATA=zzzzzzzz PREADY=1
+[12475000] Shifting 00000000
+[12475000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5d PRDATA=zzzzzzzz PREADY=1
+[12485000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5d PRDATA=zzzzzzzz PREADY=1
+[12805000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5d PRDATA=zzzzzzzz PREADY=1
+[12835000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[12845000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[12855000] Shifting 00000018
+[12855000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[12865000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[13135000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[13155000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[13185000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5e PRDATA=zzzzzzzz PREADY=1
+[13215000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13225000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+SHA INIT
+[13235000] Shifting 00000005
+[13235000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13245000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13535000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13545000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13555000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13565000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=5f PRDATA=zzzzzzzz PREADY=1
+[13595000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=48 PRDATA=zzzzzzzz PREADY=1
+[13605000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=48 PRDATA=zzzzzzzz PREADY=1
+[13615000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=48 PRDATA=zzzzzzzz PREADY=1
+SHA DIGEST
+[16125000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=60 PRDATA=zzzzzzzz PREADY=1
+[16135000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=60 PRDATA=zzzzzzzz PREADY=1
+[16145000] APB READ  ADDR=60 DATA=zzzzzzzz
+[16145000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=60 PRDATA=zzzzzzzz PREADY=1
+[16155000] SER_OUT = 1
+[16165000] SER_OUT = 1
+[16165000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=0 PWRITE=0 PADDR=61 PRDATA=zzzzzzzz PREADY=1
+[16175000] SER_OUT = 1
+[16175000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=1 PWRITE=0 PADDR=61 PRDATA=zzzzzzzz PREADY=1
+[16185000] SER_OUT = 1
+[16185000] APB READ  ADDR=61 DATA=zzzzzzzz
+[16185000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=61 PRDATA=zzzzzzzz PREADY=1
+[16195000] SER_OUT = 1
+[16205000] SER_OUT = 1
+[16205000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=0 PWRITE=0 PADDR=62 PRDATA=zzzzzzzz PREADY=1
+[16215000] SER_OUT = 1
+[16215000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=1 PWRITE=0 PADDR=62 PRDATA=zzzzzzzz PREADY=1
+[16225000] SER_OUT = 1
+[16225000] APB READ  ADDR=62 DATA=zzzzzzzz
+[16225000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=62 PRDATA=zzzzzzzz PREADY=1
+[16235000] SER_OUT = 0
+[16245000] SER_OUT = 0
+[16245000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=63 PRDATA=zzzzzzzz PREADY=1
+[16255000] SER_OUT = 0
+[16255000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=63 PRDATA=zzzzzzzz PREADY=1
+[16265000] SER_OUT = 0
+[16265000] APB READ  ADDR=63 DATA=zzzzzzzz
+[16265000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=63 PRDATA=zzzzzzzz PREADY=1
+[16275000] SER_OUT = 0
+[16285000] SER_OUT = 0
+[16285000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=64 PRDATA=zzzzzzzz PREADY=1
+[16295000] SER_OUT = 0
+[16295000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=64 PRDATA=zzzzzzzz PREADY=1
+[16305000] SER_OUT = 0
+[16305000] APB READ  ADDR=64 DATA=zzzzzzzz
+[16305000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=64 PRDATA=zzzzzzzz PREADY=1
+[16315000] SER_OUT = 1
+[16325000] SER_OUT = 1
+[16325000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=0 PWRITE=0 PADDR=65 PRDATA=zzzzzzzz PREADY=1
+[16335000] SER_OUT = 1
+[16335000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=1 PWRITE=0 PADDR=65 PRDATA=zzzzzzzz PREADY=1
+[16345000] SER_OUT = 1
+[16345000] APB READ  ADDR=65 DATA=zzzzzzzz
+[16345000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=65 PRDATA=zzzzzzzz PREADY=1
+[16355000] SER_OUT = 1
+[16365000] SER_OUT = 1
+[16365000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=0 PWRITE=0 PADDR=66 PRDATA=zzzzzzzz PREADY=1
+[16375000] SER_OUT = 1
+[16375000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=1 PWRITE=0 PADDR=66 PRDATA=zzzzzzzz PREADY=1
+[16385000] SER_OUT = 1
+[16385000] APB READ  ADDR=66 DATA=zzzzzzzz
+[16385000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=66 PRDATA=zzzzzzzz PREADY=1
+[16395000] SER_OUT = 1
+[16405000] SER_OUT = 1
+[16405000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16415000] SER_OUT = 1
+[16415000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=1 PENABLE=1 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16425000] SER_OUT = 1
+[16425000] APB READ  ADDR=67 DATA=zzzzzzzz
+[16425000] SHIFT_EN=0 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16435000] SER_OUT = 1
+
+SHA256 Digest
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+
+======================================
+RSA TEST
+======================================
+[16435000] Shifting 00000000
+[16445000] SER_OUT = 1
+[16445000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16455000] SER_OUT = 1
+[16465000] SER_OUT = 1
+[16475000] SER_OUT = 1
+[16485000] SER_OUT = 1
+[16485000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16495000] SER_OUT = 0
+[16505000] SER_OUT = 0
+[16505000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16515000] SER_OUT = 1
+[16515000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16525000] SER_OUT = 0
+[16535000] SER_OUT = 0
+[16545000] SER_OUT = 0
+[16555000] SER_OUT = 0
+[16565000] SER_OUT = 0
+[16575000] SER_OUT = 0
+[16585000] SER_OUT = 0
+[16595000] SER_OUT = 0
+[16605000] SER_OUT = 0
+[16615000] SER_OUT = 0
+[16625000] SER_OUT = 0
+[16635000] SER_OUT = 0
+[16635000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16645000] SER_OUT = 1
+[16645000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16655000] SER_OUT = 0
+[16655000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16665000] SER_OUT = 1
+[16665000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16675000] SER_OUT = 0
+[16675000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16685000] SER_OUT = 1
+[16695000] SER_OUT = 1
+[16695000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16705000] SER_OUT = 0
+[16705000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16715000] SER_OUT = 1
+[16715000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16725000] SER_OUT = 0
+[16725000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16735000] SER_OUT = 1
+[16745000] SER_OUT = 1
+[16745000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16755000] SER_OUT = 0
+[16755000] SHIFT_EN=1 SER_DATA=0 SER_OUT=1 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16765000] SER_OUT = 1
+[16765000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=67 PRDATA=zzzzzzzz PREADY=1
+[16795000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=d0 PRDATA=zzzzzzzz PREADY=1
+[16805000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=d0 PRDATA=zzzzzzzz PREADY=1
+[16815000] Shifting 00000000
+[16815000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d0 PRDATA=zzzzzzzz PREADY=1
+[16825000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d0 PRDATA=zzzzzzzz PREADY=1
+[17145000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d0 PRDATA=zzzzzzzz PREADY=1
+[17175000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=c0 PRDATA=zzzzzzzz PREADY=1
+[17185000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=c0 PRDATA=zzzzzzzz PREADY=1
+[17195000] Shifting 00000000
+[17195000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c0 PRDATA=zzzzzzzz PREADY=1
+[17205000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c0 PRDATA=zzzzzzzz PREADY=1
+[17525000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c0 PRDATA=zzzzzzzz PREADY=1
+[17555000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=b0 PRDATA=zzzzzzzz PREADY=1
+[17565000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=b0 PRDATA=zzzzzzzz PREADY=1
+[17575000] Shifting 00000003
+[17575000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b0 PRDATA=zzzzzzzz PREADY=1
+[17585000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b0 PRDATA=zzzzzzzz PREADY=1
+[17885000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b0 PRDATA=zzzzzzzz PREADY=1
+[17905000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b0 PRDATA=zzzzzzzz PREADY=1
+[17935000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=d1 PRDATA=zzzzzzzz PREADY=1
+[17945000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=d1 PRDATA=zzzzzzzz PREADY=1
+[17955000] Shifting 00000007
+[17955000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d1 PRDATA=zzzzzzzz PREADY=1
+[17965000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d1 PRDATA=zzzzzzzz PREADY=1
+[18255000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d1 PRDATA=zzzzzzzz PREADY=1
+[18285000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=d1 PRDATA=zzzzzzzz PREADY=1
+[18315000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=c1 PRDATA=zzzzzzzz PREADY=1
+[18325000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=c1 PRDATA=zzzzzzzz PREADY=1
+[18335000] Shifting 00000001
+[18335000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c1 PRDATA=zzzzzzzz PREADY=1
+[18345000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c1 PRDATA=zzzzzzzz PREADY=1
+[18655000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c1 PRDATA=zzzzzzzz PREADY=1
+[18665000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=c1 PRDATA=zzzzzzzz PREADY=1
+[18695000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[18705000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[18715000] Shifting 0000000b
+[18715000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[18725000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[19005000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[19015000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[19025000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[19045000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a1 PRDATA=zzzzzzzz PREADY=1
+[19075000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=b1 PRDATA=zzzzzzzz PREADY=1
+[19085000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=b1 PRDATA=zzzzzzzz PREADY=1
+[19095000] Shifting 00000001
+[19095000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b1 PRDATA=zzzzzzzz PREADY=1
+[19105000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b1 PRDATA=zzzzzzzz PREADY=1
+[19415000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b1 PRDATA=zzzzzzzz PREADY=1
+[19425000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=b1 PRDATA=zzzzzzzz PREADY=1
+[19455000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=a0 PRDATA=zzzzzzzz PREADY=1
+[19465000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=a0 PRDATA=zzzzzzzz PREADY=1
+[19475000] Shifting 00000001
+[19475000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a0 PRDATA=zzzzzzzz PREADY=1
+[19485000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a0 PRDATA=zzzzzzzz PREADY=1
+[19795000] SHIFT_EN=1 SER_DATA=1 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a0 PRDATA=zzzzzzzz PREADY=1
+[19805000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=a0 PRDATA=zzzzzzzz PREADY=1
+[19835000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=88 PRDATA=zzzzzzzz PREADY=1
+[19845000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=88 PRDATA=zzzzzzzz PREADY=1
+
+Polling RSA STATUS...
+[19855000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=88 PRDATA=zzzzzzzz PREADY=1
+[19865000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=89 PRDATA=zzzzzzzz PREADY=1
+[19875000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=89 PRDATA=zzzzzzzz PREADY=1
+[19885000] APB READ  ADDR=89 DATA=zzzzzzzz
+[19885000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=89 PRDATA=zzzzzzzz PREADY=1
+[19895000] SER_OUT = 0
+[19895000] STATUS = zzzzzzzz
+[19895000] Shifting 00000000
+[19905000] SER_OUT = 0
+[19905000] SHIFT_EN=1 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=89 PRDATA=zzzzzzzz PREADY=1
+[19915000] SER_OUT = 0
+[19925000] SER_OUT = 0
+[19935000] SER_OUT = 0
+[19945000] SER_OUT = 0
+[19955000] SER_OUT = 0
+[19965000] SER_OUT = 0
+[19975000] SER_OUT = 0
+[19985000] SER_OUT = 0
+[19995000] SER_OUT = 0
+[20005000] SER_OUT = 0
+[20015000] SER_OUT = 0
+[20025000] SER_OUT = 0
+[20035000] SER_OUT = 0
+[20045000] SER_OUT = 0
+[20055000] SER_OUT = 0
+[20065000] SER_OUT = 0
+[20075000] SER_OUT = 0
+[20085000] SER_OUT = 0
+[20095000] SER_OUT = 0
+[20105000] SER_OUT = 0
+[20115000] SER_OUT = 0
+[20125000] SER_OUT = 0
+[20135000] SER_OUT = 0
+[20145000] SER_OUT = 0
+[20155000] SER_OUT = 0
+[20165000] SER_OUT = 0
+[20175000] SER_OUT = 0
+[20185000] SER_OUT = 0
+[20195000] SER_OUT = 0
+[20205000] SER_OUT = 0
+[20215000] SER_OUT = 0
+[20225000] SER_OUT = 0
+[20225000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=89 PRDATA=zzzzzzzz PREADY=1
+[20255000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=1 PADDR=e0 PRDATA=zzzzzzzz PREADY=1
+[20265000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=1 PADDR=e0 PRDATA=zzzzzzzz PREADY=1
+
+======================================
+RSA RESULT
+======================================
+[20275000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=0 PENABLE=0 PWRITE=0 PADDR=e0 PRDATA=zzzzzzzz PREADY=1
+[20285000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=0 PWRITE=0 PADDR=e1 PRDATA=zzzzzzzz PREADY=1
+[20295000] SHIFT_EN=0 SER_DATA=0 SER_OUT=0 PSEL=1 PENABLE=1 PWRITE=0 PADDR=e1 PRDATA=zzzzzzzz PREADY=1
+[20305000] APB READ  ADDR=e1 DATA=zzzzzzzz
+[20305000] SHIFT_EN=0 SER_DATA=0 SER_OUT=x PSEL=0 PENABLE=0 PWRITE=0 PADDR=e1 PRDATA=zzzzzzzz PREADY=1
+[20315000] SER_OUT = x
+
+RSA RESULT = zzzzzzzz
+******** RSA FAIL ********
+[20325000] SER_OUT = x
+[20335000] SER_OUT = x
+[20345000] SER_OUT = x
+[20355000] SER_OUT = x
+[20365000] SER_OUT = x
+[20375000] SER_OUT = x
+[20385000] SER_OUT = x
+[20395000] SER_OUT = x
+[20405000] SER_OUT = x
+Simulation complete via $finish(1) at time 20415 NS + 0
+../Crypto_Accelerator_Pad_Synthesis/tb/top/tb_crypto_synth_top.v:402 $finish;
+xcelium> run
+xmsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
+xcelium> run
+xmsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	20.09-s012: Exiting on Jul 24, 2026 at 12:08:44 IST  (total: 00:15:53)

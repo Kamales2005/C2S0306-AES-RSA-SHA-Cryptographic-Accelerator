@@ -1,0 +1,37 @@
+﻿# ============================================================
+# C2S0306 ASIC Project - Generated Files
+# ============================================================
+
+# Cadence / Innovus generated databases
+*.enc
+*.enc.dat
+*.enc.dat.*
+*.db
+*.oa
+*.cdslck
+.cadence/
+
+# Xcelium generated simulation databases
+xcelium.d/
+*.shm/
+waves.shm/
+
+# SimVision
+.simvision/
+
+# Temporary / generated files
+*.tmp
+*.bak
+*.swp
+*.logv.tmp
+
+# OS / editor files
+Thumbs.db
+.DS_Store
+
+# Local Git / tool files
+*.history
+
+# Keep project logs explicitly tracked where useful
+!gls/xrun.history
+!post_gls/xrun.history

@@ -1,0 +1,537 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Tue Jul 28 15:22:59 2026
+Host:		c2sgpr065.Cambridge.edu.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (20cores*80cpus*Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz 36608KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading PVS 20.11 fill procedures
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+rc_best rc_worst
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'apc3d01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03ed' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b21eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b25eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3d00' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Loading view definition file from /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.02min, real=0.03min, mem=22.3M, fe_cpu=0.30min, fe_real=1.57min, fe_mem=816.9M) ***
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'or04d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'or04d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'an02d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'an02d1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'nd02da' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'nd02da' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'dl03d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'dl03d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'invtd7' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'invtd7' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'slnht2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'slnht2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'nr03d7' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'nr03d7' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPTS-282):	Cell 'pt3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t02u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t02d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t01u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t01d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3t01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3o03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3o02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pt3o01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t05u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t05d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t05' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t04u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t04d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t04' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'pc3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+**WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading preference file /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+**WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+**WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading place ...
+**WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+**WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+'set_default_switching_activity' finished successfully.
+max_delay min_delay
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+rc_best rc_worst
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'C2S0306' of instances=238355 and nets=113105 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design C2S0306.
+RC Extraction called in multi-corner(2) mode.
+**WARN: (IMPEXT-6166):	Capacitance table file(s) without the EXTENDED section is being used for RC extraction. This is not recommended because it results in lower accuracy for clock nets in preRoute extraction and for all nets in postRoute extraction using -effortLevel low. Regenerate capacitance table file(s) using the generateCapTbl command.
+Type 'man IMPEXT-6166' for more detail.
+Process corner(s) are loaded.
+ Corner: rc_worst
+ Corner: rc_best
+extractDetailRC Option : -outfile /tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d  -basic
+RC Mode: PostRoute -effortLevel low [Basic CapTable, RC Table Resistances]
+      RC Corner Indexes            0       1   
+Capacitance Scaling Factor   : 1.00000 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 1.00000 
+Resistance Scaling Factor    : 1.00000 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 1.00000 
+Clock Res. Scaling Factor    : 1.00000 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.4  MEM= 2496.4M)
+Extracted 10.0001% (CPU Time= 0:00:03.4  MEM= 2645.4M)
+Extracted 20.0001% (CPU Time= 0:00:04.3  MEM= 2699.4M)
+Extracted 30.0001% (CPU Time= 0:00:05.8  MEM= 2727.4M)
+Extracted 40.0001% (CPU Time= 0:00:07.4  MEM= 2743.4M)
+Extracted 50.0001% (CPU Time= 0:00:08.6  MEM= 2759.4M)
+Extracted 60.0001% (CPU Time= 0:00:10.8  MEM= 2770.4M)
+Extracted 70.0001% (CPU Time= 0:00:11.9  MEM= 2777.4M)
+Extracted 80.0001% (CPU Time= 0:00:14.4  MEM= 2787.4M)
+Extracted 90.0001% (CPU Time= 0:00:15.7  MEM= 2796.4M)
+Extracted 100% (CPU Time= 0:00:18.2  MEM= 2807.4M)
+Number of Extracted Resistors     : 3195821
+Number of Extracted Ground Cap.   : 3241179
+Number of Extracted Coupling Cap. : 8148348
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: rc_worst
+ Corner: rc_best
+Checking LVS Completed (CPU Time= 0:00:00.4  MEM= 2791.4M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:23.0  Real Time: 0:00:21.0  MEM: 2791.410M)
+<CMD> rcOut -spef C2S0306.spef -rc_corner rc_best
+RC Out has the following PVT Info:
+   RC:rc_best, Operating temperature -40 C
+Dumping Spef file.....
+Printing D_NET...
+RC Out from RCDB Completed (CPU Time= 0:00:15.4  MEM= 2791.4M)
+<CMD> getMultiCpuUsage -localCpu
+<CMD> get_verify_drc_mode -disable_rules -quiet
+<CMD> get_verify_drc_mode -quiet -area
+<CMD> get_verify_drc_mode -quiet -layer_range
+<CMD> get_verify_drc_mode -check_ndr_spacing -quiet
+<CMD> get_verify_drc_mode -check_only -quiet
+<CMD> get_verify_drc_mode -check_same_via_cell -quiet
+<CMD> get_verify_drc_mode -exclude_pg_net -quiet
+<CMD> get_verify_drc_mode -ignore_trial_route -quiet
+<CMD> get_verify_drc_mode -max_wrong_way_halo -quiet
+<CMD> get_verify_drc_mode -use_min_spacing_on_block_obs -quiet
+<CMD> get_verify_drc_mode -limit -quiet
+<CMD> set_verify_drc_mode -disable_rules {} -check_ndr_spacing auto -check_only default -check_same_via_cell false -exclude_pg_net false -ignore_trial_route false -ignore_cell_blockage false -use_min_spacing_on_block_obs auto -report C2S0306.drc.rpt -limit 1000
+<CMD> verify_drc
+#-check_ndr_spacing auto                 # enums={true false auto}, default=auto,  user setting
+#-report C2S0306.drc.rpt                 # string, default="", user setting
+ *** Starting Verify DRC (MEM: 2791.4) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+
+  Verification Complete : 0 Viols.
+
+ *** End Verify DRC (CPU: 0:00:30.4  ELAPSED TIME: 30.00  MEM: 65.0M) ***
+
+<CMD> set_verify_drc_mode -area {0 0 0 0}
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Tue Jul 28 15:27:36 2026
+
+Design Name: C2S0306
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2940.0000, 2940.0000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net VDD_CORE: has an unconnected terminal, has special routes with opens.
+Net VSS_CORE: has an unconnected terminal, has special routes with opens.
+Net VDDO_CORE: no routing.
+Net VSSO_CORE: no routing.
+**** 15:27:38 **** Processed 5000 nets.
+**** 15:27:38 **** Processed 10000 nets.
+**** 15:27:38 **** Processed 15000 nets.
+**** 15:27:39 **** Processed 20000 nets.
+**** 15:27:39 **** Processed 25000 nets.
+**** 15:27:39 **** Processed 30000 nets.
+**** 15:27:39 **** Processed 35000 nets.
+**** 15:27:39 **** Processed 40000 nets.
+**** 15:27:40 **** Processed 45000 nets.
+**** 15:27:40 **** Processed 50000 nets.
+**** 15:27:40 **** Processed 55000 nets.
+**** 15:27:40 **** Processed 60000 nets.
+**** 15:27:40 **** Processed 65000 nets.
+**** 15:27:41 **** Processed 70000 nets.
+**** 15:27:41 **** Processed 75000 nets.
+**** 15:27:41 **** Processed 80000 nets.
+**** 15:27:42 **** Processed 85000 nets.
+**** 15:27:42 **** Processed 90000 nets.
+**** 15:27:42 **** Processed 95000 nets.
+**** 15:27:42 **** Processed 100000 nets.
+**** 15:27:42 **** Processed 105000 nets.
+**** 15:27:43 **** Processed 110000 nets.
+
+Begin Summary 
+    2 Problem(s) (IMPVFC-98): Net has no global routing and no special routing.
+    64 Problem(s) (IMPVFC-96): Terminal(s) are not connected.
+    2 Problem(s) (IMPVFC-200): Special Wires: Pieces of the net are not connected together.
+    68 total info(s) created.
+End Summary
+
+End Time: Tue Jul 28 15:27:43 2026
+Time Elapsed: 0:00:07.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 68 Viols.  0 Wrngs.
+  (CPU Time: 0:00:06.8  MEM: 131.484M)
+
+<CMD> checkDesign -io -netlist -physicalLibrary -powerGround -tieHilo -timingLibrary -spef -floorplan -place -outdir checkDesign
+Creating directory checkDesign.
+**WARN: (IMPREPO-205):	There are 22 Cells with missing PG PIN.
+Estimated cell power/ground rail width = 0.700 um
+Begin checking placement ... (start mem=2780.5M, init mem=2802.6M)
+*info: Recommended don't use cell = 0           
+*info: Placed = 238051         (Fixed = 205)
+*info: Unplaced = 0           
+Placement Density:100.00%(4795574/4795574)
+Placement Density (including fixed std cells):100.00%(4795574/4795574)
+Finished checkPlace (total: cpu=0:00:03.3, real=0:00:03.0; vio checks: cpu=0:00:02.5, real=0:00:03.0; mem=2802.6M)
+############################################################################
+# Innovus Netlist Design Rule Check
+# Tue Jul 28 15:28:22 2026
+
+############################################################################
+Design: C2S0306
+
+------ Design Summary:
+Total Standard Cell Number   (cells) : 238051
+Total Block Cell Number      (cells) : 0
+Total I/O Pad Cell Number    (cells) : 304
+Total Standard Cell Area     ( um^2) : 4795574.34
+Total Block Cell Area        ( um^2) : 0.00
+Total I/O Pad Cell Area      ( um^2) : 2690000.00
+
+------ Design Statistics:
+
+Number of Instances            : 238355
+Number of Non-uniquified Insts : 238329
+Number of Nets                 : 113105
+Average number of Pins per Net : 3.47
+Maximum number of Pins in Net  : 101
+
+------ I/O Port summary
+
+Number of Primary I/O Ports    : 19
+Number of Input Ports          : 15
+Number of Output Ports         : 4
+Number of Bidirectional Ports  : 0
+Number of Power/Ground Ports   : 0
+Number of Floating Ports                     *: 0
+Number of Ports Connected to Multiple Pads   *: 0
+Number of Ports Connected to Core Instances   : 0
+
+------ Design Rule Checking:
+
+Number of Output Pins connect to Power/Ground *: 0
+Number of Insts with Input Pins tied together ?: 3166
+Number of TieHi/Lo term nets not connected to instance's PG terms ?: 0
+Number of Input/InOut Floating Pins            : 0
+Number of Output Floating Pins                 : 0
+Number of Output Term Marked TieHi/Lo         *: 0
+
+**WARN: (IMPREPO-216):	There are 3166 Instances with input pins tied together.
+Number of nets with tri-state drivers          : 0
+Number of nets with parallel drivers           : 0
+Number of nets with multiple drivers           : 0
+Number of nets with no driver (No FanIn)       : 0
+Number of Output Floating nets (No FanOut)     : 955
+Number of High Fanout nets (>50)               : 1052
+**WARN: (IMPREPO-227):	There are 1052 High Fanout nets (>50).
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+**WARN: (EMS-27):	Message (IMPREPO-231) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+# Number of cells of input netlist marked dont_use = 594.
+
+Checking routing tracks.....
+Checking other grids.....
+Checking routing blockage.....
+Checking components.....
+Checking constraints (guide/region/fence).....
+Checking groups.....
+Checking Ptn Core Box.....
+
+Checking Preroutes.....
+No. of regular pre-routes not on tracks : 0 
+ Design check done.
+Report saved in file checkDesign/C2S0306.main.htm.ascii
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPREPO-227          1  There are %d High Fanout nets (>50).     
+WARNING   IMPREPO-231        594  Input netlist has a cell '%s' which is m...
+WARNING   IMPREPO-205          1  There are %d Cells with missing PG PIN.  
+WARNING   IMPREPO-216          1  There are %d Instances with input pins t...
+*** Message Summary: 597 warning(s), 0 error(s)
+
+<CMD> streamOut C2S0306.gds -mapFile streamout_innovous_6M1L.map -libName DesignLib -units 1000 -mode ALL
+Parse flat map file...
+Writing GDSII file ...
+	****** db unit per micron = 1000 ******
+	****** output gds2 file unit per micron = 1000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 53
+Statistics for GDS generated (version 3)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    40                                M1
+    50                             TOP_M
+    49                             TOP_V
+    48                                M5
+    44                                M3
+    42                                M2
+    46                                M4
+    43                                V3
+    47                                V5
+    41                                V2
+    45                                V4
+
+
+Stream Out Information Processed for GDS version 3:
+Units: 1000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                         238355
+
+Ports/Pins                             0
+
+Nets                             2039606
+    metal layer M1                117147
+    metal layer M2                906478
+    metal layer M3                529136
+    metal layer M4                286822
+    metal layer M5                168019
+    metal layer TOP_M              32004
+
+    Via Instances                1137053
+
+Special Nets                        1256
+    metal layer M1                  1190
+    metal layer M2                     6
+    metal layer M4                     4
+    metal layer M5                     8
+    metal layer TOP_M                 48
+
+    Via Instances                   4008
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                  19
+    metal layer M2                    19
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+######Streamout is finished!
+<CMD> saveNetlist -includePowerGround ./signoff/C2S0306_withpg.v
+** NOTE: Created directory path './signoff' for file './signoff/C2S0306_withpg.v'.
+Writing Netlist "./signoff/C2S0306_withpg.v" ...
+Pwr name (VDD_CORE).
+Pwr name (VDDO_CORE).
+Gnd name (VSS_CORE).
+Gnd name (VSSO_CORE).
+2 Pwr names and 2 Gnd names.
+<CMD> saveNetlist ./signoff/C2S0306_withoutpg.v
+Writing Netlist "./signoff/C2S0306_withoutpg.v" ...
+<CMD> write_sdf -version 2.1 -edges noedge -recrem split -setuphold merge_when_paired ./signoff/C2S0306.sdf
+**WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: C2S0306
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=2814.42)
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3037.09 CPU=0:01:55 REAL=0:01:54)
+End delay calculation (fullDC). (MEM=3010.01 CPU=0:01:59 REAL=0:01:59)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3010.0M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.6, REAL = 0:00:01.0, MEM = 3010.0M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=2917.22)
+Glitch Analysis: View worst_case -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View worst_case -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  0.4 percent of the nets selected for SI analysis
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  0.2 percent of the nets selected for SI analysis
+Glitch Analysis: View best_case -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View best_case -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  0.6 percent of the nets selected for SI analysis
+Total number of fetched objects 112148
+AAE_INFO-618: Total number of nets in the design is 113105,  0.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2964.49 CPU=0:00:03.4 REAL=0:00:03.0)
+End delay calculation (fullDC). (MEM=2964.49 CPU=0:00:03.8 REAL=0:00:03.0)
+<CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+<CMD> setLayerPreference violation -isVisible 1
+<CMD> violationBrowser -all -no_display_false -displayByLayer
+<CMD> deselectAll
+<CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+<CMD_INTERNAL> violationBrowserClose
+<CMD> zoomBox -1865.71500 1146.60000 4805.71400 4380.60000
+<CMD> zoomBox -1865.71500 1793.40000 4805.71400 5027.40000
+<CMD> fit
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> fit
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> deselectAll
+<CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+<CMD> deselectAll
+<CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+<CMD> setLayerPreference violation -isVisible 1
+<CMD> violationBrowser -all -no_display_false -displayByLayer
+<CMD_INTERNAL> violationBrowserClose
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Jul 28 16:04:02 2026
+  Total CPU time:     0:06:07
+  Total real time:    0:41:05
+  Peak memory (main): 2424.93MB
+
+
+*** Memory Usage v#1 (Current mem = 2943.473M, initial mem = 284.301M) ***
+*** Message Summary: 2188 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:06:04, real=0:41:03, mem=2943.5M) ---

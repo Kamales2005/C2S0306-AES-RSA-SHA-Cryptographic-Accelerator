@@ -1,0 +1,385 @@
+[07/27 12:22:05      0s] 
+[07/27 12:22:05      0s] Cadence Innovus(TM) Implementation System.
+[07/27 12:22:05      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[07/27 12:22:05      0s] 
+[07/27 12:22:05      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[07/27 12:22:05      0s] Options:	
+[07/27 12:22:05      0s] Date:		Mon Jul 27 12:22:05 2026
+[07/27 12:22:05      0s] Host:		c2sgpr065.Cambridge.edu.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (20cores*80cpus*Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz 36608KB)
+[07/27 12:22:05      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[07/27 12:22:05      0s] 
+[07/27 12:22:05      0s] License:
+[07/27 12:22:07      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[07/27 12:22:07      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[07/27 12:22:38     12s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/27 12:22:38     12s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[07/27 12:22:38     12s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/27 12:22:38     12s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[07/27 12:22:38     12s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[07/27 12:22:38     12s] @(#)CDS: CPE v20.14-s080
+[07/27 12:22:38     12s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/27 12:22:38     12s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[07/27 12:22:38     12s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[07/27 12:22:38     12s] @(#)CDS: RCDB 11.15.0
+[07/27 12:22:38     12s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[07/27 12:22:38     12s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_280016_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_KthDai.
+
+[07/27 12:22:38     12s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[07/27 12:22:44     13s] 
+[07/27 12:22:44     13s] **INFO:  MMMC transition support version v31-84 
+[07/27 12:22:44     13s] 
+[07/27 12:22:44     13s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[07/27 12:22:44     13s] <CMD> suppressMessage ENCEXT-2799
+[07/27 12:22:44     13s] <CMD> getVersion
+[07/27 12:22:44     14s] [INFO] Loading PVS 20.11 fill procedures
+[07/27 12:22:46     14s] <CMD> win
+[07/27 12:23:19     15s] <CMD> encMessage warning 0
+[07/27 12:23:19     15s] Suppress "**WARN ..." messages.
+[07/27 12:23:19     15s] <CMD> encMessage debug 0
+[07/27 12:23:19     15s] <CMD> encMessage info 0
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'apc3d01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03ed' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b21eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b25eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3d00' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/27 12:23:20     15s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[07/27 12:23:20     15s] To increase the message display limit, refer to the product command reference manual.
+[07/27 12:23:20     15s] Loading view definition file from /home/scl_shuttle_8_3/tapeout/pnr/floorplan/C2S0306_fp.enc.dat/viewDefinition.tcl
+[07/27 12:23:21     17s] *** End library_loading (cpu=0.03min, real=0.02min, mem=20.3M, fe_cpu=0.29min, fe_real=1.27min, fe_mem=807.2M) ***
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'or04d2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'or04d2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'an02d1' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'an02d1' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'nd02da' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'nd02da' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'dl03d2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'dl03d2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'invtd7' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'invtd7' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'slnht2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'slnht2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'nr03d7' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'nr03d7' is defined in LEF but not in the timing library.
+[07/27 12:23:21     17s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[07/27 12:23:21     17s] To increase the message display limit, refer to the product command reference manual.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t02u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t02d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t01u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t01d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3t01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3o03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3o02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pt3o01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t05u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t05d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t05' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t04u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t04d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t04' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (IMPTS-282):	Cell 'pc3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/27 12:23:22     17s] **WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+[07/27 12:23:22     17s] To increase the message display limit, refer to the product command reference manual.
+[07/27 12:23:22     17s] *** Netlist is unique.
+[07/27 12:23:23     18s] **WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/27 12:23:23     18s] **WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/27 12:23:23     18s] Loading preference file /home/scl_shuttle_8_3/tapeout/pnr/floorplan/C2S0306_fp.enc.dat/gui.pref.tcl ...
+[07/27 12:23:23     18s] 
+[07/27 12:23:23     18s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[07/27 12:23:23     18s] 
+[07/27 12:23:23     18s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[07/27 12:23:23     18s] 
+[07/27 12:23:23     18s] TimeStamp Deleting Cell Server Begin ...
+[07/27 12:23:23     18s] 
+[07/27 12:23:23     18s] TimeStamp Deleting Cell Server End ...
+[07/27 12:23:23     18s] 
+[07/27 12:23:23     18s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[07/27 12:23:23     18s] 
+[07/27 12:23:23     18s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[07/27 12:23:24     18s] **WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/27 12:23:24     18s] **WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/27 12:23:24     19s] Loading place ...
+[07/27 12:23:25     19s] **WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/floorplan/C2S0306_fp.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+[07/27 12:23:25     19s] **WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/floorplan/C2S0306_fp.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+[07/27 12:23:25     19s] {RT rc_worst 0 6 6 {5 0} 1}
+[07/27 12:23:25     20s] 
+[07/27 12:23:25     20s] TimeStamp Deleting Cell Server Begin ...
+[07/27 12:23:25     20s] 
+[07/27 12:23:25     20s] TimeStamp Deleting Cell Server End ...
+[07/27 12:23:25     20s] 
+[07/27 12:23:25     20s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[07/27 12:23:25     20s] 
+[07/27 12:23:25     20s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[07/27 12:23:25     20s] 
+[07/27 12:23:25     20s] TimeStamp Deleting Cell Server Begin ...
+[07/27 12:23:25     20s] 
+[07/27 12:23:25     20s] TimeStamp Deleting Cell Server End ...
+[07/27 12:23:25     20s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[07/27 12:23:25     20s] timing_enable_default_delay_arc
+[07/27 12:23:43     21s] <CMD> globalNetConnect VDD_CORE -type pgpin -pin VDD -all
+[07/27 12:23:43     21s] <CMD> globalNetConnect VSS_CORE -type pgpin -pin VSS -all
+[07/27 12:23:43     21s] <CMD> globalNetConnect VDDO_CORE -type pgpin -pin VDDO -all
+[07/27 12:23:43     21s] <CMD> globalNetConnect VSSO_CORE -type pgpin -pin VSSO -all
+[07/27 12:23:43     21s] <CMD> globalNetConnect VDD_CORE -type tiehi
+[07/27 12:23:43     21s] <CMD> globalNetConnect VSS_CORE -type tielo
+[07/27 12:23:50     21s] <CMD> zoomOut
+[07/27 12:23:52     21s] <CMD> fit
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingOffset 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingThreshold 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingJogDistance 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingLayers {}
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingOffset 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingThreshold 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingJogDistance 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingLayers {}
+[07/27 12:23:59     22s] <CMD> set sprCreateIeStripeWidth 10.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeStripeThreshold 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeStripeWidth 10.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeStripeThreshold 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingOffset 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingThreshold 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingJogDistance 1.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeRingLayers {}
+[07/27 12:23:59     22s] <CMD> set sprCreateIeStripeWidth 10.0
+[07/27 12:23:59     22s] <CMD> set sprCreateIeStripeThreshold 1.0
+[07/27 12:24:48     24s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer TOP_M -stacked_via_bottom_layer M1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[07/27 12:24:48     24s] The ring targets are set to core/block ring wires.
+[07/27 12:24:48     24s] addRing command will consider rows while creating rings.
+[07/27 12:24:48     24s] addRing command will disallow rings to go over rows.
+[07/27 12:24:48     24s] addRing command will ignore shorts while creating rings.
+[07/27 12:24:48     24s] <CMD> addRing -nets {VDD_CORE VSS_CORE} -type core_rings -follow core -layer {top M5 bottom M5 left TOP_M right TOP_M} -width {top 25 bottom 25 left 25 right 25} -spacing {top 10 bottom 10 left 10 right 10} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[07/27 12:24:48     24s] 
+[07/27 12:24:48     24s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1853.5M)
+[07/27 12:24:48     24s] Ring generation is complete.
+[07/27 12:24:48     24s] vias are now being generated.
+[07/27 12:24:48     24s] addRing created 8 wires.
+[07/27 12:24:48     24s] ViaGen created 8 vias, deleted 0 via to avoid violation.
+[07/27 12:24:48     24s] +--------+----------------+----------------+
+[07/27 12:24:48     24s] |  Layer |     Created    |     Deleted    |
+[07/27 12:24:48     24s] +--------+----------------+----------------+
+[07/27 12:24:48     24s] |   M5   |        4       |       NA       |
+[07/27 12:24:48     24s] |  TOP_V |        8       |        0       |
+[07/27 12:24:48     24s] |  TOP_M |        4       |       NA       |
+[07/27 12:24:48     24s] +--------+----------------+----------------+
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingOffset 1.0
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingThreshold 1.0
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingJogDistance 1.0
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingLayers {}
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingOffset 1.0
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingThreshold 1.0
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingJogDistance 1.0
+[07/27 12:24:57     24s] <CMD> set sprCreateIeRingLayers {}
+[07/27 12:24:57     25s] <CMD> set sprCreateIeStripeWidth 10.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeStripeThreshold 1.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeStripeWidth 10.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeStripeThreshold 1.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeRingOffset 1.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeRingThreshold 1.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeRingJogDistance 1.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeRingLayers {}
+[07/27 12:24:57     25s] <CMD> set sprCreateIeStripeWidth 10.0
+[07/27 12:24:57     25s] <CMD> set sprCreateIeStripeThreshold 1.0
+[07/27 12:25:30     26s] <CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer TOP_M -stacked_via_bottom_layer M1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+[07/27 12:25:30     26s] addStripe will allow jog to connect padcore ring and block ring.
+[07/27 12:25:30     26s] 
+[07/27 12:25:30     26s] Stripes will stop at the boundary of the specified area.
+[07/27 12:25:30     26s] When breaking rings, the power planner will consider the existence of blocks.
+[07/27 12:25:30     26s] Stripes will not extend to closest target.
+[07/27 12:25:30     26s] The power planner will set stripe antenna targets to none (no trimming allowed).
+[07/27 12:25:30     26s] Stripes will not be created over regions without power planning wires.
+[07/27 12:25:30     26s] The entire stripe set will break at the domain if one of the nets is not in the domain.
+[07/27 12:25:30     26s] addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+[07/27 12:25:30     26s] Offset for stripe breaking is set to 0.
+[07/27 12:25:30     26s] <CMD> addStripe -nets {VDD_CORE VSS_CORE} -layer TOP_M -direction vertical -width 10 -spacing 10 -set_to_set_distance 100 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit TOP_M -padcore_ring_bottom_layer_limit M1 -block_ring_top_layer_limit TOP_M -block_ring_bottom_layer_limit M1 -use_wire_group 0 -snap_wire_center_to_grid None
+[07/27 12:25:30     26s] 
+[07/27 12:25:30     26s] Initialize fgc environment(mem: 1864.2M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Starting stripe generation ...
+[07/27 12:25:30     26s] Non-Default Mode Option Settings :
+[07/27 12:25:30     26s]   NONE
+[07/27 12:25:30     26s] Completing 10% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 20% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 30% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 40% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 50% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 60% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 70% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 80% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 90% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Completing 100% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1864.2M)
+[07/27 12:25:30     26s] Stripe generation is complete.
+[07/27 12:25:30     26s] vias are now being generated.
+[07/27 12:25:30     26s] addStripe created 44 wires.
+[07/27 12:25:30     26s] ViaGen created 88 vias, deleted 0 via to avoid violation.
+[07/27 12:25:30     26s] +--------+----------------+----------------+
+[07/27 12:25:30     26s] |  Layer |     Created    |     Deleted    |
+[07/27 12:25:30     26s] +--------+----------------+----------------+
+[07/27 12:25:30     26s] |  TOP_V |       88       |        0       |
+[07/27 12:25:30     26s] |  TOP_M |       44       |       NA       |
+[07/27 12:25:30     26s] +--------+----------------+----------------+
+[07/27 12:25:57     28s] <CMD> setSrouteMode -viaConnectToShape { noshape }
+[07/27 12:25:57     28s] <CMD> sroute -connect { padPin corePin floatingStripe } -layerChangeRange { M1(1) TOP_M(6) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { M1(1) TOP_M(6) } -nets { VDD_CORE VSS_CORE } -allowLayerChange 1 -targetViaLayerRange { M1(1) TOP_M(6) }
+[07/27 12:25:57     28s] **WARN: (IMPSR-4058):	Sroute option: blockPinTarget should be used in conjunction with option: -connect blockPin. 
+[07/27 12:25:57     28s] *** Begin SPECIAL ROUTE on Mon Jul 27 12:25:57 2026 ***
+[07/27 12:25:57     28s] SPECIAL ROUTE ran on directory: /home/scl_shuttle_8_3/tapeout/pnr/power_planning
+[07/27 12:25:57     28s] SPECIAL ROUTE ran on machine: c2sgpr065.Cambridge.edu.in (Linux 3.10.0-1160.el7.x86_64 Xeon 3.80Ghz)
+[07/27 12:25:57     28s] 
+[07/27 12:25:57     28s] Begin option processing ...
+[07/27 12:25:57     28s] srouteConnectPowerBump set to false
+[07/27 12:25:57     28s] routeSelectNet set to "VDD_CORE VSS_CORE"
+[07/27 12:25:57     28s] routeSpecial set to true
+[07/27 12:25:57     28s] srouteBottomLayerLimit set to 1
+[07/27 12:25:57     28s] srouteBottomTargetLayerLimit set to 1
+[07/27 12:25:57     28s] srouteConnectBlockPin set to false
+[07/27 12:25:57     28s] srouteConnectConverterPin set to false
+[07/27 12:25:57     28s] srouteCrossoverViaBottomLayer set to 1
+[07/27 12:25:57     28s] srouteCrossoverViaTopLayer set to 6
+[07/27 12:25:57     28s] srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+[07/27 12:25:57     28s] srouteFollowCorePinEnd set to 3
+[07/27 12:25:57     28s] srouteFollowPadPin set to false
+[07/27 12:25:57     28s] srouteJogControl set to "preferWithChanges differentLayer"
+[07/27 12:25:57     28s] srouteNoViaOnWireShape set to "padring ring stripe blockring blockpin coverpin blockwire corewire followpin iowire"
+[07/27 12:25:57     28s] sroutePadPinAllPorts set to true
+[07/27 12:25:57     28s] sroutePreserveExistingRoutes set to true
+[07/27 12:25:57     28s] srouteRoutePowerBarPortOnBothDir set to true
+[07/27 12:25:57     28s] srouteStopBlockPin set to "nearestTarget"
+[07/27 12:25:57     28s] srouteTopLayerLimit set to 6
+[07/27 12:25:57     28s] srouteTopTargetLayerLimit set to 6
+[07/27 12:25:57     28s] End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2988.00 megs.
+[07/27 12:25:57     28s] 
+[07/27 12:25:57     28s] Reading DB technology information...
+[07/27 12:25:57     28s] Finished reading DB technology information.
+[07/27 12:25:57     28s] Reading floorplan and netlist information...
+[07/27 12:25:57     28s] Finished reading floorplan and netlist information.
+[07/27 12:25:57     28s] Read in 12 layers, 6 routing layers, 1 overlap layer
+[07/27 12:25:57     28s] Read in 553 macros, 150 used
+[07/27 12:25:57     28s] Read in 442 components
+[07/27 12:25:57     28s]   138 core components: 138 unplaced, 0 placed, 0 fixed
+[07/27 12:25:57     28s]   300 pad components: 0 unplaced, 264 placed, 36 fixed
+[07/27 12:25:57     28s]   4 other components: 0 unplaced, 0 placed, 4 fixed
+[07/27 12:25:57     28s] Read in 19 logical pins
+[07/27 12:25:57     28s] Read in 19 nets
+[07/27 12:25:57     28s] Read in 4 special nets, 2 routed
+[07/27 12:25:57     28s] Read in 420 terminals
+[07/27 12:25:57     28s] 2 nets selected.
+[07/27 12:25:57     28s] 
+[07/27 12:25:57     28s] Begin power routing ...
+[07/27 12:25:57     28s] CPU time for FollowPin 0 seconds
+[07/27 12:25:57     28s] CPU time for FollowPin 0 seconds
+[07/27 12:25:58     28s]   Number of IO ports routed: 8
+[07/27 12:25:58     28s]   Number of Stripe ports routed: 0
+[07/27 12:25:58     28s]   Number of Core ports routed: 784
+[07/27 12:25:58     28s]   Number of Followpin connections: 392
+[07/27 12:25:58     28s] End power routing: cpu: 0:00:00, real: 0:00:01, peak: 3049.00 megs.
+[07/27 12:25:58     28s] 
+[07/27 12:25:58     28s] 
+[07/27 12:25:58     28s] 
+[07/27 12:25:58     28s]  Begin updating DB with routing results ...
+[07/27 12:25:58     28s]  Updating DB with 6 via definition ...
+[07/27 12:25:58     28s] 
+sroute post-processing starts at Mon Jul 27 12:25:58 2026
+The viaGen is rebuilding shadow vias for net VSS_CORE.
+[07/27 12:25:58     28s] sroute post-processing ends at Mon Jul 27 12:25:58 2026
+sroute created 1208 wires.
+[07/27 12:25:58     28s] ViaGen created 3912 vias, deleted 0 via to avoid violation.
+[07/27 12:25:58     28s] +--------+----------------+----------------+
+[07/27 12:25:58     28s] |  Layer |     Created    |     Deleted    |
+[07/27 12:25:58     28s] +--------+----------------+----------------+
+[07/27 12:25:58     28s] |   M1   |      1194      |       NA       |
+[07/27 12:25:58     28s] |   V2   |       790      |        0       |
+[07/27 12:25:58     28s] |   M2   |        6       |       NA       |
+[07/27 12:25:58     28s] |   V3   |       782      |        0       |
+[07/27 12:25:58     28s] |   V4   |       782      |        0       |
+[07/27 12:25:58     28s] |   M4   |        4       |       NA       |
+[07/27 12:25:58     28s] |   V5   |       786      |        0       |
+[07/27 12:25:58     28s] |   M5   |        4       |       NA       |
+[07/27 12:25:58     28s] |  TOP_V |       772      |        0       |
+[07/27 12:25:58     28s] +--------+----------------+----------------+
+[07/27 12:26:23     30s] <CMD> saveDesign C2S0306_power.enc
+[07/27 12:26:23     30s] #% Begin save design ... (date=07/27 12:26:23, mem=1246.5M)
+[07/27 12:26:23     30s] % Begin Save ccopt configuration ... (date=07/27 12:26:23, mem=1249.5M)
+[07/27 12:26:23     30s] % End Save ccopt configuration ... (date=07/27 12:26:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=1250.4M, current mem=1250.4M)
+[07/27 12:26:23     30s] % Begin Save netlist data ... (date=07/27 12:26:23, mem=1250.4M)
+[07/27 12:26:23     30s] Writing Binary DB to C2S0306_power.enc.dat/C2S0306.v.bin in single-threaded mode...
+[07/27 12:26:23     30s] % End Save netlist data ... (date=07/27 12:26:23, total cpu=0:00:00.1, real=0:00:00.0, peak res=1250.5M, current mem=1250.5M)
+[07/27 12:26:23     30s] Saving symbol-table file ...
+[07/27 12:26:23     30s] Saving congestion map file C2S0306_power.enc.dat/C2S0306.route.congmap.gz ...
+[07/27 12:26:23     30s] % Begin Save AAE data ... (date=07/27 12:26:23, mem=1251.7M)
+[07/27 12:26:23     30s] Saving AAE Data ...
+[07/27 12:26:23     30s] % End Save AAE data ... (date=07/27 12:26:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=1251.7M, current mem=1251.7M)
+[07/27 12:26:24     30s] Saving preference file C2S0306_power.enc.dat/gui.pref.tcl ...
+[07/27 12:26:24     30s] Saving mode setting ...
+[07/27 12:26:24     30s] Saving global file ...
+[07/27 12:26:24     30s] % Begin Save floorplan data ... (date=07/27 12:26:24, mem=1255.1M)
+[07/27 12:26:24     30s] Saving floorplan file ...
+[07/27 12:26:24     30s] % End Save floorplan data ... (date=07/27 12:26:24, total cpu=0:00:00.1, real=0:00:00.0, peak res=1255.6M, current mem=1255.6M)
+[07/27 12:26:24     30s] Saving PG file C2S0306_power.enc.dat/C2S0306.pg.gz, version#2, (Created by Innovus v20.14-s095_1 on Mon Jul 27 12:26:24 2026)
+[07/27 12:26:24     30s] *** Completed savePGFile (cpu=0:00:00.1 real=0:00:00.0 mem=1889.9M) ***
+[07/27 12:26:24     30s] Saving Drc markers ...
+[07/27 12:26:24     30s] ... No Drc file written since there is no markers found.
+[07/27 12:26:24     30s] % Begin Save placement data ... (date=07/27 12:26:24, mem=1257.0M)
+[07/27 12:26:24     30s] ** Saving stdCellPlacement_binary (version# 2) ...
+[07/27 12:26:24     30s] Save Adaptive View Pruning View Names to Binary file
+[07/27 12:26:24     30s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1890.9M) ***
+[07/27 12:26:24     30s] % End Save placement data ... (date=07/27 12:26:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=1257.2M, current mem=1257.2M)
+[07/27 12:26:24     30s] % Begin Save routing data ... (date=07/27 12:26:24, mem=1257.2M)
+[07/27 12:26:24     30s] Saving route file ...
+[07/27 12:26:24     30s] *** Completed saveRoute (cpu=0:00:00.1 real=0:00:00.0 mem=1887.9M) ***
+[07/27 12:26:24     30s] % End Save routing data ... (date=07/27 12:26:24, total cpu=0:00:00.1, real=0:00:00.0, peak res=1257.2M, current mem=1256.6M)
+[07/27 12:26:24     30s] Saving property file C2S0306_power.enc.dat/C2S0306.prop
+[07/27 12:26:24     30s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1890.9M) ***
+[07/27 12:26:25     31s] % Begin Save power constraints data ... (date=07/27 12:26:24, mem=1257.1M)
+[07/27 12:26:25     31s] % End Save power constraints data ... (date=07/27 12:26:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1257.2M, current mem=1257.2M)
+[07/27 12:26:25     31s] Generated self-contained design C2S0306_power.enc.dat
+[07/27 12:26:25     31s] #% End save design ... (date=07/27 12:26:25, total cpu=0:00:01.3, real=0:00:02.0, peak res=1260.0M, current mem=1260.0M)
+[07/27 12:26:25     31s] *** Message Summary: 0 warning(s), 0 error(s)
+[07/27 12:26:25     31s] 
+[07/27 12:26:32     31s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Mon Jul 27 12:26:32 2026
+  Total CPU time:     0:00:33
+  Total real time:    0:04:29
+  Peak memory (main): 1300.95MB
+
+[07/27 12:26:32     31s] 
+[07/27 12:26:32     31s] *** Memory Usage v#1 (Current mem = 1934.547M, initial mem = 284.301M) ***
+[07/27 12:26:32     31s] 
+[07/27 12:26:32     31s] *** Summary of all messages that are not suppressed in this session:
+[07/27 12:26:32     31s] Severity  ID               Count  Summary                                  
+[07/27 12:26:32     31s] WARNING   IMPLF-200           49  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[07/27 12:26:32     31s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[07/27 12:26:32     31s] WARNING   IMPTS-282           92  Cell '%s' is not a level shifter cell bu...
+[07/27 12:26:32     31s] WARNING   IMPEXT-2662          2  Cap table %s does not have the EXTENDED ...
+[07/27 12:26:32     31s] WARNING   IMPVL-159         1436  Pin '%s' of cell '%s' is defined in LEF ...
+[07/27 12:26:32     31s] WARNING   IMPSR-4058           1  Sroute option: %s should be used in conj...
+[07/27 12:26:32     31s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[07/27 12:26:32     31s] *** Message Summary: 1585 warning(s), 0 error(s)
+[07/27 12:26:32     31s] 
+[07/27 12:26:32     31s] --- Ending "Innovus" (totcpu=0:00:31.6, real=0:04:27, mem=1934.5M) ---

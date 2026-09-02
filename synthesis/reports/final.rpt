@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/scl_shuttle_8_3/tapeout/Crypto_Accelerator_Pad_Synthesis
+QoS Summary for C2S0306
+==========================================================================================
+Metric                          generic         map             syn_opt         final          
+==========================================================================================
+Slack (ps):                    41,319           4,102           1,467           1,467
+  R2R (ps):                    41,319           4,102           1,467           1,467
+  I2R (ps):                    47,904          43,566          42,470          42,470
+  R2O (ps):                    49,752          48,862          48,862          48,862
+  I2O (ps):                  no_value        no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value        no_value
+TNS (ps):                           0               0               0               0
+  R2R (ps):                         0               0               0               0
+  I2R (ps):                         0               0               0               0
+  R2O (ps):                         0               0               0               0
+  I2O (ps):                  no_value        no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value        no_value
+Failing Paths:                      0               0               0               0
+Cell Area:                  4,099,455       2,668,116       2,663,343       2,663,343
+Total Cell Area:            4,099,455       2,668,116       2,663,343       2,663,343
+Leaf Instances:               143,526          78,299          77,865          77,865
+Total Instances:              143,526          78,299          77,865          77,865
+Utilization (%):                 0.00            0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value        no_value
+==========================================================================================
+CPU  Runtime (h:m:s):        00:00:49        00:53:37        00:32:29        00:30:05
+Real Runtime (h:m:s):        00:57:22        00:41:31        00:32:22        00:30:13
+CPU  Elapsed (h:m:s):        00:01:01        00:24:37        00:27:05        00:27:09
+Real Elapsed (h:m:s):        00:57:31        00:08:58        00:11:22        00:11:35
+Memory (MB):                  1879.47         1960.73         1925.73         1925.73
+==========================================================================================
+==========================================================================================
+Flow Settings:
+==========================================================================================
+Total Runtime (h:m:s): 00:11:41
+Total Memory (MB):     1925.73
+Executable Version:    20.11-s111_1
+==========================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

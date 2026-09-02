@@ -1,0 +1,976 @@
+[07/28 15:22:59      0s] 
+[07/28 15:22:59      0s] Cadence Innovus(TM) Implementation System.
+[07/28 15:22:59      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[07/28 15:22:59      0s] 
+[07/28 15:22:59      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[07/28 15:22:59      0s] Options:	
+[07/28 15:22:59      0s] Date:		Tue Jul 28 15:22:59 2026
+[07/28 15:22:59      0s] Host:		c2sgpr065.Cambridge.edu.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (20cores*80cpus*Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz 36608KB)
+[07/28 15:22:59      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[07/28 15:22:59      0s] 
+[07/28 15:22:59      0s] License:
+[07/28 15:23:00      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[07/28 15:23:00      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[07/28 15:23:27     12s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/28 15:23:27     12s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[07/28 15:23:27     12s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/28 15:23:27     12s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[07/28 15:23:27     12s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[07/28 15:23:27     12s] @(#)CDS: CPE v20.14-s080
+[07/28 15:23:27     12s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/28 15:23:27     12s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[07/28 15:23:27     12s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[07/28 15:23:27     12s] @(#)CDS: RCDB 11.15.0
+[07/28 15:23:27     12s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[07/28 15:23:27     12s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8.
+
+[07/28 15:23:27     12s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[07/28 15:23:33     13s] 
+[07/28 15:23:33     13s] **INFO:  MMMC transition support version v31-84 
+[07/28 15:23:33     13s] 
+[07/28 15:23:33     13s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[07/28 15:23:33     13s] <CMD> suppressMessage ENCEXT-2799
+[07/28 15:23:33     14s] <CMD> getVersion
+[07/28 15:23:33     14s] [INFO] Loading PVS 20.11 fill procedures
+[07/28 15:23:34     14s] <CMD> win
+[07/28 15:24:30     15s] <CMD> encMessage warning 0
+[07/28 15:24:30     15s] Suppress "**WARN ..." messages.
+[07/28 15:24:30     15s] <CMD> encMessage debug 0
+[07/28 15:24:30     15s] <CMD> encMessage info 0
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'apc3d01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03ed' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b21eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b25eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3d00' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 15:24:31     16s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[07/28 15:24:31     16s] To increase the message display limit, refer to the product command reference manual.
+[07/28 15:24:31     16s] Loading view definition file from /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/viewDefinition.tcl
+[07/28 15:24:33     17s] *** End library_loading (cpu=0.02min, real=0.03min, mem=22.3M, fe_cpu=0.30min, fe_real=1.57min, fe_mem=816.9M) ***
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'or04d2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'or04d2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'an02d1' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'an02d1' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'nd02da' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'nd02da' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'dl03d2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'dl03d2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'invtd7' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'invtd7' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'slnht2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'slnht2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'nr03d7' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'nr03d7' is defined in LEF but not in the timing library.
+[07/28 15:24:33     17s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[07/28 15:24:33     17s] To increase the message display limit, refer to the product command reference manual.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t02u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t02d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t01u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t01d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3t01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3o03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3o02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pt3o01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t05u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t05d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t05' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t04u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t04d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t04' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (IMPTS-282):	Cell 'pc3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 15:24:34     18s] **WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+[07/28 15:24:34     18s] To increase the message display limit, refer to the product command reference manual.
+[07/28 15:24:34     18s] *** Netlist is unique.
+[07/28 15:24:34     18s] **WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 15:24:34     18s] **WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 15:24:34     19s] Loading preference file /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/gui.pref.tcl ...
+[07/28 15:24:34     19s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[07/28 15:24:34     19s] **WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+[07/28 15:24:34     19s] **WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[07/28 15:24:35     19s] 
+[07/28 15:24:35     19s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[07/28 15:24:35     19s] 
+[07/28 15:24:35     19s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[07/28 15:24:35     19s] 
+[07/28 15:24:35     19s] TimeStamp Deleting Cell Server Begin ...
+[07/28 15:24:35     19s] 
+[07/28 15:24:35     19s] TimeStamp Deleting Cell Server End ...
+[07/28 15:24:35     19s] 
+[07/28 15:24:35     19s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[07/28 15:24:35     19s] 
+[07/28 15:24:35     19s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[07/28 15:24:35     19s] **WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 15:24:35     19s] **WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 15:24:36     20s] Loading place ...
+[07/28 15:24:40     23s] **WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+[07/28 15:24:40     23s] **WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route_filler.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+[07/28 15:24:40     23s] {RT rc_worst 0 6 6 {5 0} 1}
+[07/28 15:24:41     25s] **WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+[07/28 15:24:42     26s] 
+[07/28 15:24:42     26s] TimeStamp Deleting Cell Server Begin ...
+[07/28 15:24:42     26s] 
+[07/28 15:24:42     26s] TimeStamp Deleting Cell Server End ...
+[07/28 15:24:42     26s] 
+[07/28 15:24:42     26s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[07/28 15:24:42     26s] 
+[07/28 15:24:42     26s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[07/28 15:24:42     26s] 
+[07/28 15:24:42     26s] TimeStamp Deleting Cell Server Begin ...
+[07/28 15:24:42     26s] 
+[07/28 15:24:42     26s] TimeStamp Deleting Cell Server End ...
+[07/28 15:24:42     26s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[07/28 15:24:42     26s] timing_enable_default_delay_arc
+[07/28 15:25:47     29s] <CMD> reset_parasitics
+[07/28 15:25:47     29s] Performing RC Extraction ...
+[07/28 15:25:47     29s] <CMD> extractRC
+[07/28 15:25:47     29s] Extraction called for design 'C2S0306' of instances=238355 and nets=113105 using extraction engine 'postRoute' at effort level 'low' .
+[07/28 15:25:47     29s] **WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+[07/28 15:25:47     29s] Type 'man IMPEXT-3530' for more detail.
+[07/28 15:25:47     29s] PostRoute (effortLevel low) RC Extraction called for design C2S0306.
+[07/28 15:25:47     29s] RC Extraction called in multi-corner(2) mode.
+[07/28 15:25:47     29s] **WARN: (IMPEXT-6166):	Capacitance table file(s) without the EXTENDED section is being used for RC extraction. This is not recommended because it results in lower accuracy for clock nets in preRoute extraction and for all nets in postRoute extraction using -effortLevel low. Regenerate capacitance table file(s) using the generateCapTbl command.
+[07/28 15:25:47     29s] Type 'man IMPEXT-6166' for more detail.
+[07/28 15:25:47     29s] Process corner(s) are loaded.
+[07/28 15:25:47     29s]  Corner: rc_worst
+[07/28 15:25:47     29s]  Corner: rc_best
+[07/28 15:25:47     29s] extractDetailRC Option : -outfile /tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d  -basic
+[07/28 15:25:47     29s] RC Mode: PostRoute -effortLevel low [Basic CapTable, RC Table Resistances]
+[07/28 15:25:47     29s]       RC Corner Indexes            0       1   
+[07/28 15:25:47     29s] Capacitance Scaling Factor   : 1.00000 1.00000 
+[07/28 15:25:47     29s] Coupling Cap. Scaling Factor : 1.00000 1.00000 
+[07/28 15:25:47     29s] Resistance Scaling Factor    : 1.00000 1.00000 
+[07/28 15:25:47     29s] Clock Cap. Scaling Factor    : 1.00000 1.00000 
+[07/28 15:25:47     29s] Clock Res. Scaling Factor    : 1.00000 1.00000 
+[07/28 15:25:47     29s] Shrink Factor                : 1.00000
+[07/28 15:25:48     30s] LayerId::1 widthSet size::4
+[07/28 15:25:48     30s] LayerId::2 widthSet size::4
+[07/28 15:25:48     30s] LayerId::3 widthSet size::4
+[07/28 15:25:48     30s] LayerId::4 widthSet size::4
+[07/28 15:25:48     30s] LayerId::5 widthSet size::4
+[07/28 15:25:48     30s] LayerId::6 widthSet size::3
+[07/28 15:25:48     30s] eee: pegSigSF::1.070000
+[07/28 15:25:48     30s] Initializing multi-corner resistance tables ...
+[07/28 15:25:48     30s] eee: l::1 avDens::0.123237 usedTrk::21334.991064 availTrk::173121.427912 sigTrk::21334.991064
+[07/28 15:25:48     30s] eee: l::2 avDens::0.241371 usedTrk::34697.614531 availTrk::143752.256960 sigTrk::34697.614531
+[07/28 15:25:48     30s] eee: l::3 avDens::0.344325 usedTrk::50739.811541 availTrk::147360.232079 sigTrk::50739.811541
+[07/28 15:25:48     30s] eee: l::4 avDens::0.484595 usedTrk::68219.674710 availTrk::140776.716858 sigTrk::68219.674710
+[07/28 15:25:48     30s] eee: l::5 avDens::0.407805 usedTrk::61669.667385 availTrk::151223.348576 sigTrk::61669.667385
+[07/28 15:25:48     30s] eee: l::6 avDens::0.242544 usedTrk::21065.770677 availTrk::86853.571415 sigTrk::21065.770677
+[07/28 15:25:48     30s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.534369 ; uaWl: 1.000000 ; uaWlH: 0.633993 ; aWlH: 0.000000 ; Pmax: 0.926200 ; wcR: 0.555600 ; newSi: 0.078100 ; pMod: 77 ; 
+[07/28 15:25:49     31s] Checking LVS Completed (CPU Time= 0:00:00.4  MEM= 2496.4M)
+[07/28 15:25:50     31s] Creating parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d' for storing RC.
+[07/28 15:25:51     33s] Extracted 10.0001% (CPU Time= 0:00:03.4  MEM= 2645.4M)
+[07/28 15:25:52     34s] Extracted 20.0001% (CPU Time= 0:00:04.3  MEM= 2699.4M)
+[07/28 15:25:53     35s] Extracted 30.0001% (CPU Time= 0:00:05.8  MEM= 2727.4M)
+[07/28 15:25:55     37s] Extracted 40.0001% (CPU Time= 0:00:07.4  MEM= 2743.4M)
+[07/28 15:25:56     38s] Extracted 50.0001% (CPU Time= 0:00:08.6  MEM= 2759.4M)
+[07/28 15:25:58     40s] Extracted 60.0001% (CPU Time= 0:00:10.8  MEM= 2770.4M)
+[07/28 15:25:59     41s] Extracted 70.0001% (CPU Time= 0:00:11.9  MEM= 2777.4M)
+[07/28 15:26:02     44s] Extracted 80.0001% (CPU Time= 0:00:14.4  MEM= 2787.4M)
+[07/28 15:26:03     45s] Extracted 90.0001% (CPU Time= 0:00:15.7  MEM= 2796.4M)
+[07/28 15:26:05     48s] Extracted 100% (CPU Time= 0:00:18.2  MEM= 2807.4M)
+[07/28 15:26:06     48s] Number of Extracted Resistors     : 3195821
+[07/28 15:26:06     48s] Number of Extracted Ground Cap.   : 3241179
+[07/28 15:26:06     48s] Number of Extracted Coupling Cap. : 8148348
+[07/28 15:26:06     48s] Opening parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d' for reading (mem: 2791.410M)
+[07/28 15:26:06     48s] Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+[07/28 15:26:06     48s]  Corner: rc_worst
+[07/28 15:26:06     48s]  Corner: rc_best
+[07/28 15:26:06     48s] Checking LVS Completed (CPU Time= 0:00:00.4  MEM= 2791.4M)
+[07/28 15:26:06     48s] Creating parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb_Filter.rcdb.d' for storing RC.
+[07/28 15:26:07     50s] Closing parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d': 112146 access done (mem: 2791.410M)
+[07/28 15:26:08     50s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=2791.410M)
+[07/28 15:26:08     50s] Opening parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d' for reading (mem: 2791.410M)
+[07/28 15:26:08     50s] processing rcdb (/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d) for hinst (top) of cell (C2S0306);
+[07/28 15:26:08     52s] Closing parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d': 0 access done (mem: 2791.410M)
+[07/28 15:26:08     52s] Lumped Parasitic Loading Completed (total cpu=0:00:01.8, real=0:00:00.0, current mem=2791.410M)
+[07/28 15:26:08     52s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:23.0  Real Time: 0:00:21.0  MEM: 2791.410M)
+[07/28 15:26:08     52s] <CMD> rcOut -spef C2S0306.spef -rc_corner rc_best
+[07/28 15:26:08     52s] Opening parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d' for reading (mem: 2791.410M)
+[07/28 15:26:08     52s] RC Out has the following PVT Info:
+[07/28 15:26:08     52s]    RC:rc_best, Operating temperature -40 C
+[07/28 15:26:08     52s] Dumping Spef file.....
+[07/28 15:26:08     52s] Printing D_NET...
+[07/28 15:26:16     67s] RC Out from RCDB Completed (CPU Time= 0:00:15.4  MEM= 2791.4M)
+[07/28 15:26:16     67s] Closing parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d': 112146 access done (mem: 2791.410M)
+[07/28 15:26:33     68s] <CMD> getMultiCpuUsage -localCpu
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -disable_rules -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -quiet -area
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -quiet -layer_range
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -check_ndr_spacing -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -check_only -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -check_same_via_cell -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -exclude_pg_net -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -ignore_trial_route -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -max_wrong_way_halo -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -use_min_spacing_on_block_obs -quiet
+[07/28 15:26:33     68s] <CMD> get_verify_drc_mode -limit -quiet
+[07/28 15:26:42     69s] <CMD> set_verify_drc_mode -disable_rules {} -check_ndr_spacing auto -check_only default -check_same_via_cell false -exclude_pg_net false -ignore_trial_route false -ignore_cell_blockage false -use_min_spacing_on_block_obs auto -report C2S0306.drc.rpt -limit 1000
+[07/28 15:26:42     69s] <CMD> verify_drc
+[07/28 15:26:42     69s] #-check_ndr_spacing auto                 # enums={true false auto}, default=auto,  user setting
+[07/28 15:26:42     69s] #-report C2S0306.drc.rpt                 # string, default="", user setting
+[07/28 15:26:42     69s]  *** Starting Verify DRC (MEM: 2791.4) ***
+[07/28 15:26:42     69s] 
+[07/28 15:26:42     69s] #create default rule from bind_ndr_rule rule=0x7f61445da3d0 0x7f60bc1cafc0
+[07/28 15:26:43     69s] ### import design signature (2): route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0 del_dirty_area=0 cell=0 placement=0 pin_access=1 inst_pattern=1 halo=0
+[07/28 15:26:43     69s]   VERIFY DRC ...... Starting Verification
+[07/28 15:26:43     69s]   VERIFY DRC ...... Initializing
+[07/28 15:26:43     69s]   VERIFY DRC ...... Deleting Existing Violations
+[07/28 15:26:43     69s]   VERIFY DRC ...... Creating Sub-Areas
+[07/28 15:26:43     69s]   VERIFY DRC ...... Using new threading
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {0.000 0.000 246.560 246.560} 1 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {246.560 0.000 493.120 246.560} 2 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {493.120 0.000 739.680 246.560} 3 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {739.680 0.000 986.240 246.560} 4 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {986.240 0.000 1232.800 246.560} 5 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {1232.800 0.000 1479.360 246.560} 6 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {1479.360 0.000 1725.920 246.560} 7 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {1725.920 0.000 1972.480 246.560} 8 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {1972.480 0.000 2219.040 246.560} 9 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {2219.040 0.000 2465.600 246.560} 10 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 10 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {2465.600 0.000 2712.160 246.560} 11 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 11 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {2712.160 0.000 2940.000 246.560} 12 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 12 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {0.000 246.560 246.560 493.120} 13 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 13 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {246.560 246.560 493.120 493.120} 14 of 144
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area : 14 complete 0 Viols.
+[07/28 15:26:43     69s]   VERIFY DRC ...... Sub-Area: {493.120 246.560 739.680 493.120} 15 of 144
+[07/28 15:26:43     70s]   VERIFY DRC ...... Sub-Area : 15 complete 0 Viols.
+[07/28 15:26:43     70s]   VERIFY DRC ...... Sub-Area: {739.680 246.560 986.240 493.120} 16 of 144
+[07/28 15:26:43     70s]   VERIFY DRC ...... Sub-Area : 16 complete 0 Viols.
+[07/28 15:26:43     70s]   VERIFY DRC ...... Sub-Area: {986.240 246.560 1232.800 493.120} 17 of 144
+[07/28 15:26:43     70s]   VERIFY DRC ...... Sub-Area : 17 complete 0 Viols.
+[07/28 15:26:43     70s]   VERIFY DRC ...... Sub-Area: {1232.800 246.560 1479.360 493.120} 18 of 144
+[07/28 15:26:44     70s]   VERIFY DRC ...... Sub-Area : 18 complete 0 Viols.
+[07/28 15:26:44     70s]   VERIFY DRC ...... Sub-Area: {1479.360 246.560 1725.920 493.120} 19 of 144
+[07/28 15:26:44     70s]   VERIFY DRC ...... Sub-Area : 19 complete 0 Viols.
+[07/28 15:26:44     70s]   VERIFY DRC ...... Sub-Area: {1725.920 246.560 1972.480 493.120} 20 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 20 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {1972.480 246.560 2219.040 493.120} 21 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 21 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {2219.040 246.560 2465.600 493.120} 22 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 22 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {2465.600 246.560 2712.160 493.120} 23 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 23 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {2712.160 246.560 2940.000 493.120} 24 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 24 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {0.000 493.120 246.560 739.680} 25 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 25 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {246.560 493.120 493.120 739.680} 26 of 144
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area : 26 complete 0 Viols.
+[07/28 15:26:44     71s]   VERIFY DRC ...... Sub-Area: {493.120 493.120 739.680 739.680} 27 of 144
+[07/28 15:26:45     71s]   VERIFY DRC ...... Sub-Area : 27 complete 0 Viols.
+[07/28 15:26:45     71s]   VERIFY DRC ...... Sub-Area: {739.680 493.120 986.240 739.680} 28 of 144
+[07/28 15:26:45     72s]   VERIFY DRC ...... Sub-Area : 28 complete 0 Viols.
+[07/28 15:26:45     72s]   VERIFY DRC ...... Sub-Area: {986.240 493.120 1232.800 739.680} 29 of 144
+[07/28 15:26:46     72s]   VERIFY DRC ...... Sub-Area : 29 complete 0 Viols.
+[07/28 15:26:46     72s]   VERIFY DRC ...... Sub-Area: {1232.800 493.120 1479.360 739.680} 30 of 144
+[07/28 15:26:46     73s]   VERIFY DRC ...... Sub-Area : 30 complete 0 Viols.
+[07/28 15:26:46     73s]   VERIFY DRC ...... Sub-Area: {1479.360 493.120 1725.920 739.680} 31 of 144
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area : 31 complete 0 Viols.
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area: {1725.920 493.120 1972.480 739.680} 32 of 144
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area : 32 complete 0 Viols.
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area: {1972.480 493.120 2219.040 739.680} 33 of 144
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area : 33 complete 0 Viols.
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area: {2219.040 493.120 2465.600 739.680} 34 of 144
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area : 34 complete 0 Viols.
+[07/28 15:26:47     73s]   VERIFY DRC ...... Sub-Area: {2465.600 493.120 2712.160 739.680} 35 of 144
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area : 35 complete 0 Viols.
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area: {2712.160 493.120 2940.000 739.680} 36 of 144
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area : 36 complete 0 Viols.
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area: {0.000 739.680 246.560 986.240} 37 of 144
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area : 37 complete 0 Viols.
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area: {246.560 739.680 493.120 986.240} 38 of 144
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area : 38 complete 0 Viols.
+[07/28 15:26:47     74s]   VERIFY DRC ...... Sub-Area: {493.120 739.680 739.680 986.240} 39 of 144
+[07/28 15:26:48     74s]   VERIFY DRC ...... Sub-Area : 39 complete 0 Viols.
+[07/28 15:26:48     74s]   VERIFY DRC ...... Sub-Area: {739.680 739.680 986.240 986.240} 40 of 144
+[07/28 15:26:48     75s]   VERIFY DRC ...... Sub-Area : 40 complete 0 Viols.
+[07/28 15:26:48     75s]   VERIFY DRC ...... Sub-Area: {986.240 739.680 1232.800 986.240} 41 of 144
+[07/28 15:26:49     75s]   VERIFY DRC ...... Sub-Area : 41 complete 0 Viols.
+[07/28 15:26:49     75s]   VERIFY DRC ...... Sub-Area: {1232.800 739.680 1479.360 986.240} 42 of 144
+[07/28 15:26:49     76s]   VERIFY DRC ...... Sub-Area : 42 complete 0 Viols.
+[07/28 15:26:49     76s]   VERIFY DRC ...... Sub-Area: {1479.360 739.680 1725.920 986.240} 43 of 144
+[07/28 15:26:50     77s]   VERIFY DRC ...... Sub-Area : 43 complete 0 Viols.
+[07/28 15:26:50     77s]   VERIFY DRC ...... Sub-Area: {1725.920 739.680 1972.480 986.240} 44 of 144
+[07/28 15:26:50     77s]   VERIFY DRC ...... Sub-Area : 44 complete 0 Viols.
+[07/28 15:26:50     77s]   VERIFY DRC ...... Sub-Area: {1972.480 739.680 2219.040 986.240} 45 of 144
+[07/28 15:26:51     77s]   VERIFY DRC ...... Sub-Area : 45 complete 0 Viols.
+[07/28 15:26:51     77s]   VERIFY DRC ...... Sub-Area: {2219.040 739.680 2465.600 986.240} 46 of 144
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area : 46 complete 0 Viols.
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area: {2465.600 739.680 2712.160 986.240} 47 of 144
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area : 47 complete 0 Viols.
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area: {2712.160 739.680 2940.000 986.240} 48 of 144
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area : 48 complete 0 Viols.
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area: {0.000 986.240 246.560 1232.800} 49 of 144
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area : 49 complete 0 Viols.
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area: {246.560 986.240 493.120 1232.800} 50 of 144
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area : 50 complete 0 Viols.
+[07/28 15:26:51     78s]   VERIFY DRC ...... Sub-Area: {493.120 986.240 739.680 1232.800} 51 of 144
+[07/28 15:26:52     78s]   VERIFY DRC ...... Sub-Area : 51 complete 0 Viols.
+[07/28 15:26:52     78s]   VERIFY DRC ...... Sub-Area: {739.680 986.240 986.240 1232.800} 52 of 144
+[07/28 15:26:52     79s]   VERIFY DRC ...... Sub-Area : 52 complete 0 Viols.
+[07/28 15:26:52     79s]   VERIFY DRC ...... Sub-Area: {986.240 986.240 1232.800 1232.800} 53 of 144
+[07/28 15:26:53     79s]   VERIFY DRC ...... Sub-Area : 53 complete 0 Viols.
+[07/28 15:26:53     79s]   VERIFY DRC ...... Sub-Area: {1232.800 986.240 1479.360 1232.800} 54 of 144
+[07/28 15:26:53     80s]   VERIFY DRC ...... Sub-Area : 54 complete 0 Viols.
+[07/28 15:26:53     80s]   VERIFY DRC ...... Sub-Area: {1479.360 986.240 1725.920 1232.800} 55 of 144
+[07/28 15:26:54     81s]   VERIFY DRC ...... Sub-Area : 55 complete 0 Viols.
+[07/28 15:26:54     81s]   VERIFY DRC ...... Sub-Area: {1725.920 986.240 1972.480 1232.800} 56 of 144
+[07/28 15:26:54     81s]   VERIFY DRC ...... Sub-Area : 56 complete 0 Viols.
+[07/28 15:26:54     81s]   VERIFY DRC ...... Sub-Area: {1972.480 986.240 2219.040 1232.800} 57 of 144
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area : 57 complete 0 Viols.
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area: {2219.040 986.240 2465.600 1232.800} 58 of 144
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area : 58 complete 0 Viols.
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area: {2465.600 986.240 2712.160 1232.800} 59 of 144
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area : 59 complete 0 Viols.
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area: {2712.160 986.240 2940.000 1232.800} 60 of 144
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area : 60 complete 0 Viols.
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area: {0.000 1232.800 246.560 1479.360} 61 of 144
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area : 61 complete 0 Viols.
+[07/28 15:26:55     82s]   VERIFY DRC ...... Sub-Area: {246.560 1232.800 493.120 1479.360} 62 of 144
+[07/28 15:26:56     82s]   VERIFY DRC ...... Sub-Area : 62 complete 0 Viols.
+[07/28 15:26:56     82s]   VERIFY DRC ...... Sub-Area: {493.120 1232.800 739.680 1479.360} 63 of 144
+[07/28 15:26:56     83s]   VERIFY DRC ...... Sub-Area : 63 complete 0 Viols.
+[07/28 15:26:56     83s]   VERIFY DRC ...... Sub-Area: {739.680 1232.800 986.240 1479.360} 64 of 144
+[07/28 15:26:57     83s]   VERIFY DRC ...... Sub-Area : 64 complete 0 Viols.
+[07/28 15:26:57     83s]   VERIFY DRC ...... Sub-Area: {986.240 1232.800 1232.800 1479.360} 65 of 144
+[07/28 15:26:57     84s]   VERIFY DRC ...... Sub-Area : 65 complete 0 Viols.
+[07/28 15:26:57     84s]   VERIFY DRC ...... Sub-Area: {1232.800 1232.800 1479.360 1479.360} 66 of 144
+[07/28 15:26:58     84s]   VERIFY DRC ...... Sub-Area : 66 complete 0 Viols.
+[07/28 15:26:58     84s]   VERIFY DRC ...... Sub-Area: {1479.360 1232.800 1725.920 1479.360} 67 of 144
+[07/28 15:26:58     85s]   VERIFY DRC ...... Sub-Area : 67 complete 0 Viols.
+[07/28 15:26:58     85s]   VERIFY DRC ...... Sub-Area: {1725.920 1232.800 1972.480 1479.360} 68 of 144
+[07/28 15:26:59     85s]   VERIFY DRC ...... Sub-Area : 68 complete 0 Viols.
+[07/28 15:26:59     85s]   VERIFY DRC ...... Sub-Area: {1972.480 1232.800 2219.040 1479.360} 69 of 144
+[07/28 15:26:59     86s]   VERIFY DRC ...... Sub-Area : 69 complete 0 Viols.
+[07/28 15:26:59     86s]   VERIFY DRC ...... Sub-Area: {2219.040 1232.800 2465.600 1479.360} 70 of 144
+[07/28 15:26:59     86s]   VERIFY DRC ...... Sub-Area : 70 complete 0 Viols.
+[07/28 15:26:59     86s]   VERIFY DRC ...... Sub-Area: {2465.600 1232.800 2712.160 1479.360} 71 of 144
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area : 71 complete 0 Viols.
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area: {2712.160 1232.800 2940.000 1479.360} 72 of 144
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area : 72 complete 0 Viols.
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area: {0.000 1479.360 246.560 1725.920} 73 of 144
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area : 73 complete 0 Viols.
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area: {246.560 1479.360 493.120 1725.920} 74 of 144
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area : 74 complete 0 Viols.
+[07/28 15:27:00     86s]   VERIFY DRC ...... Sub-Area: {493.120 1479.360 739.680 1725.920} 75 of 144
+[07/28 15:27:00     87s]   VERIFY DRC ...... Sub-Area : 75 complete 0 Viols.
+[07/28 15:27:00     87s]   VERIFY DRC ...... Sub-Area: {739.680 1479.360 986.240 1725.920} 76 of 144
+[07/28 15:27:01     87s]   VERIFY DRC ...... Sub-Area : 76 complete 0 Viols.
+[07/28 15:27:01     87s]   VERIFY DRC ...... Sub-Area: {986.240 1479.360 1232.800 1725.920} 77 of 144
+[07/28 15:27:01     88s]   VERIFY DRC ...... Sub-Area : 77 complete 0 Viols.
+[07/28 15:27:01     88s]   VERIFY DRC ...... Sub-Area: {1232.800 1479.360 1479.360 1725.920} 78 of 144
+[07/28 15:27:02     88s]   VERIFY DRC ...... Sub-Area : 78 complete 0 Viols.
+[07/28 15:27:02     88s]   VERIFY DRC ...... Sub-Area: {1479.360 1479.360 1725.920 1725.920} 79 of 144
+[07/28 15:27:02     89s]   VERIFY DRC ...... Sub-Area : 79 complete 0 Viols.
+[07/28 15:27:02     89s]   VERIFY DRC ...... Sub-Area: {1725.920 1479.360 1972.480 1725.920} 80 of 144
+[07/28 15:27:03     89s]   VERIFY DRC ...... Sub-Area : 80 complete 0 Viols.
+[07/28 15:27:03     89s]   VERIFY DRC ...... Sub-Area: {1972.480 1479.360 2219.040 1725.920} 81 of 144
+[07/28 15:27:03     90s]   VERIFY DRC ...... Sub-Area : 81 complete 0 Viols.
+[07/28 15:27:03     90s]   VERIFY DRC ...... Sub-Area: {2219.040 1479.360 2465.600 1725.920} 82 of 144
+[07/28 15:27:03     90s]   VERIFY DRC ...... Sub-Area : 82 complete 0 Viols.
+[07/28 15:27:03     90s]   VERIFY DRC ...... Sub-Area: {2465.600 1479.360 2712.160 1725.920} 83 of 144
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area : 83 complete 0 Viols.
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area: {2712.160 1479.360 2940.000 1725.920} 84 of 144
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area : 84 complete 0 Viols.
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area: {0.000 1725.920 246.560 1972.480} 85 of 144
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area : 85 complete 0 Viols.
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area: {246.560 1725.920 493.120 1972.480} 86 of 144
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area : 86 complete 0 Viols.
+[07/28 15:27:04     90s]   VERIFY DRC ...... Sub-Area: {493.120 1725.920 739.680 1972.480} 87 of 144
+[07/28 15:27:04     91s]   VERIFY DRC ...... Sub-Area : 87 complete 0 Viols.
+[07/28 15:27:04     91s]   VERIFY DRC ...... Sub-Area: {739.680 1725.920 986.240 1972.480} 88 of 144
+[07/28 15:27:04     91s]   VERIFY DRC ...... Sub-Area : 88 complete 0 Viols.
+[07/28 15:27:04     91s]   VERIFY DRC ...... Sub-Area: {986.240 1725.920 1232.800 1972.480} 89 of 144
+[07/28 15:27:05     91s]   VERIFY DRC ...... Sub-Area : 89 complete 0 Viols.
+[07/28 15:27:05     91s]   VERIFY DRC ...... Sub-Area: {1232.800 1725.920 1479.360 1972.480} 90 of 144
+[07/28 15:27:05     92s]   VERIFY DRC ...... Sub-Area : 90 complete 0 Viols.
+[07/28 15:27:05     92s]   VERIFY DRC ...... Sub-Area: {1479.360 1725.920 1725.920 1972.480} 91 of 144
+[07/28 15:27:06     92s]   VERIFY DRC ...... Sub-Area : 91 complete 0 Viols.
+[07/28 15:27:06     92s]   VERIFY DRC ...... Sub-Area: {1725.920 1725.920 1972.480 1972.480} 92 of 144
+[07/28 15:27:06     93s]   VERIFY DRC ...... Sub-Area : 92 complete 0 Viols.
+[07/28 15:27:06     93s]   VERIFY DRC ...... Sub-Area: {1972.480 1725.920 2219.040 1972.480} 93 of 144
+[07/28 15:27:07     93s]   VERIFY DRC ...... Sub-Area : 93 complete 0 Viols.
+[07/28 15:27:07     93s]   VERIFY DRC ...... Sub-Area: {2219.040 1725.920 2465.600 1972.480} 94 of 144
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area : 94 complete 0 Viols.
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area: {2465.600 1725.920 2712.160 1972.480} 95 of 144
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area : 95 complete 0 Viols.
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area: {2712.160 1725.920 2940.000 1972.480} 96 of 144
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area : 96 complete 0 Viols.
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area: {0.000 1972.480 246.560 2219.040} 97 of 144
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area : 97 complete 0 Viols.
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area: {246.560 1972.480 493.120 2219.040} 98 of 144
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area : 98 complete 0 Viols.
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area: {493.120 1972.480 739.680 2219.040} 99 of 144
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area : 99 complete 0 Viols.
+[07/28 15:27:07     94s]   VERIFY DRC ...... Sub-Area: {739.680 1972.480 986.240 2219.040} 100 of 144
+[07/28 15:27:08     94s]   VERIFY DRC ...... Sub-Area : 100 complete 0 Viols.
+[07/28 15:27:08     94s]   VERIFY DRC ...... Sub-Area: {986.240 1972.480 1232.800 2219.040} 101 of 144
+[07/28 15:27:08     95s]   VERIFY DRC ...... Sub-Area : 101 complete 0 Viols.
+[07/28 15:27:08     95s]   VERIFY DRC ...... Sub-Area: {1232.800 1972.480 1479.360 2219.040} 102 of 144
+[07/28 15:27:08     95s]   VERIFY DRC ...... Sub-Area : 102 complete 0 Viols.
+[07/28 15:27:08     95s]   VERIFY DRC ...... Sub-Area: {1479.360 1972.480 1725.920 2219.040} 103 of 144
+[07/28 15:27:09     95s]   VERIFY DRC ...... Sub-Area : 103 complete 0 Viols.
+[07/28 15:27:09     95s]   VERIFY DRC ...... Sub-Area: {1725.920 1972.480 1972.480 2219.040} 104 of 144
+[07/28 15:27:09     96s]   VERIFY DRC ...... Sub-Area : 104 complete 0 Viols.
+[07/28 15:27:09     96s]   VERIFY DRC ...... Sub-Area: {1972.480 1972.480 2219.040 2219.040} 105 of 144
+[07/28 15:27:10     96s]   VERIFY DRC ...... Sub-Area : 105 complete 0 Viols.
+[07/28 15:27:10     96s]   VERIFY DRC ...... Sub-Area: {2219.040 1972.480 2465.600 2219.040} 106 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 106 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {2465.600 1972.480 2712.160 2219.040} 107 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 107 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {2712.160 1972.480 2940.000 2219.040} 108 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 108 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {0.000 2219.040 246.560 2465.600} 109 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 109 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {246.560 2219.040 493.120 2465.600} 110 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 110 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {493.120 2219.040 739.680 2465.600} 111 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 111 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {739.680 2219.040 986.240 2465.600} 112 of 144
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area : 112 complete 0 Viols.
+[07/28 15:27:10     97s]   VERIFY DRC ...... Sub-Area: {986.240 2219.040 1232.800 2465.600} 113 of 144
+[07/28 15:27:11     97s]   VERIFY DRC ...... Sub-Area : 113 complete 0 Viols.
+[07/28 15:27:11     97s]   VERIFY DRC ...... Sub-Area: {1232.800 2219.040 1479.360 2465.600} 114 of 144
+[07/28 15:27:11     98s]   VERIFY DRC ...... Sub-Area : 114 complete 0 Viols.
+[07/28 15:27:11     98s]   VERIFY DRC ...... Sub-Area: {1479.360 2219.040 1725.920 2465.600} 115 of 144
+[07/28 15:27:11     98s]   VERIFY DRC ...... Sub-Area : 115 complete 0 Viols.
+[07/28 15:27:11     98s]   VERIFY DRC ...... Sub-Area: {1725.920 2219.040 1972.480 2465.600} 116 of 144
+[07/28 15:27:12     98s]   VERIFY DRC ...... Sub-Area : 116 complete 0 Viols.
+[07/28 15:27:12     98s]   VERIFY DRC ...... Sub-Area: {1972.480 2219.040 2219.040 2465.600} 117 of 144
+[07/28 15:27:12     99s]   VERIFY DRC ...... Sub-Area : 117 complete 0 Viols.
+[07/28 15:27:12     99s]   VERIFY DRC ...... Sub-Area: {2219.040 2219.040 2465.600 2465.600} 118 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 118 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {2465.600 2219.040 2712.160 2465.600} 119 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 119 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {2712.160 2219.040 2940.000 2465.600} 120 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 120 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {0.000 2465.600 246.560 2712.160} 121 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 121 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {246.560 2465.600 493.120 2712.160} 122 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 122 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {493.120 2465.600 739.680 2712.160} 123 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 123 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {739.680 2465.600 986.240 2712.160} 124 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 124 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {986.240 2465.600 1232.800 2712.160} 125 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 125 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {1232.800 2465.600 1479.360 2712.160} 126 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 126 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {1479.360 2465.600 1725.920 2712.160} 127 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 127 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {1725.920 2465.600 1972.480 2712.160} 128 of 144
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area : 128 complete 0 Viols.
+[07/28 15:27:13     99s]   VERIFY DRC ...... Sub-Area: {1972.480 2465.600 2219.040 2712.160} 129 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 129 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {2219.040 2465.600 2465.600 2712.160} 130 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 130 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {2465.600 2465.600 2712.160 2712.160} 131 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 131 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {2712.160 2465.600 2940.000 2712.160} 132 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 132 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {0.000 2712.160 246.560 2940.000} 133 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 133 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {246.560 2712.160 493.120 2940.000} 134 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 134 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {493.120 2712.160 739.680 2940.000} 135 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 135 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {739.680 2712.160 986.240 2940.000} 136 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 136 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {986.240 2712.160 1232.800 2940.000} 137 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 137 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {1232.800 2712.160 1479.360 2940.000} 138 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 138 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {1479.360 2712.160 1725.920 2940.000} 139 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 139 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {1725.920 2712.160 1972.480 2940.000} 140 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 140 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {1972.480 2712.160 2219.040 2940.000} 141 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 141 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {2219.040 2712.160 2465.600 2940.000} 142 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 142 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {2465.600 2712.160 2712.160 2940.000} 143 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 143 complete 0 Viols.
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area: {2712.160 2712.160 2940.000 2940.000} 144 of 144
+[07/28 15:27:13    100s]   VERIFY DRC ...... Sub-Area : 144 complete 0 Viols.
+[07/28 15:27:13    100s] 
+[07/28 15:27:13    100s]   Verification Complete : 0 Viols.
+[07/28 15:27:13    100s] 
+[07/28 15:27:13    100s]  *** End Verify DRC (CPU: 0:00:30.4  ELAPSED TIME: 30.00  MEM: 65.0M) ***
+[07/28 15:27:13    100s] 
+[07/28 15:27:13    100s] <CMD> set_verify_drc_mode -area {0 0 0 0}
+[07/28 15:27:36    100s] <CMD> verifyConnectivity -type all -error 1000 -warning 50
+[07/28 15:27:36    100s] VERIFY_CONNECTIVITY use new engine.
+[07/28 15:27:36    100s] 
+[07/28 15:27:36    100s] ******** Start: VERIFY CONNECTIVITY ********
+[07/28 15:27:36    100s] Start Time: Tue Jul 28 15:27:36 2026
+[07/28 15:27:36    100s] 
+[07/28 15:27:36    100s] Design Name: C2S0306
+[07/28 15:27:36    100s] Database Units: 1000
+[07/28 15:27:36    100s] Design Boundary: (0.0000, 0.0000) (2940.0000, 2940.0000)
+[07/28 15:27:36    100s] Error Limit = 1000; Warning Limit = 50
+[07/28 15:27:36    100s] Check all nets
+[07/28 15:27:37    101s] Net VDD_CORE: has an unconnected terminal, has special routes with opens.
+[07/28 15:27:38    102s] Net VSS_CORE: has an unconnected terminal, has special routes with opens.
+[07/28 15:27:38    102s] Net VDDO_CORE: no routing.
+[07/28 15:27:38    102s] Net VSSO_CORE: no routing.
+[07/28 15:27:38    103s] **** 15:27:38 **** Processed 5000 nets.
+[07/28 15:27:38    103s] **** 15:27:38 **** Processed 10000 nets.
+[07/28 15:27:38    103s] **** 15:27:38 **** Processed 15000 nets.
+[07/28 15:27:39    103s] **** 15:27:39 **** Processed 20000 nets.
+[07/28 15:27:39    103s] **** 15:27:39 **** Processed 25000 nets.
+[07/28 15:27:39    104s] **** 15:27:39 **** Processed 30000 nets.
+[07/28 15:27:39    104s] **** 15:27:39 **** Processed 35000 nets.
+[07/28 15:27:39    104s] **** 15:27:39 **** Processed 40000 nets.
+[07/28 15:27:40    104s] **** 15:27:40 **** Processed 45000 nets.
+[07/28 15:27:40    104s] **** 15:27:40 **** Processed 50000 nets.
+[07/28 15:27:40    105s] **** 15:27:40 **** Processed 55000 nets.
+[07/28 15:27:40    105s] **** 15:27:40 **** Processed 60000 nets.
+[07/28 15:27:40    105s] **** 15:27:40 **** Processed 65000 nets.
+[07/28 15:27:41    105s] **** 15:27:41 **** Processed 70000 nets.
+[07/28 15:27:41    106s] **** 15:27:41 **** Processed 75000 nets.
+[07/28 15:27:41    106s] **** 15:27:41 **** Processed 80000 nets.
+[07/28 15:27:42    106s] **** 15:27:42 **** Processed 85000 nets.
+[07/28 15:27:42    107s] **** 15:27:42 **** Processed 90000 nets.
+[07/28 15:27:42    107s] **** 15:27:42 **** Processed 95000 nets.
+[07/28 15:27:42    107s] **** 15:27:42 **** Processed 100000 nets.
+[07/28 15:27:42    107s] **** 15:27:42 **** Processed 105000 nets.
+[07/28 15:27:43    107s] **** 15:27:43 **** Processed 110000 nets.
+[07/28 15:27:43    107s] 
+[07/28 15:27:43    107s] Begin Summary 
+[07/28 15:27:43    107s]     2 Problem(s) (IMPVFC-98): Net has no global routing and no special routing.
+[07/28 15:27:43    107s]     64 Problem(s) (IMPVFC-96): Terminal(s) are not connected.
+[07/28 15:27:43    107s]     2 Problem(s) (IMPVFC-200): Special Wires: Pieces of the net are not connected together.
+[07/28 15:27:43    107s]     68 total info(s) created.
+[07/28 15:27:43    107s] End Summary
+[07/28 15:27:43    107s] 
+[07/28 15:27:43    107s] End Time: Tue Jul 28 15:27:43 2026
+[07/28 15:27:43    107s] Time Elapsed: 0:00:07.0
+[07/28 15:27:43    107s] 
+[07/28 15:27:43    107s] ******** End: VERIFY CONNECTIVITY ********
+[07/28 15:27:43    107s]   Verification Complete : 68 Viols.  0 Wrngs.
+[07/28 15:27:43    107s]   (CPU Time: 0:00:06.8  MEM: 131.484M)
+[07/28 15:27:43    107s] 
+[07/28 15:28:19    109s] <CMD> checkDesign -io -netlist -physicalLibrary -powerGround -tieHilo -timingLibrary -spef -floorplan -place -outdir checkDesign
+[07/28 15:28:19    109s] Creating directory checkDesign.
+[07/28 15:28:19    109s] **WARN: (IMPREPO-205):	There are 22 Cells with missing PG PIN.
+[07/28 15:28:19    109s] OPERPROF: Starting checkPlace at level 1, MEM:2780.5M
+[07/28 15:28:19    109s] z: 2, totalTracks: 1
+[07/28 15:28:19    109s] z: 4, totalTracks: 1
+[07/28 15:28:19    109s] z: 6, totalTracks: 1
+[07/28 15:28:19    109s] # Building C2S0306 llgBox search-tree.
+[07/28 15:28:19    109s] OPERPROF:   Starting spInitSiteArr at level 2, MEM:2780.5M
+[07/28 15:28:19    109s] OPERPROF:     Starting spiInitFpSiteArr at level 3, MEM:2780.5M
+[07/28 15:28:19    109s] Core basic site is CoreSite
+[07/28 15:28:19    109s] OPERPROF:       Starting spiCheckSiteIfFastDPInitAvailable at level 4, MEM:2780.5M
+[07/28 15:28:19    109s] OPERPROF:       Finished spiCheckSiteIfFastDPInitAvailable at level 4, CPU:0.270, REAL:0.040, MEM:2796.5M
+[07/28 15:28:19    109s] Use non-trimmed site array because memory saving is not enough.
+[07/28 15:28:19    109s] SiteArray: non-trimmed site array dimensions = 391 x 3911
+[07/28 15:28:19    109s] SiteArray: use 6,406,144 bytes
+[07/28 15:28:19    109s] SiteArray: current memory after site array memory allocation 2802.6M
+[07/28 15:28:19    109s] SiteArray: FP blocked sites are writable
+[07/28 15:28:19    109s] Estimated cell power/ground rail width = 0.700 um
+[07/28 15:28:19    109s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[07/28 15:28:19    109s] OPERPROF:       Starting RoutingBlockageFromWireViaStBox at level 4, MEM:2802.6M
+[07/28 15:28:19    109s] OPERPROF:       Finished RoutingBlockageFromWireViaStBox at level 4, CPU:0.010, REAL:0.002, MEM:2802.6M
+[07/28 15:28:19    109s] OPERPROF:     Finished spiInitFpSiteArr at level 3, CPU:0.340, REAL:0.113, MEM:2802.6M
+[07/28 15:28:19    109s] OPERPROF:   Finished spInitSiteArr at level 2, CPU:0.360, REAL:0.130, MEM:2802.6M
+[07/28 15:28:19    109s] Begin checking placement ... (start mem=2780.5M, init mem=2802.6M)
+[07/28 15:28:20    110s] 
+[07/28 15:28:20    110s] Running CheckPlace using 1 thread in normal mode...
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] ...checkPlace normal is done!
+[07/28 15:28:22    112s] OPERPROF:   Starting checkPlace/Vio-Check at level 2, MEM:2802.6M
+[07/28 15:28:22    112s] OPERPROF:   Finished checkPlace/Vio-Check at level 2, CPU:0.080, REAL:0.086, MEM:2802.6M
+[07/28 15:28:22    112s] *info: Recommended don't use cell = 0           
+[07/28 15:28:22    112s] *info: Placed = 238051         (Fixed = 205)
+[07/28 15:28:22    112s] *info: Unplaced = 0           
+[07/28 15:28:22    112s] Placement Density:100.00%(4795574/4795574)
+[07/28 15:28:22    112s] Placement Density (including fixed std cells):100.00%(4795574/4795574)
+[07/28 15:28:22    112s] OPERPROF:   Starting spSiteCleanup(true) at level 2, MEM:2802.6M
+[07/28 15:28:22    112s] OPERPROF:   Finished spSiteCleanup(true) at level 2, CPU:0.100, REAL:0.106, MEM:2802.6M
+[07/28 15:28:22    112s] Finished checkPlace (total: cpu=0:00:03.3, real=0:00:03.0; vio checks: cpu=0:00:02.5, real=0:00:03.0; mem=2802.6M)
+[07/28 15:28:22    112s] OPERPROF: Finished checkPlace at level 1, CPU:3.270, REAL:3.054, MEM:2802.6M
+[07/28 15:28:22    112s] ############################################################################
+[07/28 15:28:22    112s] # Innovus Netlist Design Rule Check
+[07/28 15:28:22    112s] # Tue Jul 28 15:28:22 2026
+
+[07/28 15:28:22    112s] ############################################################################
+[07/28 15:28:22    112s] Design: C2S0306
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] ------ Design Summary:
+[07/28 15:28:22    112s] Total Standard Cell Number   (cells) : 238051
+[07/28 15:28:22    112s] Total Block Cell Number      (cells) : 0
+[07/28 15:28:22    112s] Total I/O Pad Cell Number    (cells) : 304
+[07/28 15:28:22    112s] Total Standard Cell Area     ( um^2) : 4795574.34
+[07/28 15:28:22    112s] Total Block Cell Area        ( um^2) : 0.00
+[07/28 15:28:22    112s] Total I/O Pad Cell Area      ( um^2) : 2690000.00
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] ------ Design Statistics:
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] Number of Instances            : 238355
+[07/28 15:28:22    112s] Number of Non-uniquified Insts : 238329
+[07/28 15:28:22    112s] Number of Nets                 : 113105
+[07/28 15:28:22    112s] Average number of Pins per Net : 3.47
+[07/28 15:28:22    112s] Maximum number of Pins in Net  : 101
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] ------ I/O Port summary
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] Number of Primary I/O Ports    : 19
+[07/28 15:28:22    112s] Number of Input Ports          : 15
+[07/28 15:28:22    112s] Number of Output Ports         : 4
+[07/28 15:28:22    112s] Number of Bidirectional Ports  : 0
+[07/28 15:28:22    112s] Number of Power/Ground Ports   : 0
+[07/28 15:28:22    112s] Number of Floating Ports                     *: 0
+[07/28 15:28:22    112s] Number of Ports Connected to Multiple Pads   *: 0
+[07/28 15:28:22    112s] Number of Ports Connected to Core Instances   : 0
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] ------ Design Rule Checking:
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] Number of Output Pins connect to Power/Ground *: 0
+[07/28 15:28:22    112s] Number of Insts with Input Pins tied together ?: 3166
+[07/28 15:28:22    112s] Number of TieHi/Lo term nets not connected to instance's PG terms ?: 0
+[07/28 15:28:22    112s] Number of Input/InOut Floating Pins            : 0
+[07/28 15:28:22    112s] Number of Output Floating Pins                 : 0
+[07/28 15:28:22    112s] Number of Output Term Marked TieHi/Lo         *: 0
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] **WARN: (IMPREPO-216):	There are 3166 Instances with input pins tied together.
+[07/28 15:28:22    112s] Number of nets with tri-state drivers          : 0
+[07/28 15:28:22    112s] Number of nets with parallel drivers           : 0
+[07/28 15:28:22    112s] Number of nets with multiple drivers           : 0
+[07/28 15:28:22    112s] Number of nets with no driver (No FanIn)       : 0
+[07/28 15:28:22    112s] Number of Output Floating nets (No FanOut)     : 955
+[07/28 15:28:22    112s] Number of High Fanout nets (>50)               : 1052
+[07/28 15:28:22    112s] **WARN: (IMPREPO-227):	There are 1052 High Fanout nets (>50).
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (IMPREPO-231):	Input netlist has a cell 'adiode' which is marked dont_use in the library. This cell will not be used in timing optimization. Use set_dont_use command to change. Instances of this cell are : <output of dbGet top.insts.cell.name <the cell> -p2
+[07/28 15:28:22    112s] **WARN: (EMS-27):	Message (IMPREPO-231) has exceeded the current message display limit of 20.
+[07/28 15:28:22    112s] To increase the message display limit, refer to the product command reference manual.
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] # Number of cells of input netlist marked dont_use = 594.
+[07/28 15:28:22    112s] 
+[07/28 15:28:22    112s] Checking routing tracks.....
+[07/28 15:28:22    112s] Checking other grids.....
+[07/28 15:28:22    112s] Checking routing blockage.....
+[07/28 15:28:22    112s] Checking components.....
+[07/28 15:28:22    113s] Checking constraints (guide/region/fence).....
+[07/28 15:28:22    113s] Checking groups.....
+[07/28 15:28:22    113s] Checking Ptn Core Box.....
+[07/28 15:28:22    113s] 
+[07/28 15:28:22    113s] Checking Preroutes.....
+[07/28 15:28:23    113s] No. of regular pre-routes not on tracks : 0 
+[07/28 15:28:23    113s]  Design check done.
+[07/28 15:28:23    113s] Report saved in file checkDesign/C2S0306.main.htm.ascii
+[07/28 15:28:23    113s] 
+[07/28 15:28:23    113s] *** Summary of all messages that are not suppressed in this session:
+[07/28 15:28:23    113s] Severity  ID               Count  Summary                                  
+[07/28 15:28:23    113s] WARNING   IMPREPO-227          1  There are %d High Fanout nets (>50).     
+[07/28 15:28:23    113s] WARNING   IMPREPO-231        594  Input netlist has a cell '%s' which is m...
+[07/28 15:28:23    113s] WARNING   IMPREPO-205          1  There are %d Cells with missing PG PIN.  
+[07/28 15:28:23    113s] WARNING   IMPREPO-216          1  There are %d Instances with input pins t...
+[07/28 15:28:23    113s] *** Message Summary: 597 warning(s), 0 error(s)
+[07/28 15:28:23    113s] 
+[07/28 15:30:39    123s] <CMD> streamOut C2S0306.gds -mapFile streamout_innovous_6M1L.map -libName DesignLib -units 1000 -mode ALL
+[07/28 15:30:39    123s] Parse flat map file...
+[07/28 15:30:39    123s] Writing GDSII file ...
+[07/28 15:30:39    123s] 	****** db unit per micron = 1000 ******
+[07/28 15:30:39    123s] 	****** output gds2 file unit per micron = 1000 ******
+[07/28 15:30:39    123s] 	****** unit scaling factor = 1 ******
+[07/28 15:30:39    123s] Output for instance
+[07/28 15:30:40    124s] Output for bump
+[07/28 15:30:40    124s] Output for physical terminals
+[07/28 15:30:40    124s] Output for logical terminals
+[07/28 15:30:40    124s] Output for regular nets
+[07/28 15:30:41    125s] Output for special nets and metal fills
+[07/28 15:30:41    125s] Output for via structure generation total number 53
+[07/28 15:30:41    125s] Statistics for GDS generated (version 3)
+[07/28 15:30:41    125s] ----------------------------------------
+[07/28 15:30:41    125s] Stream Out Layer Mapping Information:
+[07/28 15:30:41    125s] GDS Layer Number          GDS Layer Name
+[07/28 15:30:41    125s] ----------------------------------------
+[07/28 15:30:41    125s]     40                                M1
+[07/28 15:30:41    125s]     50                             TOP_M
+[07/28 15:30:41    125s]     49                             TOP_V
+[07/28 15:30:41    125s]     48                                M5
+[07/28 15:30:41    125s]     44                                M3
+[07/28 15:30:41    125s]     42                                M2
+[07/28 15:30:41    125s]     46                                M4
+[07/28 15:30:41    125s]     43                                V3
+[07/28 15:30:41    125s]     47                                V5
+[07/28 15:30:41    125s]     41                                V2
+[07/28 15:30:41    125s]     45                                V4
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Stream Out Information Processed for GDS version 3:
+[07/28 15:30:41    125s] Units: 1000 DBU
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Object                             Count
+[07/28 15:30:41    125s] ----------------------------------------
+[07/28 15:30:41    125s] Instances                         238355
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Ports/Pins                             0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Nets                             2039606
+[07/28 15:30:41    125s]     metal layer M1                117147
+[07/28 15:30:41    125s]     metal layer M2                906478
+[07/28 15:30:41    125s]     metal layer M3                529136
+[07/28 15:30:41    125s]     metal layer M4                286822
+[07/28 15:30:41    125s]     metal layer M5                168019
+[07/28 15:30:41    125s]     metal layer TOP_M              32004
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s]     Via Instances                1137053
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Special Nets                        1256
+[07/28 15:30:41    125s]     metal layer M1                  1190
+[07/28 15:30:41    125s]     metal layer M2                     6
+[07/28 15:30:41    125s]     metal layer M4                     4
+[07/28 15:30:41    125s]     metal layer M5                     8
+[07/28 15:30:41    125s]     metal layer TOP_M                 48
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s]     Via Instances                   4008
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Metal Fills                            0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s]     Via Instances                      0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Metal FillOPCs                         0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s]     Via Instances                      0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Metal FillDRCs                         0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s]     Via Instances                      0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Text                                  19
+[07/28 15:30:41    125s]     metal layer M2                    19
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Blockages                              0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Custom Text                            0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Custom Box                             0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] Trim Metal                             0
+[07/28 15:30:41    125s] 
+[07/28 15:30:41    125s] ######Streamout is finished!
+[07/28 15:32:04    129s] <CMD> saveNetlist -includePowerGround ./signoff/C2S0306_withpg.v
+[07/28 15:32:04    129s] ** NOTE: Created directory path './signoff' for file './signoff/C2S0306_withpg.v'.
+[07/28 15:32:04    129s] Writing Netlist "./signoff/C2S0306_withpg.v" ...
+[07/28 15:32:04    129s] Pwr name (VDD_CORE).
+[07/28 15:32:04    129s] Pwr name (VDDO_CORE).
+[07/28 15:32:04    129s] Gnd name (VSS_CORE).
+[07/28 15:32:04    129s] Gnd name (VSSO_CORE).
+[07/28 15:32:04    129s] 2 Pwr names and 2 Gnd names.
+[07/28 15:32:19    131s] <CMD> saveNetlist ./signoff/C2S0306_withoutpg.v
+[07/28 15:32:19    131s] Writing Netlist "./signoff/C2S0306_withoutpg.v" ...
+[07/28 15:32:43    134s] <CMD> write_sdf -version 2.1 -edges noedge -recrem split -setuphold merge_when_paired ./signoff/C2S0306.sdf
+[07/28 15:32:43    134s] **WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+[07/28 15:32:43    134s] Starting SI iteration 1 using Infinite Timing Windows
+[07/28 15:32:44    134s] #################################################################################
+[07/28 15:32:44    134s] # Design Stage: PostRoute
+[07/28 15:32:44    134s] # Design Name: C2S0306
+[07/28 15:32:44    134s] # Design Mode: 90nm
+[07/28 15:32:44    134s] # Analysis Mode: MMMC OCV 
+[07/28 15:32:44    134s] # Parasitics Mode: SPEF/RCDB 
+[07/28 15:32:44    134s] # Signoff Settings: SI On 
+[07/28 15:32:44    134s] #################################################################################
+[07/28 15:32:47    137s] AAE_INFO: 1 threads acquired from CTE.
+[07/28 15:32:47    137s] Setting infinite Tws ...
+[07/28 15:32:47    137s] First Iteration Infinite Tw... 
+[07/28 15:32:47    138s] Calculate early delays in OCV mode...
+[07/28 15:32:47    138s] Calculate late delays in OCV mode...
+[07/28 15:32:47    138s] Calculate late delays in OCV mode...
+[07/28 15:32:47    138s] Calculate early delays in OCV mode...
+[07/28 15:32:47    138s] Topological Sorting (REAL = 0:00:00.0, MEM = 2814.4M, InitMEM = 2814.4M)
+[07/28 15:32:47    138s] Start delay calculation (fullDC) (1 T). (MEM=2814.42)
+[07/28 15:32:47    138s] LayerId::1 widthSet size::4
+[07/28 15:32:47    138s] LayerId::2 widthSet size::4
+[07/28 15:32:47    138s] LayerId::3 widthSet size::4
+[07/28 15:32:47    138s] LayerId::4 widthSet size::4
+[07/28 15:32:47    138s] LayerId::5 widthSet size::4
+[07/28 15:32:47    138s] LayerId::6 widthSet size::3
+[07/28 15:32:47    138s] eee: pegSigSF::1.070000
+[07/28 15:32:47    138s] Initializing multi-corner resistance tables ...
+[07/28 15:32:48    138s] eee: l::1 avDens::0.123237 usedTrk::21334.991064 availTrk::173121.427912 sigTrk::21334.991064
+[07/28 15:32:48    138s] eee: l::2 avDens::0.241371 usedTrk::34697.614531 availTrk::143752.256960 sigTrk::34697.614531
+[07/28 15:32:48    138s] eee: l::3 avDens::0.344325 usedTrk::50739.811541 availTrk::147360.232079 sigTrk::50739.811541
+[07/28 15:32:48    138s] eee: l::4 avDens::0.484595 usedTrk::68219.674710 availTrk::140776.716858 sigTrk::68219.674710
+[07/28 15:32:48    138s] eee: l::5 avDens::0.407805 usedTrk::61669.667385 availTrk::151223.348576 sigTrk::61669.667385
+[07/28 15:32:48    138s] eee: l::6 avDens::0.242544 usedTrk::21065.770677 availTrk::86853.571415 sigTrk::21065.770677
+[07/28 15:32:48    138s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.534369 ; uaWl: 1.000000 ; uaWlH: 0.633993 ; aWlH: 0.000000 ; Pmax: 0.926200 ; wcR: 0.555600 ; newSi: 0.078100 ; pMod: 77 ; 
+[07/28 15:32:49    140s] Start AAE Lib Loading. (MEM=2823.43)
+[07/28 15:32:49    140s] End AAE Lib Loading. (MEM=2832.97 CPU=0:00:00.0 Real=0:00:00.0)
+[07/28 15:32:49    140s] End AAE Lib Interpolated Model. (MEM=2832.97 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[07/28 15:32:49    140s] Opening parasitic data file '/tmp/innovus_temp_215382_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_QNqEH8/C2S0306_215382_OpImY7.rcdb.d' for reading (mem: 2842.512M)
+[07/28 15:32:49    140s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 2842.5M)
+[07/28 15:32:50    141s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 2810.5M)
+[07/28 15:32:52    142s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 2810.5M)
+[07/28 15:33:18    169s] Total number of fetched objects 112148
+[07/28 15:33:18    169s] AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+[07/28 15:33:48    199s] Total number of fetched objects 112148
+[07/28 15:33:48    199s] AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+[07/28 15:33:48    199s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 3020.6M)
+[07/28 15:34:15    226s] Total number of fetched objects 112148
+[07/28 15:34:15    226s] AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+[07/28 15:34:44    255s] Total number of fetched objects 112148
+[07/28 15:34:44    255s] AAE_INFO-618: Total number of nets in the design is 113105,  99.2 percent of the nets selected for SI analysis
+[07/28 15:34:45    255s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:01.0)
+[07/28 15:34:45    256s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:00.0)
+[07/28 15:34:46    256s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:01.0)
+[07/28 15:34:46    257s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:00.0)
+[07/28 15:34:46    257s] End delay calculation. (MEM=3037.09 CPU=0:01:55 REAL=0:01:54)
+[07/28 15:34:46    257s] End delay calculation (fullDC). (MEM=3010.01 CPU=0:01:59 REAL=0:01:59)
+[07/28 15:34:46    257s] *** CDM Built up (cpu=0:02:03  real=0:02:02  mem= 3010.0M) ***
+[07/28 15:34:54    265s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3010.0M)
+[07/28 15:34:54    265s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[07/28 15:34:55    265s] Loading CTE timing window is completed (CPU = 0:00:00.6, REAL = 0:00:01.0, MEM = 3010.0M)
+[07/28 15:34:55    265s] Starting SI iteration 2
+[07/28 15:34:56    267s] Calculate early delays in OCV mode...
+[07/28 15:34:56    267s] Calculate late delays in OCV mode...
+[07/28 15:34:56    267s] Calculate late delays in OCV mode...
+[07/28 15:34:56    267s] Calculate early delays in OCV mode...
+[07/28 15:34:56    267s] Start delay calculation (fullDC) (1 T). (MEM=2917.22)
+[07/28 15:34:56    267s] End AAE Lib Interpolated Model. (MEM=2917.22 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[07/28 15:34:56    267s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 2919.2M)
+[07/28 15:34:57    268s] Glitch Analysis: View worst_case -- Total Number of Nets Skipped = 0. 
+[07/28 15:34:57    268s] Glitch Analysis: View worst_case -- Total Number of Nets Analyzed = 0. 
+[07/28 15:34:57    268s] Total number of fetched objects 112148
+[07/28 15:34:57    268s] AAE_INFO-618: Total number of nets in the design is 113105,  0.4 percent of the nets selected for SI analysis
+[07/28 15:34:58    269s] Total number of fetched objects 112148
+[07/28 15:34:58    269s] AAE_INFO-618: Total number of nets in the design is 113105,  0.2 percent of the nets selected for SI analysis
+[07/28 15:34:58    269s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 2964.5M)
+[07/28 15:34:59    270s] Glitch Analysis: View best_case -- Total Number of Nets Skipped = 0. 
+[07/28 15:34:59    270s] Glitch Analysis: View best_case -- Total Number of Nets Analyzed = 0. 
+[07/28 15:34:59    270s] Total number of fetched objects 112148
+[07/28 15:34:59    270s] AAE_INFO-618: Total number of nets in the design is 113105,  0.6 percent of the nets selected for SI analysis
+[07/28 15:34:59    270s] Total number of fetched objects 112148
+[07/28 15:34:59    270s] AAE_INFO-618: Total number of nets in the design is 113105,  0.2 percent of the nets selected for SI analysis
+[07/28 15:34:59    270s] End delay calculation. (MEM=2964.49 CPU=0:00:03.4 REAL=0:00:03.0)
+[07/28 15:34:59    270s] End delay calculation (fullDC). (MEM=2964.49 CPU=0:00:03.8 REAL=0:00:03.0)
+[07/28 15:34:59    270s] *** CDM Built up (cpu=0:00:03.9  real=0:00:03.0  mem= 2964.5M) ***
+[07/28 16:01:35    360s] <CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+[07/28 16:01:35    360s] <CMD> setLayerPreference violation -isVisible 1
+[07/28 16:01:36    360s] <CMD> violationBrowser -all -no_display_false -displayByLayer
+[07/28 16:01:37    360s] <CMD> deselectAll
+[07/28 16:01:37    360s] <CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+[07/28 16:01:44    360s] <CMD_INTERNAL> violationBrowserClose
+[07/28 16:01:49    360s] <CMD> zoomBox -1865.71500 1146.60000 4805.71400 4380.60000
+[07/28 16:01:53    360s] <CMD> zoomBox -1865.71500 1793.40000 4805.71400 5027.40000
+[07/28 16:01:56    360s] <CMD> fit
+[07/28 16:01:58    360s] <CMD> zoomIn
+[07/28 16:02:00    360s] <CMD> zoomIn
+[07/28 16:02:01    360s] <CMD> zoomIn
+[07/28 16:02:02    360s] <CMD> zoomIn
+[07/28 16:02:03    360s] <CMD> zoomIn
+[07/28 16:02:03    360s] <CMD> zoomIn
+[07/28 16:02:06    360s] <CMD> zoomIn
+[07/28 16:02:08    360s] <CMD> zoomIn
+[07/28 16:02:08    360s] <CMD> zoomIn
+[07/28 16:02:11    360s] <CMD> zoomOut
+[07/28 16:02:13    360s] <CMD> zoomOut
+[07/28 16:02:15    360s] <CMD> zoomOut
+[07/28 16:02:18    360s] <CMD> zoomOut
+[07/28 16:02:22    361s] <CMD> zoomOut
+[07/28 16:02:25    361s] <CMD> fit
+[07/28 16:02:28    361s] <CMD> zoomIn
+[07/28 16:02:29    361s] <CMD> zoomIn
+[07/28 16:02:32    361s] <CMD> zoomIn
+[07/28 16:02:33    361s] <CMD> zoomIn
+[07/28 16:02:35    361s] <CMD> zoomIn
+[07/28 16:02:57    362s] <CMD> deselectAll
+[07/28 16:02:57    362s] <CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+[07/28 16:03:05    362s] <CMD> deselectAll
+[07/28 16:03:05    362s] <CMD> selectMarker 61.0000 61.0000 2879.0000 2879.0000 -1 3 7
+[07/28 16:03:07    362s] <CMD> setLayerPreference violation -isVisible 1
+[07/28 16:03:08    362s] <CMD> violationBrowser -all -no_display_false -displayByLayer
+[07/28 16:03:44    363s] <CMD_INTERNAL> violationBrowserClose
+[07/28 16:04:02    363s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Jul 28 16:04:02 2026
+  Total CPU time:     0:06:07
+  Total real time:    0:41:05
+  Peak memory (main): 2424.93MB
+
+[07/28 16:04:02    363s] 
+[07/28 16:04:02    363s] *** Memory Usage v#1 (Current mem = 2943.473M, initial mem = 284.301M) ***
+[07/28 16:04:02    363s] 
+[07/28 16:04:02    363s] *** Summary of all messages that are not suppressed in this session:
+[07/28 16:04:02    363s] Severity  ID               Count  Summary                                  
+[07/28 16:04:02    363s] WARNING   IMPLF-200           49  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[07/28 16:04:02    363s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[07/28 16:04:02    363s] WARNING   IMPTS-282           92  Cell '%s' is not a level shifter cell bu...
+[07/28 16:04:02    363s] WARNING   IMPEXT-6166          1  Capacitance table file(s) without the EX...
+[07/28 16:04:02    363s] WARNING   IMPEXT-2662          2  Cap table %s does not have the EXTENDED ...
+[07/28 16:04:02    363s] WARNING   IMPEXT-3530          1  The process node is not set. Use the com...
+[07/28 16:04:02    363s] WARNING   IMPVL-159         1436  Pin '%s' of cell '%s' is defined in LEF ...
+[07/28 16:04:02    363s] WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+[07/28 16:04:02    363s] WARNING   IMPREPO-227          1  There are %d High Fanout nets (>50).     
+[07/28 16:04:02    363s] WARNING   IMPREPO-231        594  Input netlist has a cell '%s' which is m...
+[07/28 16:04:02    363s] WARNING   IMPREPO-205          1  There are %d Cells with missing PG PIN.  
+[07/28 16:04:02    363s] WARNING   IMPREPO-216          1  There are %d Instances with input pins t...
+[07/28 16:04:02    363s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[07/28 16:04:02    363s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[07/28 16:04:02    363s] WARNING   IMPPSP-1003          2  Found use of '%s'. This will continue to...
+[07/28 16:04:02    363s] WARNING   SDF-808              1  The software is currently operating in a...
+[07/28 16:04:02    363s] *** Message Summary: 2188 warning(s), 0 error(s)
+[07/28 16:04:02    363s] 
+[07/28 16:04:02    363s] --- Ending "Innovus" (totcpu=0:06:04, real=0:41:03, mem=2943.5M) ---

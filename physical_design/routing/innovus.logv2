@@ -1,0 +1,172 @@
+[07/28 12:17:13      0s] 
+[07/28 12:17:13      0s] Cadence Innovus(TM) Implementation System.
+[07/28 12:17:13      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[07/28 12:17:13      0s] 
+[07/28 12:17:13      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[07/28 12:17:13      0s] Options:	
+[07/28 12:17:13      0s] Date:		Tue Jul 28 12:17:13 2026
+[07/28 12:17:13      0s] Host:		c2sgpr065.Cambridge.edu.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (20cores*80cpus*Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz 36608KB)
+[07/28 12:17:13      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[07/28 12:17:13      0s] 
+[07/28 12:17:13      0s] License:
+[07/28 12:17:15      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[07/28 12:17:15      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[07/28 12:17:43     11s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/28 12:17:43     11s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[07/28 12:17:43     11s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/28 12:17:43     11s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[07/28 12:17:43     11s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[07/28 12:17:43     11s] @(#)CDS: CPE v20.14-s080
+[07/28 12:17:43     11s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[07/28 12:17:43     11s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[07/28 12:17:43     11s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[07/28 12:17:43     11s] @(#)CDS: RCDB 11.15.0
+[07/28 12:17:43     11s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[07/28 12:17:43     11s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_227688_c2sgpr065.Cambridge.edu.in_scl_shuttle_8_3_m3AG0G.
+
+[07/28 12:17:43     11s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[07/28 12:17:49     13s] 
+[07/28 12:17:49     13s] **INFO:  MMMC transition support version v31-84 
+[07/28 12:17:49     13s] 
+[07/28 12:17:49     13s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[07/28 12:17:49     13s] <CMD> suppressMessage ENCEXT-2799
+[07/28 12:17:49     13s] <CMD> getVersion
+[07/28 12:17:49     13s] [INFO] Loading PVS 20.11 fill procedures
+[07/28 12:17:50     13s] <CMD> win
+[07/28 12:20:23     20s] <CMD> encMessage warning 0
+[07/28 12:20:23     20s] Suppress "**WARN ..." messages.
+[07/28 12:20:23     20s] <CMD> encMessage debug 0
+[07/28 12:20:23     20s] <CMD> encMessage info 0
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'apc3d01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b01u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b02u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03ed' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b03u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b04u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05d' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b05u' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b21eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3b25eu' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (IMPLF-200):	Pin 'PAD' in macro 'pc3d00' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[07/28 12:20:24     21s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[07/28 12:20:24     21s] To increase the message display limit, refer to the product command reference manual.
+[07/28 12:20:24     21s] Loading view definition file from /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route.enc.dat/viewDefinition.tcl
+[07/28 12:20:25     22s] *** End library_loading (cpu=0.02min, real=0.02min, mem=22.3M, fe_cpu=0.38min, fe_real=3.20min, fe_mem=808.2M) ***
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d1' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'or04d2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'or04d2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'an02d1' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'an02d1' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'nd02da' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'nd02da' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'dl03d2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'dl03d2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'invtd7' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'invtd7' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'slnht2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'slnht2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'aoim22d2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'mffnrb2' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'nr03d7' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'nr03d7' is defined in LEF but not in the timing library.
+[07/28 12:20:25     22s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[07/28 12:20:25     22s] To increase the message display limit, refer to the product command reference manual.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t02u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t02d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t01u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t01d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3t01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3o03' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3o02' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pt3o01' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t05u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t05d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t05' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t04u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t04d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t04' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t03u' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (IMPTS-282):	Cell 'pc3t03d' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[07/28 12:20:26     22s] **WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+[07/28 12:20:26     22s] To increase the message display limit, refer to the product command reference manual.
+[07/28 12:20:26     23s] *** Netlist is unique.
+[07/28 12:20:26     23s] **WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 12:20:26     23s] **WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 12:20:26     23s] Loading preference file /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route.enc.dat/gui.pref.tcl ...
+[07/28 12:20:26     23s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[07/28 12:20:26     23s] **WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMaxRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -topRoutingLayer' instead.
+[07/28 12:20:26     23s] **WARN: (IMPPSP-1003):	Found use of 'setRouteMode -earlyGlobalMinRouteLayer'. This will continue to work in this release; however, it is recommended to use 'setDesignMode -bottomRoutingLayer' instead.
+[07/28 12:20:27     24s] 
+[07/28 12:20:27     24s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[07/28 12:20:27     24s] 
+[07/28 12:20:27     24s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[07/28 12:20:27     24s] 
+[07/28 12:20:27     24s] TimeStamp Deleting Cell Server Begin ...
+[07/28 12:20:27     24s] 
+[07/28 12:20:27     24s] TimeStamp Deleting Cell Server End ...
+[07/28 12:20:27     24s] 
+[07/28 12:20:27     24s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[07/28 12:20:27     24s] 
+[07/28 12:20:27     24s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[07/28 12:20:27     24s] **WARN: (IMPFP-3961):	The techSite 'CO_MSTR_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 12:20:27     24s] **WARN: (IMPFP-3961):	The techSite 'IOSite_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[07/28 12:20:28     24s] Loading place ...
+[07/28 12:20:32     28s] **WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+[07/28 12:20:32     28s] **WARN: (IMPEXT-2662):	Cap table /home/scl_shuttle_8_3/tapeout/pnr/routing/C2S0306_route.enc.dat/libs/mmmc/C2S0306.CapTbl does not have the EXTENDED section. It will use only BASIC cap table section for RC extraction.
+[07/28 12:20:32     28s] {RT rc_worst 0 6 6 {5 0} 1}
+[07/28 12:20:34     30s] **WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+[07/28 12:20:34     30s] 
+[07/28 12:20:34     30s] TimeStamp Deleting Cell Server Begin ...
+[07/28 12:20:34     30s] 
+[07/28 12:20:34     30s] TimeStamp Deleting Cell Server End ...
+[07/28 12:20:34     30s] 
+[07/28 12:20:34     30s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[07/28 12:20:34     30s] 
+[07/28 12:20:34     30s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[07/28 12:20:34     30s] 
+[07/28 12:20:34     30s] TimeStamp Deleting Cell Server Begin ...
+[07/28 12:20:34     30s] 
+[07/28 12:20:34     30s] TimeStamp Deleting Cell Server End ...
+[07/28 12:20:34     30s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[07/28 12:20:34     30s] timing_enable_default_delay_arc
+[07/28 12:20:48     31s] <CMD> fit
+[07/28 12:21:31     33s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Jul 28 12:21:31 2026
+  Total CPU time:     0:00:36
+  Total real time:    0:04:19
+  Peak memory (main): 1940.68MB
+
+[07/28 12:21:31     33s] 
+[07/28 12:21:31     33s] *** Memory Usage v#1 (Current mem = 2529.832M, initial mem = 284.301M) ***
+[07/28 12:21:31     33s] 
+[07/28 12:21:31     33s] *** Summary of all messages that are not suppressed in this session:
+[07/28 12:21:31     33s] Severity  ID               Count  Summary                                  
+[07/28 12:21:31     33s] WARNING   IMPLF-200           49  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[07/28 12:21:31     33s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[07/28 12:21:31     33s] WARNING   IMPTS-282           92  Cell '%s' is not a level shifter cell bu...
+[07/28 12:21:31     33s] WARNING   IMPEXT-2662          2  Cap table %s does not have the EXTENDED ...
+[07/28 12:21:31     33s] WARNING   IMPVL-159         1436  Pin '%s' of cell '%s' is defined in LEF ...
+[07/28 12:21:31     33s] WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+[07/28 12:21:31     33s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[07/28 12:21:31     33s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[07/28 12:21:31     33s] WARNING   IMPPSP-1003          2  Found use of '%s'. This will continue to...
+[07/28 12:21:31     33s] *** Message Summary: 1588 warning(s), 0 error(s)
+[07/28 12:21:31     33s] 
+[07/28 12:21:31     33s] --- Ending "Innovus" (totcpu=0:00:33.4, real=0:04:18, mem=2529.8M) ---
