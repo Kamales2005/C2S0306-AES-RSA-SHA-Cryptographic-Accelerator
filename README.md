@@ -374,8 +374,6 @@ Potential extensions include:
 ## Authors
 
 - **Kamales D**
-- **Kavin Nathan V**
-- **Dinesh A**
 
 ---
 
